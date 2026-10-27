@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "LLL",
+    "SGS"
+  ],
+  "key": {
+    "S": "minecraft:slime_ball",
+    "G": "minecraft:glass_pane",
+    "L": {
+      "neoforge:ingredient_type": "minechem:element",
+      "atomic_number": 82
+    }
+  },
+  "result": {
+    "id": "minechem:hazmat_helmet",
+    "count": 1
+  }
+}

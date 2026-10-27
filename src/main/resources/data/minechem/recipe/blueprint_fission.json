@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:paper",
+    "minecraft:diamond"
+  ],
+  "result": {
+    "id": "minechem:blueprint_fission",
+    "count": 1
+  }
+}

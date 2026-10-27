@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "LLL",
+    "LCL",
+    "LLL"
+  ],
+  "key": {
+    "C": "minecraft:chest",
+    "L": {
+      "neoforge:ingredient_type": "minechem:element",
+      "atomic_number": 82
+    }
+  },
+  "result": {
+    "id": "minechem:leaded_chest",
+    "count": 1
+  }
+}

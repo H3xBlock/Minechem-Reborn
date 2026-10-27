@@ -1,0 +1,10028 @@
+{
+ "source": "Recipes are tagged by source: static, molecule or derived. Items use 26.1 names; molecule outputs are display names.",
+ "skipped_count": 35,
+ "recipes": [
+  {
+   "kind": "item",
+   "output": "minecraft:stone",
+   "count": 16,
+   "shaped": true,
+   "energy": 30,
+   "line": 309,
+   "chemicals": [
+    {
+     "symbol": "Si",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 2
+    },
+    null,
+    {
+     "symbol": "Al",
+     "amount": 2
+    },
+    {
+     "symbol": "O",
+     "amount": 3
+    },
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:grass_block",
+   "count": 16,
+   "shaped": true,
+   "energy": 40,
+   "line": 344,
+   "chemicals": [
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null,
+    null,
+    {
+     "symbol": "O",
+     "amount": 2
+    },
+    {
+     "symbol": "Si",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:dirt",
+   "count": 1,
+   "shaped": true,
+   "energy": 15,
+   "line": 403,
+   "chemicals": [
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:podzol",
+   "count": 1,
+   "shaped": true,
+   "energy": 15,
+   "line": 407,
+   "chemicals": [
+    null,
+    null,
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:cobblestone",
+   "count": 16,
+   "shaped": true,
+   "energy": 30,
+   "line": 436,
+   "chemicals": [
+    {
+     "symbol": "Si",
+     "amount": 2
+    },
+    {
+     "symbol": "O",
+     "amount": 4
+    },
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:oak_planks",
+   "count": 1,
+   "shaped": true,
+   "energy": 20,
+   "line": 473,
+   "chemicals": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    {
+     "name": "Cellulose",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:spruce_planks",
+   "count": 1,
+   "shaped": true,
+   "energy": 20,
+   "line": 477,
+   "chemicals": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:birch_planks",
+   "count": 1,
+   "shaped": true,
+   "energy": 20,
+   "line": 481,
+   "chemicals": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:jungle_planks",
+   "count": 1,
+   "shaped": true,
+   "energy": 20,
+   "line": 485,
+   "chemicals": [
+    null,
+    null,
+    null,
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null,
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:acacia_planks",
+   "count": 1,
+   "shaped": true,
+   "energy": 20,
+   "line": 489,
+   "chemicals": [
+    null,
+    null,
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null,
+    null,
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:dark_oak_planks",
+   "count": 1,
+   "shaped": true,
+   "energy": 20,
+   "line": 493,
+   "chemicals": [
+    null,
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:oak_slab",
+   "count": 1,
+   "shaped": true,
+   "energy": 20,
+   "line": 530,
+   "chemicals": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:spruce_slab",
+   "count": 1,
+   "shaped": true,
+   "energy": 20,
+   "line": 534,
+   "chemicals": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:birch_slab",
+   "count": 1,
+   "shaped": true,
+   "energy": 20,
+   "line": 538,
+   "chemicals": [
+    null,
+    null,
+    null,
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:jungle_slab",
+   "count": 1,
+   "shaped": true,
+   "energy": 20,
+   "line": 542,
+   "chemicals": [
+    null,
+    null,
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null,
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:acacia_slab",
+   "count": 1,
+   "shaped": true,
+   "energy": 20,
+   "line": 546,
+   "chemicals": [
+    null,
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null,
+    null,
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:dark_oak_slab",
+   "count": 1,
+   "shaped": true,
+   "energy": 20,
+   "line": 550,
+   "chemicals": [
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:oak_sapling",
+   "count": 1,
+   "shaped": true,
+   "energy": 200,
+   "line": 586,
+   "chemicals": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:spruce_sapling",
+   "count": 1,
+   "shaped": true,
+   "energy": 200,
+   "line": 590,
+   "chemicals": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:birch_sapling",
+   "count": 1,
+   "shaped": true,
+   "energy": 200,
+   "line": 594,
+   "chemicals": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:jungle_sapling",
+   "count": 1,
+   "shaped": true,
+   "energy": 200,
+   "line": 598,
+   "chemicals": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null,
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:acacia_sapling",
+   "count": 1,
+   "shaped": true,
+   "energy": 200,
+   "line": 602,
+   "chemicals": [
+    null,
+    null,
+    null,
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null,
+    null,
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:dark_oak_sapling",
+   "count": 1,
+   "shaped": true,
+   "energy": 200,
+   "line": 606,
+   "chemicals": [
+    null,
+    null,
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:sand",
+   "count": 1,
+   "shaped": true,
+   "energy": 15,
+   "line": 617,
+   "chemicals": [
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:gravel",
+   "count": 1,
+   "shaped": true,
+   "energy": 15,
+   "line": 628,
+   "chemicals": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:oak_log",
+   "count": 1,
+   "shaped": true,
+   "energy": 80,
+   "line": 685,
+   "chemicals": [
+    {
+     "name": "Cellulose",
+     "amount": 2
+    },
+    {
+     "name": "Cellulose",
+     "amount": 2
+    },
+    {
+     "name": "Cellulose",
+     "amount": 2
+    },
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 2
+    },
+    null,
+    null,
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:spruce_log",
+   "count": 1,
+   "shaped": true,
+   "energy": 80,
+   "line": 689,
+   "chemicals": [
+    null,
+    null,
+    null,
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 2
+    },
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 2
+    },
+    {
+     "name": "Cellulose",
+     "amount": 2
+    },
+    {
+     "name": "Cellulose",
+     "amount": 2
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:birch_log",
+   "count": 1,
+   "shaped": true,
+   "energy": 80,
+   "line": 693,
+   "chemicals": [
+    {
+     "name": "Cellulose",
+     "amount": 2
+    },
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 2
+    },
+    null,
+    null,
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 2
+    },
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 2
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:jungle_log",
+   "count": 1,
+   "shaped": true,
+   "energy": 80,
+   "line": 697,
+   "chemicals": [
+    {
+     "name": "Cellulose",
+     "amount": 2
+    },
+    null,
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 2
+    },
+    {
+     "name": "Cellulose",
+     "amount": 2
+    },
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 2
+    },
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:acacia_log",
+   "count": 1,
+   "shaped": true,
+   "energy": 80,
+   "line": 701,
+   "chemicals": [
+    null,
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 2
+    },
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 2
+    },
+    {
+     "name": "Cellulose",
+     "amount": 2
+    },
+    null,
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 2
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:dark_oak_log",
+   "count": 1,
+   "shaped": true,
+   "energy": 80,
+   "line": 705,
+   "chemicals": [
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 2
+    },
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 2
+    },
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 2
+    },
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 2
+    },
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:oak_leaves",
+   "count": 1,
+   "shaped": true,
+   "energy": 15,
+   "line": 741,
+   "chemicals": [
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null,
+    null,
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:spruce_leaves",
+   "count": 1,
+   "shaped": true,
+   "energy": 15,
+   "line": 745,
+   "chemicals": [
+    null,
+    null,
+    null,
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    {
+     "name": "Cellulose",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:birch_leaves",
+   "count": 1,
+   "shaped": true,
+   "energy": 15,
+   "line": 749,
+   "chemicals": [
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null,
+    null,
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:jungle_leaves",
+   "count": 1,
+   "shaped": true,
+   "energy": 15,
+   "line": 753,
+   "chemicals": [
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null,
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:acacia_leaves",
+   "count": 1,
+   "shaped": true,
+   "energy": 15,
+   "line": 757,
+   "chemicals": [
+    null,
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null,
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:dark_oak_leaves",
+   "count": 1,
+   "shaped": true,
+   "energy": 15,
+   "line": 761,
+   "chemicals": [
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:black_dye",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 848,
+   "chemicals": [
+    {
+     "name": "Carbon Black",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:red_dye",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 852,
+   "chemicals": [
+    {
+     "name": "Cobalt(II) Nitrate",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:green_dye",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 856,
+   "chemicals": [
+    {
+     "name": "Zinc Green",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:cocoa_beans",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 860,
+   "chemicals": [
+    {
+     "name": "Theobromine",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:lapis_lazuli",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 864,
+   "chemicals": [
+    {
+     "name": "Lazurite",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:purple_dye",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 868,
+   "chemicals": [
+    {
+     "name": "Potassium Permanganate",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:cyan_dye",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 872,
+   "chemicals": [
+    {
+     "name": "Copper(II) Sulfate",
+     "amount": 1
+    },
+    {
+     "name": "Titanium Dioxide",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:light_gray_dye",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 876,
+   "chemicals": [
+    {
+     "name": "Titanium Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Carbon Black",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:gray_dye",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 880,
+   "chemicals": [
+    {
+     "name": "Titanium Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Carbon Black",
+     "amount": 2
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:pink_dye",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 884,
+   "chemicals": [
+    {
+     "name": "Cobalt(II) Nitrate",
+     "amount": 1
+    },
+    {
+     "name": "Titanium Dioxide",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:lime_dye",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 888,
+   "chemicals": [
+    {
+     "name": "Nickel(II) Chloride",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:yellow_dye",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 892,
+   "chemicals": [
+    {
+     "name": "Potassium Chromate",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:light_blue_dye",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 896,
+   "chemicals": [
+    {
+     "name": "Copper(II) Sulfate",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:magenta_dye",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 900,
+   "chemicals": [
+    {
+     "name": "Copper(II) Sulfate",
+     "amount": 1
+    },
+    {
+     "name": "Cobalt(II) Nitrate",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:orange_dye",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 904,
+   "chemicals": [
+    {
+     "name": "Potassium Dichromate",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:bone_meal",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 908,
+   "chemicals": [
+    {
+     "name": "Titanium Dioxide",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:glass",
+   "count": 1,
+   "shaped": true,
+   "energy": 300,
+   "line": 936,
+   "chemicals": [
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    null,
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:white_stained_glass",
+   "count": 1,
+   "shaped": true,
+   "energy": 300,
+   "line": 940,
+   "chemicals": [
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Titanium Dioxide",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:orange_stained_glass",
+   "count": 1,
+   "shaped": true,
+   "energy": 300,
+   "line": 944,
+   "chemicals": [
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Potassium Dichromate",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:magenta_stained_glass",
+   "count": 1,
+   "shaped": true,
+   "energy": 300,
+   "line": 948,
+   "chemicals": [
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    {
+     "name": "Copper(II) Sulfate",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Cobalt(II) Nitrate",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:light_blue_stained_glass",
+   "count": 1,
+   "shaped": true,
+   "energy": 300,
+   "line": 952,
+   "chemicals": [
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Copper(II) Sulfate",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:yellow_stained_glass",
+   "count": 1,
+   "shaped": true,
+   "energy": 300,
+   "line": 956,
+   "chemicals": [
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Potassium Chromate",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:lime_stained_glass",
+   "count": 1,
+   "shaped": true,
+   "energy": 300,
+   "line": 960,
+   "chemicals": [
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Nickel(II) Chloride",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:pink_stained_glass",
+   "count": 1,
+   "shaped": true,
+   "energy": 300,
+   "line": 964,
+   "chemicals": [
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    {
+     "name": "Titanium Dioxide",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Cobalt(II) Nitrate",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:gray_stained_glass",
+   "count": 1,
+   "shaped": true,
+   "energy": 300,
+   "line": 968,
+   "chemicals": [
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    {
+     "name": "Titanium Dioxide",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Carbon Black",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:light_gray_stained_glass",
+   "count": 1,
+   "shaped": true,
+   "energy": 300,
+   "line": 972,
+   "chemicals": [
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    {
+     "name": "Titanium Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Titanium Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Carbon Black",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:cyan_stained_glass",
+   "count": 1,
+   "shaped": true,
+   "energy": 300,
+   "line": 976,
+   "chemicals": [
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    {
+     "name": "Titanium Dioxide",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Copper(II) Sulfate",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:purple_stained_glass",
+   "count": 1,
+   "shaped": true,
+   "energy": 300,
+   "line": 980,
+   "chemicals": [
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Potassium Permanganate",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:blue_stained_glass",
+   "count": 1,
+   "shaped": true,
+   "energy": 300,
+   "line": 984,
+   "chemicals": [
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Lazurite",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:brown_stained_glass",
+   "count": 1,
+   "shaped": true,
+   "energy": 300,
+   "line": 988,
+   "chemicals": [
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Tannic Acid",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:green_stained_glass",
+   "count": 1,
+   "shaped": true,
+   "energy": 300,
+   "line": 992,
+   "chemicals": [
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Zinc Green",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:red_stained_glass",
+   "count": 1,
+   "shaped": true,
+   "energy": 300,
+   "line": 996,
+   "chemicals": [
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Cobalt(II) Nitrate",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:black_stained_glass",
+   "count": 1,
+   "shaped": true,
+   "energy": 300,
+   "line": 1000,
+   "chemicals": [
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Carbon Black",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:glass_pane",
+   "count": 1,
+   "shaped": true,
+   "energy": 100,
+   "line": 1028,
+   "chemicals": [
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    null,
+    null,
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:white_stained_glass_pane",
+   "count": 1,
+   "shaped": true,
+   "energy": 100,
+   "line": 1032,
+   "chemicals": [
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Titanium Dioxide",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:orange_stained_glass_pane",
+   "count": 1,
+   "shaped": true,
+   "energy": 100,
+   "line": 1036,
+   "chemicals": [
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Potassium Dichromate",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:magenta_stained_glass_pane",
+   "count": 1,
+   "shaped": true,
+   "energy": 100,
+   "line": 1040,
+   "chemicals": [
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Copper(II) Sulfate",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Cobalt(II) Nitrate",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:light_blue_stained_glass_pane",
+   "count": 1,
+   "shaped": true,
+   "energy": 100,
+   "line": 1044,
+   "chemicals": [
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Copper(II) Sulfate",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:yellow_stained_glass_pane",
+   "count": 1,
+   "shaped": true,
+   "energy": 100,
+   "line": 1048,
+   "chemicals": [
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Potassium Chromate",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:lime_stained_glass_pane",
+   "count": 1,
+   "shaped": true,
+   "energy": 100,
+   "line": 1052,
+   "chemicals": [
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Nickel(II) Chloride",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:pink_stained_glass_pane",
+   "count": 1,
+   "shaped": true,
+   "energy": 100,
+   "line": 1056,
+   "chemicals": [
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Titanium Dioxide",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Cobalt(II) Nitrate",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:gray_stained_glass_pane",
+   "count": 1,
+   "shaped": true,
+   "energy": 100,
+   "line": 1060,
+   "chemicals": [
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Titanium Dioxide",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Carbon Black",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:light_gray_stained_glass_pane",
+   "count": 1,
+   "shaped": true,
+   "energy": 100,
+   "line": 1064,
+   "chemicals": [
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Titanium Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Titanium Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Carbon Black",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:cyan_stained_glass_pane",
+   "count": 1,
+   "shaped": true,
+   "energy": 100,
+   "line": 1068,
+   "chemicals": [
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Titanium Dioxide",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Copper(II) Sulfate",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:purple_stained_glass_pane",
+   "count": 1,
+   "shaped": true,
+   "energy": 100,
+   "line": 1072,
+   "chemicals": [
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Potassium Permanganate",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:blue_stained_glass_pane",
+   "count": 1,
+   "shaped": true,
+   "energy": 100,
+   "line": 1076,
+   "chemicals": [
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Lazurite",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:brown_stained_glass_pane",
+   "count": 1,
+   "shaped": true,
+   "energy": 100,
+   "line": 1080,
+   "chemicals": [
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Tannic Acid",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:green_stained_glass_pane",
+   "count": 1,
+   "shaped": true,
+   "energy": 100,
+   "line": 1084,
+   "chemicals": [
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Zinc Green",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:red_stained_glass_pane",
+   "count": 1,
+   "shaped": true,
+   "energy": 100,
+   "line": 1088,
+   "chemicals": [
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Cobalt(II) Nitrate",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:black_stained_glass_pane",
+   "count": 1,
+   "shaped": true,
+   "energy": 100,
+   "line": 1092,
+   "chemicals": [
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Carbon Black",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:lapis_block",
+   "count": 1,
+   "shaped": true,
+   "energy": 160,
+   "line": 1110,
+   "chemicals": [
+    {
+     "name": "Lazurite",
+     "amount": 9
+    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:sunflower",
+   "count": 1,
+   "shaped": true,
+   "energy": 200,
+   "line": 1153,
+   "chemicals": [
+    {
+     "name": "Shikimic Acid",
+     "amount": 2
+    },
+    {
+     "name": "Potassium Chromate",
+     "amount": 1
+    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:lilac",
+   "count": 1,
+   "shaped": true,
+   "energy": 200,
+   "line": 1157,
+   "chemicals": [
+    {
+     "name": "Shikimic Acid",
+     "amount": 2
+    },
+    {
+     "name": "Cobalt(II) Nitrate",
+     "amount": 1
+    },
+    {
+     "name": "Titanium Dioxide",
+     "amount": 2
+    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:tall_grass",
+   "count": 1,
+   "shaped": true,
+   "energy": 200,
+   "line": 1161,
+   "chemicals": [
+    {
+     "name": "Shikimic Acid",
+     "amount": 2
+    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:large_fern",
+   "count": 1,
+   "shaped": true,
+   "energy": 200,
+   "line": 1165,
+   "chemicals": [
+    null,
+    {
+     "name": "Shikimic Acid",
+     "amount": 2
+    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:rose_bush",
+   "count": 1,
+   "shaped": true,
+   "energy": 200,
+   "line": 1169,
+   "chemicals": [
+    {
+     "name": "Shikimic Acid",
+     "amount": 2
+    },
+    {
+     "name": "Cobalt(II) Nitrate",
+     "amount": 1
+    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:peony",
+   "count": 1,
+   "shaped": true,
+   "energy": 200,
+   "line": 1173,
+   "chemicals": [
+    {
+     "name": "Shikimic Acid",
+     "amount": 2
+    },
+    {
+     "name": "Cobalt(II) Nitrate",
+     "amount": 1
+    },
+    {
+     "name": "Titanium Dioxide",
+     "amount": 1
+    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:sandstone",
+   "count": 1,
+   "shaped": true,
+   "energy": 15,
+   "line": 1194,
+   "chemicals": [
+    null,
+    null,
+    null,
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 16
+    },
+    null,
+    null,
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:chiseled_sandstone",
+   "count": 1,
+   "shaped": true,
+   "energy": 15,
+   "line": 1198,
+   "chemicals": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 16
+    },
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:smooth_sandstone",
+   "count": 1,
+   "shaped": true,
+   "energy": 15,
+   "line": 1202,
+   "chemicals": [
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 16
+    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:white_wool",
+   "count": 1,
+   "shaped": false,
+   "energy": 200,
+   "line": 1288,
+   "chemicals": [
+    {
+     "name": "Glycine",
+     "amount": 2
+    },
+    {
+     "name": "Titanium Dioxide",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:orange_wool",
+   "count": 1,
+   "shaped": false,
+   "energy": 200,
+   "line": 1292,
+   "chemicals": [
+    {
+     "name": "Glycine",
+     "amount": 2
+    },
+    {
+     "name": "Potassium Dichromate",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:magenta_wool",
+   "count": 1,
+   "shaped": false,
+   "energy": 200,
+   "line": 1296,
+   "chemicals": [
+    {
+     "name": "Glycine",
+     "amount": 2
+    },
+    {
+     "name": "Copper(II) Sulfate",
+     "amount": 1
+    },
+    {
+     "name": "Cobalt(II) Nitrate",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:light_blue_wool",
+   "count": 1,
+   "shaped": false,
+   "energy": 200,
+   "line": 1300,
+   "chemicals": [
+    {
+     "name": "Glycine",
+     "amount": 2
+    },
+    {
+     "name": "Copper(II) Sulfate",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:yellow_wool",
+   "count": 1,
+   "shaped": false,
+   "energy": 200,
+   "line": 1304,
+   "chemicals": [
+    {
+     "name": "Glycine",
+     "amount": 2
+    },
+    {
+     "name": "Potassium Chromate",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:lime_wool",
+   "count": 1,
+   "shaped": false,
+   "energy": 200,
+   "line": 1308,
+   "chemicals": [
+    {
+     "name": "Glycine",
+     "amount": 2
+    },
+    {
+     "name": "Nickel(II) Chloride",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:pink_wool",
+   "count": 1,
+   "shaped": false,
+   "energy": 200,
+   "line": 1312,
+   "chemicals": [
+    {
+     "name": "Glycine",
+     "amount": 2
+    },
+    {
+     "name": "Cobalt(II) Nitrate",
+     "amount": 1
+    },
+    {
+     "name": "Titanium Dioxide",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:gray_wool",
+   "count": 1,
+   "shaped": false,
+   "energy": 200,
+   "line": 1316,
+   "chemicals": [
+    {
+     "name": "Glycine",
+     "amount": 2
+    },
+    {
+     "name": "Titanium Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Carbon Black",
+     "amount": 2
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:light_gray_wool",
+   "count": 1,
+   "shaped": false,
+   "energy": 200,
+   "line": 1320,
+   "chemicals": [
+    {
+     "name": "Glycine",
+     "amount": 2
+    },
+    {
+     "name": "Titanium Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Carbon Black",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:cyan_wool",
+   "count": 1,
+   "shaped": false,
+   "energy": 200,
+   "line": 1324,
+   "chemicals": [
+    {
+     "name": "Glycine",
+     "amount": 2
+    },
+    {
+     "name": "Copper(II) Sulfate",
+     "amount": 1
+    },
+    {
+     "name": "Titanium Dioxide",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:purple_wool",
+   "count": 1,
+   "shaped": false,
+   "energy": 200,
+   "line": 1328,
+   "chemicals": [
+    {
+     "name": "Glycine",
+     "amount": 2
+    },
+    {
+     "name": "Potassium Permanganate",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:blue_wool",
+   "count": 1,
+   "shaped": false,
+   "energy": 200,
+   "line": 1332,
+   "chemicals": [
+    {
+     "name": "Glycine",
+     "amount": 2
+    },
+    {
+     "name": "Lazurite",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:green_wool",
+   "count": 1,
+   "shaped": false,
+   "energy": 200,
+   "line": 1336,
+   "chemicals": [
+    {
+     "name": "Glycine",
+     "amount": 2
+    },
+    {
+     "name": "Zinc Green",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:red_wool",
+   "count": 1,
+   "shaped": false,
+   "energy": 200,
+   "line": 1340,
+   "chemicals": [
+    {
+     "name": "Glycine",
+     "amount": 2
+    },
+    {
+     "name": "Cobalt(II) Nitrate",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:black_wool",
+   "count": 1,
+   "shaped": false,
+   "energy": 200,
+   "line": 1344,
+   "chemicals": [
+    {
+     "name": "Glycine",
+     "amount": 2
+    },
+    {
+     "name": "Carbon Black",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:white_carpet",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1430,
+   "chemicals": [
+    {
+     "name": "Glycine",
+     "amount": 1
+    },
+    {
+     "name": "Titanium Dioxide",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:orange_carpet",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1434,
+   "chemicals": [
+    {
+     "name": "Glycine",
+     "amount": 1
+    },
+    {
+     "name": "Potassium Dichromate",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:magenta_carpet",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1438,
+   "chemicals": [
+    {
+     "name": "Glycine",
+     "amount": 1
+    },
+    {
+     "name": "Copper(II) Sulfate",
+     "amount": 1
+    },
+    {
+     "name": "Cobalt(II) Nitrate",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:light_blue_carpet",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1442,
+   "chemicals": [
+    {
+     "name": "Glycine",
+     "amount": 1
+    },
+    {
+     "name": "Copper(II) Sulfate",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:yellow_carpet",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1446,
+   "chemicals": [
+    {
+     "name": "Glycine",
+     "amount": 1
+    },
+    {
+     "name": "Potassium Chromate",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:lime_carpet",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1450,
+   "chemicals": [
+    {
+     "name": "Glycine",
+     "amount": 1
+    },
+    {
+     "name": "Nickel(II) Chloride",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:pink_carpet",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1454,
+   "chemicals": [
+    {
+     "name": "Glycine",
+     "amount": 1
+    },
+    {
+     "name": "Cobalt(II) Nitrate",
+     "amount": 1
+    },
+    {
+     "name": "Titanium Dioxide",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:gray_carpet",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1458,
+   "chemicals": [
+    {
+     "name": "Glycine",
+     "amount": 1
+    },
+    {
+     "name": "Titanium Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Carbon Black",
+     "amount": 2
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:light_gray_carpet",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1462,
+   "chemicals": [
+    {
+     "name": "Glycine",
+     "amount": 1
+    },
+    {
+     "name": "Titanium Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Carbon Black",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:cyan_carpet",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1466,
+   "chemicals": [
+    {
+     "name": "Glycine",
+     "amount": 1
+    },
+    {
+     "name": "Copper(II) Sulfate",
+     "amount": 1
+    },
+    {
+     "name": "Titanium Dioxide",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:purple_carpet",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1470,
+   "chemicals": [
+    {
+     "name": "Glycine",
+     "amount": 1
+    },
+    {
+     "name": "Potassium Permanganate",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:blue_carpet",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1474,
+   "chemicals": [
+    {
+     "name": "Glycine",
+     "amount": 1
+    },
+    {
+     "name": "Lazurite",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:green_carpet",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1478,
+   "chemicals": [
+    {
+     "name": "Glycine",
+     "amount": 1
+    },
+    {
+     "name": "Zinc Green",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:red_carpet",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1482,
+   "chemicals": [
+    {
+     "name": "Glycine",
+     "amount": 1
+    },
+    {
+     "name": "Cobalt(II) Nitrate",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:black_carpet",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1486,
+   "chemicals": [
+    {
+     "name": "Glycine",
+     "amount": 1
+    },
+    {
+     "name": "Carbon Black",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:gold_block",
+   "count": 1,
+   "shaped": true,
+   "energy": 2400,
+   "line": 1564,
+   "chemicals": [
+    {
+     "symbol": "Au",
+     "amount": 16
+    },
+    {
+     "symbol": "Au",
+     "amount": 16
+    },
+    {
+     "symbol": "Au",
+     "amount": 16
+    },
+    {
+     "symbol": "Au",
+     "amount": 16
+    },
+    {
+     "symbol": "Au",
+     "amount": 16
+    },
+    {
+     "symbol": "Au",
+     "amount": 16
+    },
+    {
+     "symbol": "Au",
+     "amount": 16
+    },
+    {
+     "symbol": "Au",
+     "amount": 16
+    },
+    {
+     "symbol": "Au",
+     "amount": 16
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:iron_block",
+   "count": 1,
+   "shaped": true,
+   "energy": 2400,
+   "line": 1574,
+   "chemicals": [
+    {
+     "symbol": "Fe",
+     "amount": 16
+    },
+    {
+     "symbol": "Fe",
+     "amount": 16
+    },
+    {
+     "symbol": "Fe",
+     "amount": 16
+    },
+    {
+     "symbol": "Fe",
+     "amount": 16
+    },
+    {
+     "symbol": "Fe",
+     "amount": 16
+    },
+    {
+     "symbol": "Fe",
+     "amount": 16
+    },
+    {
+     "symbol": "Fe",
+     "amount": 16
+    },
+    {
+     "symbol": "Fe",
+     "amount": 16
+    },
+    {
+     "symbol": "Fe",
+     "amount": 16
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:tnt",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1585,
+   "chemicals": [
+    {
+     "name": "Trinitrotoluene",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:obsidian",
+   "count": 1,
+   "shaped": true,
+   "energy": 100,
+   "line": 1596,
+   "chemicals": [
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    {
+     "name": "Magnesium Oxide",
+     "amount": 2
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    {
+     "name": "Magnesium Oxide",
+     "amount": 2
+    },
+    {
+     "name": "Magnesium Oxide",
+     "amount": 2
+    },
+    {
+     "name": "Magnesium Oxide",
+     "amount": 2
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:diamond_block",
+   "count": 1,
+   "shaped": true,
+   "energy": 8000,
+   "line": 1615,
+   "chemicals": [
+    {
+     "name": "Carbon Nanotubes",
+     "amount": 3
+    },
+    {
+     "name": "Carbon Nanotubes",
+     "amount": 3
+    },
+    {
+     "name": "Carbon Nanotubes",
+     "amount": 3
+    },
+    {
+     "name": "Carbon Nanotubes",
+     "amount": 3
+    },
+    {
+     "name": "Carbon Nanotubes",
+     "amount": 3
+    },
+    {
+     "name": "Carbon Nanotubes",
+     "amount": 3
+    },
+    {
+     "name": "Carbon Nanotubes",
+     "amount": 3
+    },
+    {
+     "name": "Carbon Nanotubes",
+     "amount": 3
+    },
+    {
+     "name": "Carbon Nanotubes",
+     "amount": 3
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:cactus",
+   "count": 1,
+   "shaped": true,
+   "energy": 200,
+   "line": 1642,
+   "chemicals": [
+    {
+     "name": "Water",
+     "amount": 5
+    },
+    null,
+    {
+     "name": "Water",
+     "amount": 5
+    },
+    null,
+    {
+     "name": "Mescaline",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Water",
+     "amount": 5
+    },
+    null,
+    {
+     "name": "Water",
+     "amount": 5
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:pumpkin",
+   "count": 1,
+   "shaped": false,
+   "energy": 200,
+   "line": 1653,
+   "chemicals": [
+    {
+     "name": "Cucurbitacin",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:pumpkin",
+   "count": 1,
+   "shaped": false,
+   "energy": 200,
+   "line": 1664,
+   "chemicals": [
+    {
+     "name": "Cucurbitacin",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:nether_brick",
+   "count": 1,
+   "shaped": true,
+   "energy": 30,
+   "line": 1712,
+   "chemicals": [
+    {
+     "symbol": "Si",
+     "amount": 2
+    },
+    {
+     "symbol": "Si",
+     "amount": 2
+    },
+    null,
+    {
+     "symbol": "Zn",
+     "amount": 2
+    },
+    {
+     "symbol": "W",
+     "amount": 1
+    },
+    null,
+    {
+     "symbol": "Be",
+     "amount": 2
+    },
+    {
+     "symbol": "Be",
+     "amount": 2
+    },
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:glowstone",
+   "count": 1,
+   "shaped": true,
+   "energy": 280,
+   "line": 1763,
+   "chemicals": [
+    {
+     "symbol": "P",
+     "amount": 1
+    },
+    null,
+    {
+     "symbol": "P",
+     "amount": 1
+    },
+    {
+     "symbol": "P",
+     "amount": 1
+    },
+    null,
+    {
+     "symbol": "P",
+     "amount": 1
+    },
+    null,
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:mycelium",
+   "count": 16,
+   "shaped": false,
+   "energy": 40,
+   "line": 1774,
+   "chemicals": [
+    {
+     "name": "Fingolimod",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:emerald_block",
+   "count": 1,
+   "shaped": true,
+   "energy": 8000,
+   "line": 1834,
+   "chemicals": [
+    {
+     "symbol": "Cr",
+     "amount": 3
+    },
+    {
+     "symbol": "Cr",
+     "amount": 3
+    },
+    {
+     "symbol": "Cr",
+     "amount": 3
+    },
+    {
+     "symbol": "V",
+     "amount": 9
+    },
+    {
+     "name": "Beryl",
+     "amount": 18
+    },
+    {
+     "symbol": "V",
+     "amount": 9
+    },
+    {
+     "symbol": "Cr",
+     "amount": 3
+    },
+    {
+     "symbol": "Cr",
+     "amount": 3
+    },
+    {
+     "symbol": "Cr",
+     "amount": 3
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:apple",
+   "count": 1,
+   "shaped": false,
+   "energy": 250,
+   "line": 1851,
+   "chemicals": [
+    {
+     "name": "Malic Acid",
+     "amount": 1
+    },
+    {
+     "name": "Water",
+     "amount": 2
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:charcoal",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 1883,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 4
+    },
+    {
+     "symbol": "C",
+     "amount": 4
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:diamond",
+   "count": 1,
+   "shaped": true,
+   "energy": 1000,
+   "line": 1893,
+   "chemicals": [
+    null,
+    null,
+    null,
+    null,
+    {
+     "name": "Carbon Nanotubes",
+     "amount": 3
+    },
+    null,
+    null,
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:diamond",
+   "count": 1,
+   "shaped": true,
+   "energy": 1000,
+   "line": 1904,
+   "chemicals": [
+    null,
+    {
+     "name": "Carbon Nanotubes",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Carbon Nanotubes",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Carbon Nanotubes",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Carbon Nanotubes",
+     "amount": 1
+    },
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:iron_ingot",
+   "count": 1,
+   "shaped": false,
+   "energy": 300,
+   "line": 1915,
+   "chemicals": [
+    {
+     "symbol": "Fe",
+     "amount": 16
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:gold_ingot",
+   "count": 1,
+   "shaped": false,
+   "energy": 300,
+   "line": 1926,
+   "chemicals": [
+    {
+     "symbol": "Au",
+     "amount": 16
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:string",
+   "count": 1,
+   "shaped": true,
+   "energy": 10,
+   "line": 1944,
+   "chemicals": [
+    {
+     "name": "Serine",
+     "amount": 1
+    },
+    {
+     "name": "Glycine",
+     "amount": 1
+    },
+    {
+     "name": "Alanine",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:feather",
+   "count": 1,
+   "shaped": true,
+   "energy": 10,
+   "line": 1955,
+   "chemicals": [
+    {
+     "symbol": "N",
+     "amount": 1
+    },
+    {
+     "name": "Water",
+     "amount": 2
+    },
+    {
+     "symbol": "N",
+     "amount": 1
+    },
+    {
+     "symbol": "N",
+     "amount": 1
+    },
+    {
+     "name": "Water",
+     "amount": 1
+    },
+    {
+     "symbol": "N",
+     "amount": 1
+    },
+    {
+     "symbol": "N",
+     "amount": 1
+    },
+    {
+     "name": "Water",
+     "amount": 5
+    },
+    {
+     "symbol": "N",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:gunpowder",
+   "count": 1,
+   "shaped": true,
+   "energy": 10,
+   "line": 1967,
+   "chemicals": [
+    {
+     "name": "Potassium Nitrate",
+     "amount": 1
+    },
+    {
+     "symbol": "C",
+     "amount": 1
+    },
+    null,
+    {
+     "symbol": "S",
+     "amount": 2
+    },
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:flint",
+   "count": 1,
+   "shaped": true,
+   "energy": 10,
+   "line": 1985,
+   "chemicals": [
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:bucket",
+   "count": 1,
+   "shaped": true,
+   "energy": 250,
+   "line": 2007,
+   "chemicals": [
+    null,
+    null,
+    null,
+    {
+     "symbol": "Fe",
+     "amount": 16
+    },
+    null,
+    {
+     "symbol": "Fe",
+     "amount": 16
+    },
+    null,
+    {
+     "symbol": "Fe",
+     "amount": 16
+    },
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:water_bucket",
+   "count": 1,
+   "shaped": true,
+   "energy": 250,
+   "line": 2018,
+   "chemicals": [
+    null,
+    null,
+    null,
+    {
+     "symbol": "Fe",
+     "amount": 16
+    },
+    {
+     "name": "Water",
+     "amount": 16
+    },
+    {
+     "symbol": "Fe",
+     "amount": 16
+    },
+    null,
+    {
+     "symbol": "Fe",
+     "amount": 16
+    },
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:redstone",
+   "count": 1,
+   "shaped": true,
+   "energy": 20,
+   "line": 2029,
+   "chemicals": [
+    null,
+    null,
+    {
+     "name": "Iron (III) Oxide",
+     "amount": 1
+    },
+    null,
+    {
+     "symbol": "Cu",
+     "amount": 1
+    },
+    null,
+    null,
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:redstone_block",
+   "count": 1,
+   "shaped": true,
+   "energy": 160,
+   "line": 2039,
+   "chemicals": [
+    null,
+    null,
+    {
+     "name": "Iron (III) Oxide",
+     "amount": 9
+    },
+    null,
+    {
+     "symbol": "Cu",
+     "amount": 9
+    },
+    null,
+    null,
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:snowball",
+   "count": 5,
+   "shaped": true,
+   "energy": 10,
+   "line": 2050,
+   "chemicals": [
+    {
+     "name": "Water",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Water",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Water",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Water",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Water",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:leather",
+   "count": 5,
+   "shaped": true,
+   "energy": 10,
+   "line": 2061,
+   "chemicals": [
+    null,
+    null,
+    null,
+    null,
+    {
+     "name": "Keratin",
+     "amount": 1
+    },
+    null,
+    null,
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:brick",
+   "count": 8,
+   "shaped": true,
+   "energy": 10,
+   "line": 2072,
+   "chemicals": [
+    {
+     "name": "Kaolinite",
+     "amount": 1
+    },
+    {
+     "name": "Kaolinite",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Kaolinite",
+     "amount": 1
+    },
+    {
+     "name": "Kaolinite",
+     "amount": 1
+    },
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:clay_ball",
+   "count": 2,
+   "shaped": false,
+   "energy": 10,
+   "line": 2083,
+   "chemicals": [
+    {
+     "name": "Kaolinite",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:vine",
+   "count": 1,
+   "shaped": true,
+   "energy": 40,
+   "line": 2101,
+   "chemicals": [
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:paper",
+   "count": 8,
+   "shaped": true,
+   "energy": 10,
+   "line": 2112,
+   "chemicals": [
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null,
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null,
+    null,
+    {
+     "name": "Cellulose",
+     "amount": 1
+    },
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:bone",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 2191,
+   "chemicals": [
+    {
+     "name": "Hydroxylapatite",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:sugar",
+   "count": 1,
+   "shaped": false,
+   "energy": 30,
+   "line": 2202,
+   "chemicals": [
+    {
+     "name": "Sucrose",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:melon_slice",
+   "count": 1,
+   "shaped": false,
+   "energy": 250,
+   "line": 2213,
+   "chemicals": [
+    {
+     "name": "Cucurbitacin",
+     "amount": 1
+    },
+    {
+     "name": "Aspartic Acid",
+     "amount": 1
+    },
+    {
+     "name": "Water",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:melon",
+   "count": 1,
+   "shaped": false,
+   "energy": 250,
+   "line": 2224,
+   "chemicals": [
+    {
+     "name": "Cucurbitacin",
+     "amount": 1
+    },
+    {
+     "name": "Aspartic Acid",
+     "amount": 1
+    },
+    {
+     "name": "Water",
+     "amount": 16
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:cooked_chicken",
+   "count": 1,
+   "shaped": true,
+   "energy": 250,
+   "line": 2235,
+   "chemicals": [
+    {
+     "symbol": "K",
+     "amount": 16
+    },
+    {
+     "symbol": "Na",
+     "amount": 16
+    },
+    {
+     "symbol": "C",
+     "amount": 16
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:ender_pearl",
+   "count": 1,
+   "shaped": true,
+   "energy": 3000,
+   "line": 2253,
+   "chemicals": [
+    {
+     "name": "Calcium Carbonate",
+     "amount": 1
+    },
+    {
+     "name": "Calcium Carbonate",
+     "amount": 1
+    },
+    {
+     "name": "Calcium Carbonate",
+     "amount": 1
+    },
+    {
+     "name": "Calcium Carbonate",
+     "amount": 1
+    },
+    {
+     "symbol": "Es",
+     "amount": 1
+    },
+    {
+     "name": "Calcium Carbonate",
+     "amount": 1
+    },
+    {
+     "name": "Calcium Carbonate",
+     "amount": 1
+    },
+    {
+     "name": "Calcium Carbonate",
+     "amount": 1
+    },
+    {
+     "name": "Calcium Carbonate",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:dragon_egg",
+   "count": 1,
+   "shaped": true,
+   "energy": 30,
+   "line": 2265,
+   "chemicals": [
+    {
+     "name": "Calcium Carbonate",
+     "amount": 18
+    },
+    {
+     "name": "Hydroxylapatite",
+     "amount": 8
+    },
+    {
+     "symbol": "Pu",
+     "amount": 22
+    },
+    {
+     "symbol": "Fm",
+     "amount": 12
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:blaze_rod",
+   "count": 1,
+   "shaped": true,
+   "energy": 3000,
+   "line": 2276,
+   "chemicals": [
+    {
+     "symbol": "Pu",
+     "amount": 2
+    },
+    null,
+    null,
+    {
+     "symbol": "Pu",
+     "amount": 2
+    },
+    null,
+    null,
+    {
+     "symbol": "Pu",
+     "amount": 2
+    },
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:ghast_tear",
+   "count": 1,
+   "shaped": true,
+   "energy": 3000,
+   "line": 2294,
+   "chemicals": [
+    {
+     "symbol": "Yb",
+     "amount": 1
+    },
+    {
+     "symbol": "Yb",
+     "amount": 1
+    },
+    {
+     "symbol": "No",
+     "amount": 1
+    },
+    null,
+    {
+     "symbol": "Yb",
+     "amount": 2
+    },
+    {
+     "symbol": "No",
+     "amount": 2
+    },
+    null,
+    {
+     "symbol": "No",
+     "amount": 1
+    },
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:spider_eye",
+   "count": 1,
+   "shaped": true,
+   "energy": 10,
+   "line": 2315,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 1
+    },
+    null,
+    null,
+    null,
+    {
+     "name": "Tetrodotoxin",
+     "amount": 1
+    },
+    null,
+    null,
+    null,
+    {
+     "symbol": "C",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:magma_cream",
+   "count": 1,
+   "shaped": true,
+   "energy": 3000,
+   "line": 2333,
+   "chemicals": [
+    null,
+    {
+     "symbol": "Pu",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Poly(methyl methacrylate)",
+     "amount": 1
+    },
+    {
+     "symbol": "Hg",
+     "amount": 1
+    },
+    {
+     "name": "Poly(methyl methacrylate)",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Poly(methyl methacrylate)",
+     "amount": 1
+    },
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:emerald",
+   "count": 1,
+   "shaped": true,
+   "energy": 5000,
+   "line": 2351,
+   "chemicals": [
+    null,
+    {
+     "symbol": "Cr",
+     "amount": 1
+    },
+    null,
+    {
+     "symbol": "V",
+     "amount": 1
+    },
+    {
+     "name": "Beryl",
+     "amount": 2
+    },
+    {
+     "symbol": "V",
+     "amount": 1
+    },
+    null,
+    {
+     "symbol": "Cr",
+     "amount": 1
+    },
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:nether_star",
+   "count": 1,
+   "shaped": true,
+   "energy": 6000,
+   "line": 2390,
+   "chemicals": [
+    {
+     "symbol": "He",
+     "amount": 64
+    },
+    {
+     "symbol": "He",
+     "amount": 64
+    },
+    {
+     "symbol": "He",
+     "amount": 64
+    },
+    {
+     "symbol": "C",
+     "amount": 64
+    },
+    {
+     "symbol": "Cn",
+     "amount": 16
+    },
+    {
+     "symbol": "He",
+     "amount": 64
+    },
+    {
+     "symbol": "H",
+     "amount": 64
+    },
+    {
+     "symbol": "H",
+     "amount": 64
+    },
+    {
+     "symbol": "H",
+     "amount": 64
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:music_disc_13",
+   "count": 1,
+   "shaped": true,
+   "energy": 1000,
+   "line": 2429,
+   "chemicals": [
+    {
+     "name": "Polyvinyl Chloride",
+     "amount": 1
+    },
+    {
+     "name": "Polyvinyl Chloride",
+     "amount": 1
+    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:music_disc_cat",
+   "count": 1,
+   "shaped": true,
+   "energy": 1000,
+   "line": 2433,
+   "chemicals": [
+    null,
+    {
+     "name": "Polyvinyl Chloride",
+     "amount": 1
+    },
+    {
+     "name": "Polyvinyl Chloride",
+     "amount": 1
+    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:music_disc_far",
+   "count": 1,
+   "shaped": true,
+   "energy": 1000,
+   "line": 2437,
+   "chemicals": [
+    null,
+    null,
+    {
+     "name": "Polyvinyl Chloride",
+     "amount": 1
+    },
+    {
+     "name": "Polyvinyl Chloride",
+     "amount": 1
+    },
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:music_disc_mall",
+   "count": 1,
+   "shaped": true,
+   "energy": 1000,
+   "line": 2441,
+   "chemicals": [
+    null,
+    null,
+    null,
+    {
+     "name": "Polyvinyl Chloride",
+     "amount": 1
+    },
+    {
+     "name": "Polyvinyl Chloride",
+     "amount": 1
+    },
+    null,
+    null,
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:music_disc_mellohi",
+   "count": 1,
+   "shaped": true,
+   "energy": 1000,
+   "line": 2445,
+   "chemicals": [
+    null,
+    null,
+    null,
+    null,
+    {
+     "name": "Polyvinyl Chloride",
+     "amount": 1
+    },
+    {
+     "name": "Polyvinyl Chloride",
+     "amount": 1
+    },
+    null,
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:music_disc_stal",
+   "count": 1,
+   "shaped": true,
+   "energy": 1000,
+   "line": 2449,
+   "chemicals": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "name": "Polyvinyl Chloride",
+     "amount": 1
+    },
+    {
+     "name": "Polyvinyl Chloride",
+     "amount": 1
+    },
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:music_disc_strad",
+   "count": 1,
+   "shaped": true,
+   "energy": 1000,
+   "line": 2453,
+   "chemicals": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "name": "Polyvinyl Chloride",
+     "amount": 1
+    },
+    {
+     "name": "Polyvinyl Chloride",
+     "amount": 1
+    },
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:music_disc_ward",
+   "count": 1,
+   "shaped": true,
+   "energy": 1000,
+   "line": 2457,
+   "chemicals": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "name": "Polyvinyl Chloride",
+     "amount": 1
+    },
+    {
+     "name": "Polyvinyl Chloride",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:music_disc_chirp",
+   "count": 1,
+   "shaped": true,
+   "energy": 1000,
+   "line": 2461,
+   "chemicals": [
+    {
+     "name": "Polyvinyl Chloride",
+     "amount": 1
+    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "name": "Polyvinyl Chloride",
+     "amount": 1
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:music_disc_11",
+   "count": 1,
+   "shaped": true,
+   "energy": 1000,
+   "line": 2465,
+   "chemicals": [
+    {
+     "name": "Polyvinyl Chloride",
+     "amount": 1
+    },
+    null,
+    null,
+    null,
+    {
+     "name": "Polyvinyl Chloride",
+     "amount": 1
+    },
+    null,
+    null,
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:music_disc_wait",
+   "count": 1,
+   "shaped": true,
+   "energy": 1000,
+   "line": 2469,
+   "chemicals": [
+    {
+     "name": "Polyvinyl Chloride",
+     "amount": 1
+    },
+    null,
+    null,
+    {
+     "name": "Polyvinyl Chloride",
+     "amount": 1
+    },
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:music_disc_blocks",
+   "count": 1,
+   "shaped": true,
+   "energy": 1000,
+   "line": 2473,
+   "chemicals": [
+    {
+     "name": "Polyvinyl Chloride",
+     "amount": 1
+    },
+    null,
+    null,
+    null,
+    null,
+    {
+     "name": "Polyvinyl Chloride",
+     "amount": 1
+    },
+    null,
+    null,
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:iron_bars",
+   "count": 1,
+   "shaped": false,
+   "energy": 15,
+   "line": 2485,
+   "chemicals": [
+    {
+     "symbol": "Fe",
+     "amount": 3
+    },
+    {
+     "symbol": "Fe",
+     "amount": 3
+    }
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "molecule",
+   "output": "Cellulose",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 6
+    },
+    {
+     "symbol": "H",
+     "amount": 10
+    },
+    {
+     "symbol": "O",
+     "amount": 5
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Water",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "H",
+     "amount": 2
+    },
+    {
+     "symbol": "O",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Carbon Dioxide",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 2
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Nitrogen Dioxide",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "N",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 2
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Toluene",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 7
+    },
+    {
+     "symbol": "H",
+     "amount": 8
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Potassium Nitrate",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "K",
+     "amount": 1
+    },
+    {
+     "symbol": "N",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 3
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Trinitrotoluene",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 6
+    },
+    {
+     "symbol": "H",
+     "amount": 2
+    },
+    {
+     "name": "Nitrogen Dioxide",
+     "amount": 3
+    },
+    {
+     "name": "Toluene",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Silicon Dioxide",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Si",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 2
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "calcicPyroxene",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Ca",
+     "amount": 1
+    },
+    {
+     "symbol": "Cr",
+     "amount": 1
+    },
+    {
+     "symbol": "Si",
+     "amount": 2
+    },
+    {
+     "symbol": "O",
+     "amount": 6
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Pyrite",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Fe",
+     "amount": 1
+    },
+    {
+     "symbol": "S",
+     "amount": 2
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Nepheline",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Al",
+     "amount": 1
+    },
+    {
+     "symbol": "Si",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 4
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Sulfate (ion)",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "S",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 4
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Noselite",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Na",
+     "amount": 8
+    },
+    {
+     "name": "Nepheline",
+     "amount": 6
+    },
+    {
+     "name": "Sulfate (ion)",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Sodalite",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Na",
+     "amount": 8
+    },
+    {
+     "symbol": "Cl",
+     "amount": 2
+    },
+    {
+     "name": "Nepheline",
+     "amount": 6
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Nitrate (ion)",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "N",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 3
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Carbonate (ion)",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 3
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Potassium Cyanide",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "K",
+     "amount": 1
+    },
+    {
+     "symbol": "C",
+     "amount": 1
+    },
+    {
+     "symbol": "N",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Phosphate (ion)",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "P",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 4
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Acetate (ion)",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 2
+    },
+    {
+     "symbol": "H",
+     "amount": 3
+    },
+    {
+     "symbol": "O",
+     "amount": 2
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Chromate (ion)",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Cr",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 4
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Hydroxide (ion)",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "O",
+     "amount": 1
+    },
+    {
+     "symbol": "H",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Ammonium (ion)",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "N",
+     "amount": 1
+    },
+    {
+     "symbol": "H",
+     "amount": 4
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Hydronium (ion)",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "H",
+     "amount": 3
+    },
+    {
+     "symbol": "O",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Peroxide (ion)",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "O",
+     "amount": 2
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Calcium Oxide",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Ca",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Calcium Carbonate",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Ca",
+     "amount": 1
+    },
+    {
+     "name": "Carbonate (ion)",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Magnesium Carbonate",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Mg",
+     "amount": 1
+    },
+    {
+     "name": "Carbonate (ion)",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Lazurite",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Na",
+     "amount": 8
+    },
+    {
+     "name": "Nepheline",
+     "amount": 1
+    },
+    {
+     "name": "Sulfate (ion)",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Isoprene",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 5
+    },
+    {
+     "symbol": "H",
+     "amount": 8
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Butene",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 4
+    },
+    {
+     "symbol": "H",
+     "amount": 8
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Polyisobutylene Rubber",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "name": "Butene",
+     "amount": 16
+    },
+    {
+     "name": "Isoprene",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Malic Acid",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 4
+    },
+    {
+     "symbol": "H",
+     "amount": 6
+    },
+    {
+     "symbol": "O",
+     "amount": 5
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Vinyl Chloride Monomer",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 2
+    },
+    {
+     "symbol": "H",
+     "amount": 3
+    },
+    {
+     "symbol": "Cl",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Polyvinyl Chloride",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "name": "Vinyl Chloride Monomer",
+     "amount": 64
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Methamphetamine",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 10
+    },
+    {
+     "symbol": "H",
+     "amount": 15
+    },
+    {
+     "symbol": "N",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Psilocybin",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 12
+    },
+    {
+     "symbol": "H",
+     "amount": 17
+    },
+    {
+     "symbol": "N",
+     "amount": 2
+    },
+    {
+     "symbol": "O",
+     "amount": 4
+    },
+    {
+     "symbol": "P",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Iron (III) Oxide",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Fe",
+     "amount": 2
+    },
+    {
+     "symbol": "O",
+     "amount": 3
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Strontium Nitrate",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Sr",
+     "amount": 1
+    },
+    {
+     "name": "Nitrate (ion)",
+     "amount": 2
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Magnetite",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Fe",
+     "amount": 3
+    },
+    {
+     "symbol": "O",
+     "amount": 4
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Magnesium Oxide",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Mg",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Cucurbitacin",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 30
+    },
+    {
+     "symbol": "H",
+     "amount": 42
+    },
+    {
+     "symbol": "O",
+     "amount": 7
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Aspartic Acid",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 4
+    },
+    {
+     "symbol": "H",
+     "amount": 7
+    },
+    {
+     "symbol": "N",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 4
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Hydroxylapatite",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Ca",
+     "amount": 5
+    },
+    {
+     "symbol": "O",
+     "amount": 1
+    },
+    {
+     "symbol": "H",
+     "amount": 1
+    },
+    {
+     "name": "Phosphate (ion)",
+     "amount": 3
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Alanine",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 3
+    },
+    {
+     "symbol": "H",
+     "amount": 7
+    },
+    {
+     "symbol": "N",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 2
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Glycine",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 2
+    },
+    {
+     "symbol": "H",
+     "amount": 5
+    },
+    {
+     "symbol": "N",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 2
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Serine",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 3
+    },
+    {
+     "symbol": "H",
+     "amount": 7
+    },
+    {
+     "name": "Nitrate (ion)",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Mescaline",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 11
+    },
+    {
+     "symbol": "H",
+     "amount": 17
+    },
+    {
+     "name": "Nitrate (ion)",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Methyl (ion)",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 1
+    },
+    {
+     "symbol": "H",
+     "amount": 3
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Methylene (ion)",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 1
+    },
+    {
+     "symbol": "H",
+     "amount": 2
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Methyl Methacrylate",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 2
+    },
+    {
+     "symbol": "O",
+     "amount": 2
+    },
+    {
+     "name": "Methyl (ion)",
+     "amount": 3
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Poly(methyl methacrylate)",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "name": "Methyl Methacrylate",
+     "amount": 3
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Cobalt(II) Nitrate",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Co",
+     "amount": 1
+    },
+    {
+     "name": "Nitrate (ion)",
+     "amount": 2
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Potassium Dichromate",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "K",
+     "amount": 2
+    },
+    {
+     "symbol": "Cr",
+     "amount": 2
+    },
+    {
+     "symbol": "O",
+     "amount": 7
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Potassium Chromate",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Cr",
+     "amount": 1
+    },
+    {
+     "symbol": "K",
+     "amount": 2
+    },
+    {
+     "symbol": "O",
+     "amount": 4
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Nickel(II) Chloride",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Ni",
+     "amount": 1
+    },
+    {
+     "symbol": "Cl",
+     "amount": 2
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Copper(II) Sulfate",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Cu",
+     "amount": 1
+    },
+    {
+     "name": "Sulfate (ion)",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Potassium Permanganate",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "K",
+     "amount": 1
+    },
+    {
+     "symbol": "Mn",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 4
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Zinc Green",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Co",
+     "amount": 1
+    },
+    {
+     "symbol": "Zn",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 2
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Carbon Black",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 1
+    },
+    {
+     "symbol": "H",
+     "amount": 2
+    },
+    {
+     "symbol": "O",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Titanium Dioxide",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Ti",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 2
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Metasilicate",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Si",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 3
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Beryl",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Be",
+     "amount": 3
+    },
+    {
+     "symbol": "Al",
+     "amount": 2
+    },
+    {
+     "name": "Metasilicate",
+     "amount": 6
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Ethyl Alcohol",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 2
+    },
+    {
+     "symbol": "H",
+     "amount": 5
+    },
+    {
+     "name": "Hydroxide (ion)",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Amphetamine",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 9
+    },
+    {
+     "symbol": "H",
+     "amount": 13
+    },
+    {
+     "symbol": "N",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Theobromine",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 7
+    },
+    {
+     "symbol": "H",
+     "amount": 8
+    },
+    {
+     "symbol": "N",
+     "amount": 4
+    },
+    {
+     "symbol": "O",
+     "amount": 2
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Starch",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "name": "Cellulose",
+     "amount": 3
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Sucrose",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 12
+    },
+    {
+     "symbol": "H",
+     "amount": 22
+    },
+    {
+     "symbol": "O",
+     "amount": 11
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Pantherine",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 4
+    },
+    {
+     "symbol": "H",
+     "amount": 6
+    },
+    {
+     "symbol": "N",
+     "amount": 2
+    },
+    {
+     "symbol": "O",
+     "amount": 2
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Aluminium Oxide",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Al",
+     "amount": 2
+    },
+    {
+     "symbol": "O",
+     "amount": 3
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Carbon Nanotubes",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 64
+    },
+    {
+     "symbol": "C",
+     "amount": 64
+    },
+    {
+     "symbol": "C",
+     "amount": 64
+    },
+    {
+     "symbol": "C",
+     "amount": 64
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Valine",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 5
+    },
+    {
+     "symbol": "H",
+     "amount": 11
+    },
+    {
+     "symbol": "N",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 2
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Penicillin",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 16
+    },
+    {
+     "symbol": "H",
+     "amount": 18
+    },
+    {
+     "symbol": "N",
+     "amount": 2
+    },
+    {
+     "symbol": "O",
+     "amount": 4
+    },
+    {
+     "symbol": "S",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Testosterone",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 19
+    },
+    {
+     "symbol": "H",
+     "amount": 28
+    },
+    {
+     "symbol": "O",
+     "amount": 2
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Kaolinite",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Al",
+     "amount": 2
+    },
+    {
+     "symbol": "Si",
+     "amount": 2
+    },
+    {
+     "symbol": "O",
+     "amount": 5
+    },
+    {
+     "name": "Hydroxide (ion)",
+     "amount": 4
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Fingolimod",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 19
+    },
+    {
+     "symbol": "H",
+     "amount": 33
+    },
+    {
+     "name": "Nitrogen Dioxide",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Arginine",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 6
+    },
+    {
+     "symbol": "H",
+     "amount": 14
+    },
+    {
+     "symbol": "N",
+     "amount": 4
+    },
+    {
+     "symbol": "O",
+     "amount": 2
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Shikimic Acid",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 7
+    },
+    {
+     "symbol": "H",
+     "amount": 10
+    },
+    {
+     "symbol": "O",
+     "amount": 5
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Sulfuric Acid",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "H",
+     "amount": 2
+    },
+    {
+     "symbol": "S",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 4
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Glyphosate",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 3
+    },
+    {
+     "symbol": "H",
+     "amount": 8
+    },
+    {
+     "symbol": "N",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 5
+    },
+    {
+     "symbol": "P",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Aspirin",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 9
+    },
+    {
+     "symbol": "H",
+     "amount": 8
+    },
+    {
+     "symbol": "O",
+     "amount": 4
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "DDT",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 14
+    },
+    {
+     "symbol": "H",
+     "amount": 9
+    },
+    {
+     "symbol": "Cl",
+     "amount": 5
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "DOTA",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 16
+    },
+    {
+     "symbol": "H",
+     "amount": 28
+    },
+    {
+     "symbol": "N",
+     "amount": 4
+    },
+    {
+     "symbol": "O",
+     "amount": 8
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "T-2 Mycotoxin",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 24
+    },
+    {
+     "symbol": "H",
+     "amount": 34
+    },
+    {
+     "symbol": "O",
+     "amount": 9
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Salt",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Na",
+     "amount": 1
+    },
+    {
+     "symbol": "Cl",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Ammonia",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "N",
+     "amount": 1
+    },
+    {
+     "symbol": "H",
+     "amount": 3
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Nodularin",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 41
+    },
+    {
+     "symbol": "H",
+     "amount": 60
+    },
+    {
+     "symbol": "N",
+     "amount": 8
+    },
+    {
+     "symbol": "O",
+     "amount": 10
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Tetrodotoxin",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 11
+    },
+    {
+     "symbol": "H",
+     "amount": 11
+    },
+    {
+     "symbol": "N",
+     "amount": 3
+    },
+    {
+     "symbol": "O",
+     "amount": 8
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "THC",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 21
+    },
+    {
+     "symbol": "H",
+     "amount": 30
+    },
+    {
+     "symbol": "O",
+     "amount": 2
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Methylcyclopentadienyl Manganese Tricarbonyl",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 9
+    },
+    {
+     "symbol": "H",
+     "amount": 7
+    },
+    {
+     "symbol": "Mn",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 3
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Tert-Butyllithium",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Li",
+     "amount": 1
+    },
+    {
+     "symbol": "C",
+     "amount": 4
+    },
+    {
+     "symbol": "H",
+     "amount": 9
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Chloroplatinic Acid",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "H",
+     "amount": 2
+    },
+    {
+     "symbol": "Pt",
+     "amount": 1
+    },
+    {
+     "symbol": "Cl",
+     "amount": 6
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Phosgene",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 1
+    },
+    {
+     "symbol": "Cl",
+     "amount": 2
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Allyl Alcohol",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 3
+    },
+    {
+     "symbol": "H",
+     "amount": 5
+    },
+    {
+     "name": "Hydroxide (ion)",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Diphenhydramine",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 17
+    },
+    {
+     "symbol": "H",
+     "amount": 21
+    },
+    {
+     "symbol": "N",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Batrachotoxin",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 31
+    },
+    {
+     "symbol": "H",
+     "amount": 42
+    },
+    {
+     "symbol": "N",
+     "amount": 2
+    },
+    {
+     "symbol": "O",
+     "amount": 6
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Retinol",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 20
+    },
+    {
+     "symbol": "H",
+     "amount": 29
+    },
+    {
+     "name": "Hydroxide (ion)",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Xylitol",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 5
+    },
+    {
+     "symbol": "H",
+     "amount": 12
+    },
+    {
+     "symbol": "O",
+     "amount": 5
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Aminocyclopyrachlor",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 8
+    },
+    {
+     "symbol": "H",
+     "amount": 8
+    },
+    {
+     "symbol": "Cl",
+     "amount": 1
+    },
+    {
+     "symbol": "N",
+     "amount": 3
+    },
+    {
+     "symbol": "O",
+     "amount": 2
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Alprazolam",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 17
+    },
+    {
+     "symbol": "H",
+     "amount": 13
+    },
+    {
+     "symbol": "Cl",
+     "amount": 1
+    },
+    {
+     "symbol": "N",
+     "amount": 4
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Hydrogen Chloride",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "H",
+     "amount": 1
+    },
+    {
+     "symbol": "Cl",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Cocaine",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 17
+    },
+    {
+     "symbol": "H",
+     "amount": 21
+    },
+    {
+     "symbol": "N",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 4
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Cocaine Hydrochloride",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "name": "Cocaine",
+     "amount": 1
+    },
+    {
+     "name": "Hydrogen Chloride",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Guaiazulene",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 15
+    },
+    {
+     "symbol": "H",
+     "amount": 18
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Pelargonidin",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 15
+    },
+    {
+     "symbol": "H",
+     "amount": 11
+    },
+    {
+     "symbol": "O",
+     "amount": 11
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Delphinidin",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 15
+    },
+    {
+     "symbol": "H",
+     "amount": 11
+    },
+    {
+     "symbol": "O",
+     "amount": 7
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Olivine",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Fe",
+     "amount": 2
+    },
+    {
+     "symbol": "Si",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 4
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Methylene Blue",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 16
+    },
+    {
+     "symbol": "H",
+     "amount": 18
+    },
+    {
+     "symbol": "N",
+     "amount": 3
+    },
+    {
+     "symbol": "S",
+     "amount": 1
+    },
+    {
+     "symbol": "Cl",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Methyl Alcohol",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "name": "Methyl (ion)",
+     "amount": 1
+    },
+    {
+     "name": "Hydroxide (ion)",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Cholesteryl Benzoate",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 34
+    },
+    {
+     "symbol": "H",
+     "amount": 50
+    },
+    {
+     "symbol": "O",
+     "amount": 2
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Radium Chloride",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Ra",
+     "amount": 1
+    },
+    {
+     "symbol": "Cl",
+     "amount": 2
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Caulerpenyne",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 21
+    },
+    {
+     "symbol": "H",
+     "amount": 26
+    },
+    {
+     "symbol": "O",
+     "amount": 6
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Hyoscyamine",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 17
+    },
+    {
+     "symbol": "H",
+     "amount": 23
+    },
+    {
+     "symbol": "N",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 4
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Gallic Acid",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 7
+    },
+    {
+     "symbol": "H",
+     "amount": 17
+    },
+    {
+     "symbol": "O",
+     "amount": 5
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Glucose",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 6
+    },
+    {
+     "symbol": "H",
+     "amount": 12
+    },
+    {
+     "symbol": "O",
+     "amount": 6
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Tannic Acid",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "name": "Gallic Acid",
+     "amount": 10
+    },
+    {
+     "name": "Glucose",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Hydrogen Peroxide",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "H",
+     "amount": 2
+    },
+    {
+     "name": "Peroxide (ion)",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Gallium Arsenide",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Ga",
+     "amount": 1
+    },
+    {
+     "symbol": "As",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Fibroin",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "name": "Glycine",
+     "amount": 1
+    },
+    {
+     "name": "Serine",
+     "amount": 1
+    },
+    {
+     "name": "Glycine",
+     "amount": 1
+    },
+    {
+     "name": "Alanine",
+     "amount": 1
+    },
+    {
+     "name": "Glycine",
+     "amount": 1
+    },
+    {
+     "name": "Alanine",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Aluminium Phosphate",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Al",
+     "amount": 1
+    },
+    {
+     "name": "Phosphate (ion)",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Potassium Oxide",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "K",
+     "amount": 2
+    },
+    {
+     "symbol": "O",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Sodium Oxide",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Na",
+     "amount": 2
+    },
+    {
+     "symbol": "O",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Anorthite",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Ca",
+     "amount": 1
+    },
+    {
+     "symbol": "Al",
+     "amount": 2
+    },
+    {
+     "symbol": "Si",
+     "amount": 2
+    },
+    {
+     "symbol": "O",
+     "amount": 8
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Albite",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Na",
+     "amount": 1
+    },
+    {
+     "symbol": "Al",
+     "amount": 2
+    },
+    {
+     "symbol": "Si",
+     "amount": 3
+    },
+    {
+     "symbol": "O",
+     "amount": 8
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Orthoclase",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "K",
+     "amount": 1
+    },
+    {
+     "symbol": "Al",
+     "amount": 1
+    },
+    {
+     "symbol": "Si",
+     "amount": 3
+    },
+    {
+     "symbol": "O",
+     "amount": 8
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Biotite",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "K",
+     "amount": 1
+    },
+    {
+     "symbol": "Fe",
+     "amount": 3
+    },
+    {
+     "symbol": "Al",
+     "amount": 1
+    },
+    {
+     "symbol": "Si",
+     "amount": 3
+    },
+    {
+     "symbol": "O",
+     "amount": 10
+    },
+    {
+     "symbol": "F",
+     "amount": 2
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Augite",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Na",
+     "amount": 1
+    },
+    {
+     "symbol": "Fe",
+     "amount": 1
+    },
+    {
+     "symbol": "Al",
+     "amount": 2
+    },
+    {
+     "symbol": "O",
+     "amount": 6
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Talc",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Mg",
+     "amount": 3
+    },
+    {
+     "symbol": "Si",
+     "amount": 4
+    },
+    {
+     "symbol": "O",
+     "amount": 10
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Propane",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 3
+    },
+    {
+     "symbol": "H",
+     "amount": 8
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Peridot",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Mg",
+     "amount": 2
+    },
+    {
+     "symbol": "O",
+     "amount": 4
+    },
+    {
+     "symbol": "Si",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Topaz",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Al",
+     "amount": 2
+    },
+    {
+     "symbol": "O",
+     "amount": 4
+    },
+    {
+     "symbol": "F",
+     "amount": 2
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Zoisite",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Ca",
+     "amount": 2
+    },
+    {
+     "symbol": "Al",
+     "amount": 3
+    },
+    {
+     "symbol": "Si",
+     "amount": 3
+    },
+    {
+     "symbol": "O",
+     "amount": 13
+    },
+    {
+     "symbol": "H",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Cysteine",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 3
+    },
+    {
+     "symbol": "H",
+     "amount": 7
+    },
+    {
+     "symbol": "N",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 2
+    },
+    {
+     "symbol": "S",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Threonine",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 4
+    },
+    {
+     "symbol": "H",
+     "amount": 9
+    },
+    {
+     "symbol": "N",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 3
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Lysine",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 6
+    },
+    {
+     "symbol": "H",
+     "amount": 14
+    },
+    {
+     "symbol": "N",
+     "amount": 2
+    },
+    {
+     "symbol": "O",
+     "amount": 2
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Methionine",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 5
+    },
+    {
+     "symbol": "H",
+     "amount": 11
+    },
+    {
+     "symbol": "N",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 2
+    },
+    {
+     "symbol": "S",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Tyrosine",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 9
+    },
+    {
+     "symbol": "H",
+     "amount": 11
+    },
+    {
+     "symbol": "N",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 3
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Histidine",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 6
+    },
+    {
+     "symbol": "H",
+     "amount": 9
+    },
+    {
+     "symbol": "N",
+     "amount": 3
+    },
+    {
+     "symbol": "O",
+     "amount": 2
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Phenylalanine",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 9
+    },
+    {
+     "symbol": "H",
+     "amount": 11
+    },
+    {
+     "symbol": "N",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 2
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Glutamine",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 5
+    },
+    {
+     "symbol": "H",
+     "amount": 10
+    },
+    {
+     "symbol": "N",
+     "amount": 2
+    },
+    {
+     "symbol": "O",
+     "amount": 3
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Proline",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 5
+    },
+    {
+     "symbol": "H",
+     "amount": 9
+    },
+    {
+     "symbol": "N",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 2
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Leucine",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 6
+    },
+    {
+     "symbol": "H",
+     "amount": 13
+    },
+    {
+     "symbol": "N",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 2
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Tryptophan",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 11
+    },
+    {
+     "symbol": "H",
+     "amount": 12
+    },
+    {
+     "symbol": "N",
+     "amount": 2
+    },
+    {
+     "symbol": "O",
+     "amount": 2
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Isoleucine",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 6
+    },
+    {
+     "symbol": "H",
+     "amount": 13
+    },
+    {
+     "symbol": "N",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 2
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Glutamic Acid",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 5
+    },
+    {
+     "symbol": "H",
+     "amount": 9
+    },
+    {
+     "symbol": "N",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 4
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Asparagine",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 4
+    },
+    {
+     "symbol": "H",
+     "amount": 8
+    },
+    {
+     "symbol": "N",
+     "amount": 2
+    },
+    {
+     "symbol": "O",
+     "amount": 3
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Keratin",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "name": "Threonine",
+     "amount": 1
+    },
+    {
+     "name": "Cysteine",
+     "amount": 1
+    },
+    {
+     "name": "Proline",
+     "amount": 1
+    },
+    {
+     "name": "Threonine",
+     "amount": 1
+    },
+    {
+     "name": "Proline",
+     "amount": 1
+    },
+    {
+     "name": "Cysteine",
+     "amount": 1
+    },
+    {
+     "name": "Proline",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Asbestos",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Mg",
+     "amount": 3
+    },
+    {
+     "symbol": "Si",
+     "amount": 2
+    },
+    {
+     "symbol": "O",
+     "amount": 5
+    },
+    {
+     "name": "Hydroxide (ion)",
+     "amount": 4
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Lithium Hydroxide",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Li",
+     "amount": 1
+    },
+    {
+     "name": "Hydroxide (ion)",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Sodium Hydroxide",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Na",
+     "amount": 1
+    },
+    {
+     "name": "Hydroxide (ion)",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Potassium Hydroxide",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "K",
+     "amount": 1
+    },
+    {
+     "name": "Hydroxide (ion)",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Rubidium Hydroxide",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Rb",
+     "amount": 1
+    },
+    {
+     "name": "Hydroxide (ion)",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Cesium Hydroxide",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Cs",
+     "amount": 1
+    },
+    {
+     "name": "Hydroxide (ion)",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Francium Hydroxide",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Fr",
+     "amount": 1
+    },
+    {
+     "name": "Hydroxide (ion)",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Hypophosphite",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "H",
+     "amount": 2
+    },
+    {
+     "symbol": "P",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 2
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Aluminium Hypophosphite",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Al",
+     "amount": 1
+    },
+    {
+     "name": "Hypophosphite",
+     "amount": 3
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Omphacite",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Ca",
+     "amount": 1
+    },
+    {
+     "symbol": "Al",
+     "amount": 1
+    },
+    {
+     "symbol": "Si",
+     "amount": 2
+    },
+    {
+     "symbol": "O",
+     "amount": 6
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Silicate",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Si",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 4
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Pyrope",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Mg",
+     "amount": 3
+    },
+    {
+     "symbol": "Al",
+     "amount": 2
+    },
+    {
+     "name": "Silicate",
+     "amount": 3
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Almandine",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Fe",
+     "amount": 3
+    },
+    {
+     "symbol": "Al",
+     "amount": 2
+    },
+    {
+     "name": "Silicate",
+     "amount": 3
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Spessartine",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Mn",
+     "amount": 3
+    },
+    {
+     "symbol": "Al",
+     "amount": 2
+    },
+    {
+     "name": "Silicate",
+     "amount": 3
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Red Garnet",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "name": "Pyrope",
+     "amount": 3
+    },
+    {
+     "name": "Almandine",
+     "amount": 5
+    },
+    {
+     "name": "Spessartine",
+     "amount": 8
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Forsterite",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Mg",
+     "amount": 2
+    },
+    {
+     "name": "Silicate",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Chromite",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Fe",
+     "amount": 1
+    },
+    {
+     "symbol": "Cr",
+     "amount": 2
+    },
+    {
+     "symbol": "O",
+     "amount": 4
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Silicon Oxide",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Si",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Iron Oxide",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Fe",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Gallium Oxide",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Ga",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 2
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Arsenic Oxide",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "As",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 2
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Sulfur Dioxide",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "S",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 2
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Hydrogen Sulfide",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "H",
+     "amount": 2
+    },
+    {
+     "symbol": "S",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Sodium Bisulfate",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Na",
+     "amount": 1
+    },
+    {
+     "symbol": "H",
+     "amount": 1
+    },
+    {
+     "name": "Sulfate (ion)",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Sodium Sulfate",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "Na",
+     "amount": 2
+    },
+    {
+     "name": "Sulfate (ion)",
+     "amount": 1
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Dimethyltryptamine",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 12
+    },
+    {
+     "symbol": "H",
+     "amount": 16
+    },
+    {
+     "symbol": "N",
+     "amount": 2
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "molecule",
+   "output": "Oleic Acid",
+   "count": 1,
+   "shaped": false,
+   "energy": 10,
+   "line": 3098,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 18
+    },
+    {
+     "symbol": "H",
+     "amount": 34
+    },
+    {
+     "symbol": "O",
+     "amount": 2
+    }
+   ],
+   "source": "molecule"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:cobweb",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1117,
+   "chemicals": [
+    {
+     "name": "Fibroin",
+     "amount": 1
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:brown_wool",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1272,
+   "chemicals": [
+    {
+     "name": "Glycine",
+     "amount": 2
+    },
+    {
+     "name": "Tannic Acid",
+     "amount": 1
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:brown_carpet",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1414,
+   "chemicals": [
+    {
+     "name": "Glycine",
+     "amount": 1
+    },
+    {
+     "name": "Tannic Acid",
+     "amount": 1
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:dandelion",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1503,
+   "chemicals": [
+    {
+     "name": "Shikimic Acid",
+     "amount": 2
+    },
+    {
+     "name": "Potassium Chromate",
+     "amount": 1
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:poppy",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1507,
+   "chemicals": [
+    {
+     "name": "Shikimic Acid",
+     "amount": 2
+    },
+    {
+     "name": "Cobalt(II) Nitrate",
+     "amount": 1
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:blue_orchid",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1511,
+   "chemicals": [
+    {
+     "name": "Shikimic Acid",
+     "amount": 2
+    },
+    {
+     "name": "Lazurite",
+     "amount": 1
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:allium",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1515,
+   "chemicals": [
+    {
+     "name": "Shikimic Acid",
+     "amount": 2
+    },
+    {
+     "name": "Potassium Permanganate",
+     "amount": 1
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:azure_bluet",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1519,
+   "chemicals": [
+    {
+     "name": "Shikimic Acid",
+     "amount": 2
+    },
+    {
+     "name": "Titanium Dioxide",
+     "amount": 1
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:red_tulip",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1523,
+   "chemicals": [
+    {
+     "name": "Shikimic Acid",
+     "amount": 2
+    },
+    {
+     "name": "Cobalt(II) Nitrate",
+     "amount": 1
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:orange_tulip",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1527,
+   "chemicals": [
+    {
+     "name": "Shikimic Acid",
+     "amount": 2
+    },
+    {
+     "name": "Potassium Dichromate",
+     "amount": 1
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:white_tulip",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1531,
+   "chemicals": [
+    {
+     "name": "Shikimic Acid",
+     "amount": 2
+    },
+    {
+     "name": "Titanium Dioxide",
+     "amount": 1
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:pink_tulip",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1535,
+   "chemicals": [
+    {
+     "name": "Shikimic Acid",
+     "amount": 2
+    },
+    {
+     "name": "Titanium Dioxide",
+     "amount": 1
+    },
+    {
+     "name": "Cobalt(II) Nitrate",
+     "amount": 1
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:oxeye_daisy",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1539,
+   "chemicals": [
+    {
+     "name": "Shikimic Acid",
+     "amount": 2
+    },
+    {
+     "name": "Titanium Dioxide",
+     "amount": 1
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:brown_mushroom",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1549,
+   "chemicals": [
+    {
+     "name": "Psilocybin",
+     "amount": 1
+    },
+    {
+     "name": "Water",
+     "amount": 2
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:red_mushroom",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1554,
+   "chemicals": [
+    {
+     "name": "Pantherine",
+     "amount": 1
+    },
+    {
+     "name": "Water",
+     "amount": 2
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:oak_pressure_plate",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1624,
+   "chemicals": [
+    {
+     "name": "Cellulose",
+     "amount": 4
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:redstone_ore",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1631,
+   "chemicals": [
+    {
+     "name": "Iron (III) Oxide",
+     "amount": 9
+    },
+    {
+     "symbol": "Cu",
+     "amount": 9
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:netherrack",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1671,
+   "chemicals": [
+    {
+     "symbol": "Si",
+     "amount": 2
+    },
+    {
+     "symbol": "O",
+     "amount": 1
+    },
+    {
+     "symbol": "Fe",
+     "amount": 1
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:ice",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1730,
+   "chemicals": [
+    {
+     "name": "Water",
+     "amount": 8
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:soul_sand",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1737,
+   "chemicals": [
+    {
+     "symbol": "Pb",
+     "amount": 3
+    },
+    {
+     "symbol": "Be",
+     "amount": 1
+    },
+    {
+     "symbol": "Si",
+     "amount": 2
+    },
+    {
+     "symbol": "O",
+     "amount": 1
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:end_stone",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1781,
+   "chemicals": [
+    {
+     "symbol": "Si",
+     "amount": 2
+    },
+    {
+     "symbol": "O",
+     "amount": 1
+    },
+    {
+     "symbol": "H",
+     "amount": 4
+    },
+    {
+     "symbol": "Li",
+     "amount": 1
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:arrow",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1858,
+   "chemicals": [
+    {
+     "symbol": "Si",
+     "amount": 1
+    },
+    {
+     "symbol": "O",
+     "amount": 2
+    },
+    {
+     "symbol": "N",
+     "amount": 6
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:coal",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1865,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 8
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:coal_block",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1872,
+   "chemicals": [
+    {
+     "symbol": "C",
+     "amount": 72
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:bread",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1974,
+   "chemicals": [
+    {
+     "name": "Starch",
+     "amount": 1
+    },
+    {
+     "name": "Sucrose",
+     "amount": 1
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:golden_apple",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1992,
+   "chemicals": [
+    {
+     "name": "Malic Acid",
+     "amount": 1
+    },
+    {
+     "symbol": "Au",
+     "amount": 64
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:oak_door",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 1999,
+   "chemicals": [
+    {
+     "name": "Cellulose",
+     "amount": 12
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:sugar_cane",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 2090,
+   "chemicals": [
+    {
+     "name": "Sucrose",
+     "amount": 1
+    },
+    {
+     "symbol": "H",
+     "amount": 2
+    },
+    {
+     "symbol": "O",
+     "amount": 1
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:compass",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 2119,
+   "chemicals": [
+    {
+     "symbol": "Fe",
+     "amount": 64
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:map",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 2141,
+   "chemicals": [
+    {
+     "name": "Cellulose",
+     "amount": 8
+    },
+    {
+     "symbol": "Fe",
+     "amount": 64
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:book",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 2148,
+   "chemicals": [
+    {
+     "name": "Cellulose",
+     "amount": 3
+    },
+    {
+     "name": "Keratin",
+     "amount": 1
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:bookshelf",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 2155,
+   "chemicals": [
+    {
+     "name": "Cellulose",
+     "amount": 21
+    },
+    {
+     "name": "Keratin",
+     "amount": 3
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:slime_ball",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 2164,
+   "chemicals": [
+    {
+     "name": "Poly(methyl methacrylate)",
+     "amount": 1
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:glowstone_dust",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 2180,
+   "chemicals": [
+    {
+     "symbol": "P",
+     "amount": 1
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:rotten_flesh",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 2242,
+   "chemicals": [
+    {
+     "name": "Nodularin",
+     "amount": 1
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:blaze_powder",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 2283,
+   "chemicals": [
+    {
+     "symbol": "Pu",
+     "amount": 1
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:nether_wart",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 2303,
+   "chemicals": [
+    {
+     "name": "Cocaine Hydrochloride",
+     "amount": 1
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:fermented_spider_eye",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 2322,
+   "chemicals": [
+    {
+     "symbol": "Po",
+     "amount": 1
+    },
+    {
+     "name": "Ethyl Alcohol",
+     "amount": 1
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:glistering_melon_slice",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 2340,
+   "chemicals": [
+    {
+     "name": "Water",
+     "amount": 4
+    },
+    {
+     "name": "Titanium Dioxide",
+     "amount": 1
+    },
+    {
+     "symbol": "Au",
+     "amount": 1
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:wheat",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 2358,
+   "chemicals": [
+    {
+     "name": "Cellulose",
+     "amount": 2
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:carrot",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 2365,
+   "chemicals": [
+    {
+     "name": "Retinol",
+     "amount": 1
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:potato",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 2372,
+   "chemicals": [
+    {
+     "name": "Water",
+     "amount": 8
+    },
+    {
+     "symbol": "K",
+     "amount": 2
+    },
+    {
+     "name": "Cellulose",
+     "amount": 1
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:golden_carrot",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 2379,
+   "chemicals": [
+    {
+     "name": "Retinol",
+     "amount": 1
+    },
+    {
+     "symbol": "Au",
+     "amount": 4
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minecraft:quartz",
+   "count": 1,
+   "shaped": false,
+   "energy": 100,
+   "line": 2397,
+   "chemicals": [
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    {
+     "name": "Gallium Arsenide",
+     "amount": 1
+    }
+   ],
+   "source": "derived"
+  },
+  {
+   "kind": "item",
+   "output": "minechem:polytool",
+   "count": 1,
+   "shaped": true,
+   "energy": 6000,
+   "line": 1899,
+   "chemicals": [
+    null,
+    {
+     "name": "Carbon Nanotubes",
+     "amount": 64
+    },
+    null,
+    {
+     "name": "Carbon Nanotubes",
+     "amount": 64
+    },
+    null,
+    {
+     "name": "Carbon Nanotubes",
+     "amount": 64
+    },
+    null,
+    {
+     "name": "Carbon Nanotubes",
+     "amount": 64
+    },
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "minechem:water_bottle",
+   "count": 1,
+   "shaped": true,
+   "energy": 10,
+   "line": 1723,
+   "chemicals": [
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    {
+     "name": "Water",
+     "amount": 5
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null,
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    null
+   ],
+   "source": "static"
+  },
+  {
+   "kind": "item",
+   "output": "ae2:charged_certus_quartz_crystal",
+   "count": 1,
+   "shaped": true,
+   "energy": 30000,
+   "line": 2940,
+   "source": "static",
+   "chemicals": [
+    null,
+    {
+     "name": "Aluminium Hypophosphite",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Aluminium Hypophosphite",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Aluminium Hypophosphite",
+     "amount": 1
+    },
+    null,
+    {
+     "name": "Aluminium Hypophosphite",
+     "amount": 1
+    },
+    null
+   ],
+   "requires": "ae2"
+  },
+  {
+   "kind": "item",
+   "output": "ae2:quartz_glass",
+   "count": 1,
+   "shaped": true,
+   "energy": 30000,
+   "line": 2995,
+   "source": "static",
+   "chemicals": [
+    {
+     "name": "Aluminium Phosphate",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    {
+     "name": "Aluminium Phosphate",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    {
+     "name": "Aluminium Phosphate",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    {
+     "name": "Aluminium Phosphate",
+     "amount": 1
+    },
+    {
+     "name": "Silicon Dioxide",
+     "amount": 4
+    },
+    {
+     "name": "Aluminium Phosphate",
+     "amount": 1
+    }
+   ],
+   "requires": "ae2"
+  }
+ ]
+}

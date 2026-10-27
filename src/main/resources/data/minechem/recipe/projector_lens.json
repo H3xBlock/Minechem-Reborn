@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ABA"
+  ],
+  "key": {
+    "A": "minechem:concave_lens",
+    "B": "minechem:convex_lens"
+  },
+  "result": {
+    "id": "minechem:projector_lens",
+    "count": 1
+  }
+}

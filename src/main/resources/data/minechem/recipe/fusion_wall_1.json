@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ILI",
+    "ILI",
+    "ILI"
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "L": {
+      "neoforge:ingredient_type": "minechem:element",
+      "atomic_number": 74
+    }
+  },
+  "result": {
+    "id": "minechem:fusion_wall_1",
+    "count": 16
+  }
+}

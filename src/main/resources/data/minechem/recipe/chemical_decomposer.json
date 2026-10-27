@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    "IAI",
+    "IRI"
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "A": "minechem:atomic_manipulator",
+    "R": "minecraft:redstone"
+  },
+  "result": {
+    "id": "minechem:chemical_decomposer",
+    "count": 1
+  }
+}

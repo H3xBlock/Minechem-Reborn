@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "G G",
+    "GGG",
+    "G G"
+  ],
+  "key": {
+    "G": "minecraft:glass"
+  },
+  "result": {
+    "id": "minechem:concave_lens",
+    "count": 1
+  }
+}

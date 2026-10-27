@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " I ",
+    "GPL",
+    " I "
+  ],
+  "key": {
+    "G": "minecraft:redstone_lamp",
+    "I": "minecraft:iron_ingot",
+    "L": "minechem:projector_lens",
+    "P": "minecraft:glass_pane"
+  },
+  "result": {
+    "id": "minechem:blueprint_projector",
+    "count": 1
+  }
+}

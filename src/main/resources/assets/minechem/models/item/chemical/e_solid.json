@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "particle": "minechem:item/chemical_tube",
+    "layer0": "minechem:item/chemical_tube",
+    "layer1": "minechem:item/chemical_solid"
+  }
+}

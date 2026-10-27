@@ -1,0 +1,449 @@
+{
+  "_comment": "OreDictionary synthesis rules. A rule with 'name' applies to that OreDictionary name; a rule with 'contains' applies to the first name that contains that text. 'requires' is a setting that must be on.",
+  "rules": [
+    {
+      "name": "ingotIron",
+      "shaped": false,
+      "energy": 300,
+      "chemicals": [
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "ingotGold",
+      "shaped": false,
+      "energy": 300,
+      "chemicals": [
+        {
+          "kind": "element",
+          "symbol": "Au",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "ingotCopper",
+      "shaped": false,
+      "energy": 300,
+      "chemicals": [
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "ingotTin",
+      "shaped": false,
+      "energy": 300,
+      "chemicals": [
+        {
+          "kind": "element",
+          "symbol": "Sn",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "ingotSilver",
+      "shaped": false,
+      "energy": 300,
+      "chemicals": [
+        {
+          "kind": "element",
+          "symbol": "Ag",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "ingotLead",
+      "shaped": false,
+      "energy": 300,
+      "chemicals": [
+        {
+          "kind": "element",
+          "symbol": "Pb",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "ingotPlatinum",
+      "shaped": false,
+      "energy": 300,
+      "chemicals": [
+        {
+          "kind": "element",
+          "symbol": "Pt",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "ingotAluminium",
+      "shaped": false,
+      "energy": 300,
+      "chemicals": [
+        {
+          "kind": "element",
+          "symbol": "Al",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "ingotMagnesium",
+      "shaped": false,
+      "energy": 300,
+      "chemicals": [
+        {
+          "kind": "element",
+          "symbol": "Mg",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "ingotSteel",
+      "shaped": false,
+      "energy": 300,
+      "chemicals": [
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 15
+        },
+        {
+          "kind": "element",
+          "symbol": "C",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "ingotHSLA",
+      "shaped": false,
+      "energy": 300,
+      "chemicals": [
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 15
+        },
+        {
+          "kind": "element",
+          "symbol": "C",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "ingotBronze",
+      "shaped": false,
+      "energy": 300,
+      "chemicals": [
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 12
+        },
+        {
+          "kind": "element",
+          "symbol": "Sn",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "ingotElectrum",
+      "shaped": false,
+      "energy": 300,
+      "chemicals": [
+        {
+          "kind": "element",
+          "symbol": "Ag",
+          "amount": 8
+        },
+        {
+          "kind": "element",
+          "symbol": "Au",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "ingotInvar",
+      "shaped": false,
+      "energy": 300,
+      "chemicals": [
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 10
+        },
+        {
+          "kind": "element",
+          "symbol": "Ni",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "contains": "gemApatite",
+      "shaped": false,
+      "energy": 1000,
+      "chemicals": [
+        {
+          "kind": "element",
+          "symbol": "Ca",
+          "amount": 5
+        },
+        {
+          "kind": "molecule",
+          "name": "Phosphate (ion)",
+          "amount": 4
+        },
+        {
+          "kind": "element",
+          "symbol": "Cl",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "contains": "plateSilicon",
+      "shaped": false,
+      "energy": 1000,
+      "chemicals": [
+        {
+          "kind": "element",
+          "symbol": "Si",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "contains": "xychoriumBlue",
+      "shaped": false,
+      "energy": 300,
+      "chemicals": [
+        {
+          "kind": "element",
+          "symbol": "Zr",
+          "amount": 2
+        },
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "contains": "xychoriumRed",
+      "shaped": false,
+      "energy": 300,
+      "chemicals": [
+        {
+          "kind": "element",
+          "symbol": "Zr",
+          "amount": 2
+        },
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "contains": "xychoriumGreen",
+      "shaped": false,
+      "energy": 300,
+      "chemicals": [
+        {
+          "kind": "element",
+          "symbol": "Zr",
+          "amount": 2
+        },
+        {
+          "kind": "element",
+          "symbol": "V",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "contains": "xychoriumDark",
+      "shaped": false,
+      "energy": 300,
+      "chemicals": [
+        {
+          "kind": "element",
+          "symbol": "Zr",
+          "amount": 2
+        },
+        {
+          "kind": "element",
+          "symbol": "Si",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "contains": "xychoriumLight",
+      "shaped": false,
+      "energy": 300,
+      "chemicals": [
+        {
+          "kind": "element",
+          "symbol": "Zr",
+          "amount": 2
+        },
+        {
+          "kind": "element",
+          "symbol": "Ti",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "contains": "gemPeridot",
+      "shaped": false,
+      "energy": 1000,
+      "chemicals": [
+        {
+          "kind": "molecule",
+          "name": "Olivine",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "contains": "cropMaloberry",
+      "shaped": false,
+      "energy": 1000,
+      "chemicals": [
+        {
+          "kind": "molecule",
+          "name": "Xylitol",
+          "amount": 1
+        },
+        {
+          "kind": "molecule",
+          "name": "Sucrose",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "contains": "cropDuskberry",
+      "requires": "recreationalChemicalEffects",
+      "shaped": false,
+      "energy": 1000,
+      "chemicals": [
+        {
+          "kind": "molecule",
+          "name": "Psilocybin",
+          "amount": 1
+        },
+        {
+          "kind": "element",
+          "symbol": "S",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "contains": "cropSkyberry",
+      "shaped": false,
+      "energy": 1000,
+      "chemicals": [
+        {
+          "kind": "molecule",
+          "name": "Theobromine",
+          "amount": 1
+        },
+        {
+          "kind": "element",
+          "symbol": "S",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "contains": "cropBlightberry",
+      "shaped": false,
+      "energy": 1000,
+      "chemicals": [
+        {
+          "kind": "molecule",
+          "name": "Aspirin",
+          "amount": 1
+        },
+        {
+          "kind": "element",
+          "symbol": "S",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "contains": "cropBlueberry",
+      "shaped": false,
+      "energy": 1000,
+      "chemicals": [
+        {
+          "kind": "molecule",
+          "name": "Guaiazulene",
+          "amount": 1
+        },
+        {
+          "kind": "molecule",
+          "name": "Sucrose",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "contains": "cropRaspberry",
+      "shaped": false,
+      "energy": 1000,
+      "chemicals": [
+        {
+          "kind": "molecule",
+          "name": "Pelargonidin",
+          "amount": 1
+        },
+        {
+          "kind": "molecule",
+          "name": "Sucrose",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "contains": "cropBlackberry",
+      "shaped": false,
+      "energy": 1000,
+      "chemicals": [
+        {
+          "kind": "molecule",
+          "name": "Delphinidin",
+          "amount": 1
+        },
+        {
+          "kind": "molecule",
+          "name": "Sucrose",
+          "amount": 2
+        }
+      ]
+    }
+  ]
+}

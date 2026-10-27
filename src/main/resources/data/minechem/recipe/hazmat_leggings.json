@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "LLL",
+    "S S",
+    "S S"
+  ],
+  "key": {
+    "S": "minecraft:slime_ball",
+    "L": {
+      "neoforge:ingredient_type": "minechem:element",
+      "atomic_number": 82
+    }
+  },
+  "result": {
+    "id": "minechem:hazmat_leggings",
+    "count": 1
+  }
+}

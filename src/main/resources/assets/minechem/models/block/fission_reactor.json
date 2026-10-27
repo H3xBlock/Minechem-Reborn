@@ -1,0 +1,5 @@
+{
+  "_comment": "The chambers use the default block texture on every side. Fission and fusion are separate blocks (fission_reactor, fusion_reactor), so no metadata value selects the type.",
+  "parent": "minecraft:block/cube_all",
+  "textures": { "all": "minechem:block/fusion_chamber_default" }
+}

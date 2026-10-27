@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minechem:item/bucket_content",
+    "layer1": "minechem:item/bucket_shell"
+  }
+}

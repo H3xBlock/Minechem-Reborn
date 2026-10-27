@@ -1,0 +1,9 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "minechem:item/microscope",
+    "model": {
+      "type": "minechem:microscope"
+    }
+  }
+}

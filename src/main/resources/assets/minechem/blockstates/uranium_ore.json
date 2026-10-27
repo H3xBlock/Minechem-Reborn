@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "minechem:block/uranium_ore"
+    }
+  }
+}

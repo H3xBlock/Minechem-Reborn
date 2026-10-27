@@ -1,0 +1,67 @@
+name: Build
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Build and test
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      # The mod is built with the Java 25 toolchain (build.gradle), the same as the local build.
+      - name: Set up Java 25
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 25
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4
+
+      # CC:Tweaked is compile-only and not in git (libs/). Its URL and SHA-256 are repository variables, so the build
+      # fails with a clear message when they are not set, instead of a Gradle error about a missing file.
+      - name: Fetch CC:Tweaked (compile-only)
+        env:
+          CC_JAR_URL: ${{ vars.CC_TWEAKED_JAR_URL }}
+          CC_JAR_SHA256: ${{ vars.CC_TWEAKED_JAR_SHA256 }}
+        run: |
+          # Repository variables are often pasted with a stray space or newline: strip all whitespace.
+          CC_JAR_URL=$(printf '%s' "$CC_JAR_URL" | tr -d '[:space:]')
+          CC_JAR_SHA256=$(printf '%s' "$CC_JAR_SHA256" | tr -d '[:space:]')
+          if [ -z "$CC_JAR_URL" ] || [ -z "$CC_JAR_SHA256" ]; then
+            echo "::error::Set the repository variables CC_TWEAKED_JAR_URL and CC_TWEAKED_JAR_SHA256 (see README)."
+            exit 1
+          fi
+          mkdir -p libs
+          curl -fsSL "$CC_JAR_URL" -o libs/cc-tweaked-26.1.2-neoforge-1.120.0.jar
+          echo "$CC_JAR_SHA256  libs/cc-tweaked-26.1.2-neoforge-1.120.0.jar" | sha256sum -c -
+
+      - name: Build and unit tests
+        run: ./gradlew build --no-daemon
+
+      - name: GameTests (dedicated server)
+        run: ./gradlew runGameTestServer --no-daemon
+
+      - name: Check the GameTest result
+        run: |
+          # The server prints "All N required tests passed" when every required test passed, and "N required tests failed" otherwise.
+          log=$(find run-gametest -name 'latest.log' | head -1)
+          test -n "$log"
+          grep -q "required tests passed" "$log"
+          ! grep -q "required tests failed" "$log"
+
+      - name: Upload the jar
+        uses: actions/upload-artifact@v4
+        with:
+          name: minechem-jar
+          path: build/libs/*.jar
+          if-no-files-found: error

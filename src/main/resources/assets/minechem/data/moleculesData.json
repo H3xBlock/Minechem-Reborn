@@ -1,0 +1,1213 @@
+{
+    "Cellulose": {
+        "Formula": "C6H10O5",
+        "Form": "solid",
+        "Colour": 65280,
+        "Colour2": 16384,
+        "Source": "cellulose"
+    },
+    "Water": {
+        "Formula": "H2O",
+        "Form": "liquid",
+        "Colour": 255,
+        "Colour2": 255,
+        "Source": "water"
+    },
+    "Carbon Dioxide": {
+        "Formula": "CO2",
+        "Form": "gas",
+        "Colour": 8421504,
+        "Colour2": 4210752,
+        "Source": "carbonDioxide"
+    },
+    "Nitrogen Dioxide": {
+        "Formula": "NO2",
+        "Form": "gas",
+        "Colour": 16754176,
+        "Colour2": 8397871,
+        "Source": "nitrogenDioxide"
+    },
+    "Toluene": {
+        "Formula": "C7H8",
+        "Form": "liquid",
+        "Colour": 16777215,
+        "Colour2": 13421772,
+        "Source": "toluene"
+    },
+    "Potassium Nitrate": {
+        "Formula": "KNO3",
+        "Form": "solid",
+        "Colour": 15132390,
+        "Colour2": 13421772,
+        "Source": "potassiumNitrate"
+    },
+    "Trinitrotoluene": {
+        "Formula": "C13H10N3O6",
+        "Form": "solid",
+        "Colour": 16776960,
+        "Colour2": 16754176,
+        "Source": "tnt"
+    },
+    "Silicon Dioxide": {
+        "Formula": "SiO2",
+        "Form": "solid",
+        "Colour": 16777215,
+        "Colour2": 16777215,
+        "Source": "siliconDioxide"
+    },
+    "calcicPyroxene": {
+        "Formula": "CaCrSi2O6",
+        "Form": "solid",
+        "Colour": 5070684,
+        "Colour2": 11453195,
+        "Source": "calcicPyroxene"
+    },
+    "Pyrite": {
+        "Formula": "FeS2",
+        "Form": "solid",
+        "Colour": 4870506,
+        "Colour2": 3735017,
+        "Source": "pyrite"
+    },
+    "Nepheline": {
+        "Formula": "AlSiO4",
+        "Form": "solid",
+        "Colour": 12450873,
+        "Colour2": 12414879,
+        "Source": "nepheline"
+    },
+    "Sulfate (ion)": {
+        "Formula": "SO4",
+        "Form": "solid",
+        "Colour": 13122592,
+        "Colour2": 14458988,
+        "Source": "sulfate"
+    },
+    "Noselite": {
+        "Formula": "Na8Al6Si6O28S",
+        "Form": "solid",
+        "Colour": 4724254,
+        "Colour2": 16470670,
+        "Source": "noselite"
+    },
+    "Sodalite": {
+        "Formula": "Na8Al6Si6O24Cl2",
+        "Form": "solid",
+        "Colour": 11015170,
+        "Colour2": 11113730,
+        "Source": "sodalite"
+    },
+    "Nitrate (ion)": {
+        "Formula": "NO3",
+        "Form": "solid",
+        "Colour": 7286888,
+        "Colour2": 6978240,
+        "Source": "nitrate"
+    },
+    "Carbonate (ion)": {
+        "Formula": "CO3",
+        "Form": "solid",
+        "Colour": 7619264,
+        "Colour2": 15156206,
+        "Source": "carbonate"
+    },
+    "Potassium Cyanide": {
+        "Formula": "KCN",
+        "Form": "liquid",
+        "Colour": 2485962,
+        "Colour2": 7341398,
+        "Source": "cyanide"
+    },
+    "Phosphate (ion)": {
+        "Formula": "PO4",
+        "Form": "solid",
+        "Colour": 12025725,
+        "Colour2": 16308185,
+        "Source": "phosphate"
+    },
+    "Acetate (ion)": {
+        "Formula": "C2H3O2",
+        "Form": "solid",
+        "Colour": 1175494,
+        "Colour2": 2261149,
+        "Source": "acetate"
+    },
+    "Chromate (ion)": {
+        "Formula": "CrO4",
+        "Form": "solid",
+        "Colour": 13929132,
+        "Colour2": 5733863,
+        "Source": "chromate"
+    },
+    "Hydroxide (ion)": {
+        "Formula": "OH",
+        "Form": "liquid",
+        "Colour": 9313905,
+        "Colour2": 4228107,
+        "Source": "hydroxide"
+    },
+    "Ammonium (ion)": {
+        "Formula": "NH4",
+        "Form": "liquid",
+        "Colour": 4436521,
+        "Colour2": 2105182,
+        "Source": "ammonium"
+    },
+    "Hydronium (ion)": {
+        "Formula": "H3O",
+        "Form": "liquid",
+        "Colour": 1898194,
+        "Colour2": 637161,
+        "Source": "hydronium"
+    },
+    "Peroxide (ion)": {
+        "Formula": "O2",
+        "Form": "liquid",
+        "Colour": 13988548,
+        "Colour2": 2353166,
+        "Source": "peroxide"
+    },
+    "Calcium Oxide": {
+        "Formula": "CaO",
+        "Form": "solid",
+        "Colour": 6286467,
+        "Colour2": 5376851,
+        "Source": "calciumOxide"
+    },
+    "Calcium Carbonate": {
+        "Formula": "CaCO3",
+        "Form": "solid",
+        "Colour": 16116808,
+        "Colour2": 14204244,
+        "Source": "calciumCarbonate"
+    },
+    "Magnesium Carbonate": {
+        "Formula": "MgCO3",
+        "Form": "solid",
+        "Colour": 13371864,
+        "Colour2": 1379911,
+        "Source": "magnesiumCarbonate"
+    },
+    "Lazurite": {
+        "Formula": "Na8AlSiO8S",
+        "Form": "solid",
+        "Colour": 13306260,
+        "Colour2": 1622450,
+        "Source": "lazurite"
+    },
+    "Isoprene": {
+        "Formula": "C5H8",
+        "Form": "solid",
+        "Colour": 2150957,
+        "Colour2": 12431213,
+        "Source": "isoprene"
+    },
+    "Butene": {
+        "Formula": "C4H8",
+        "Form": "gas",
+        "Colour": 9100287,
+        "Colour2": 1061509,
+        "Source": "butene"
+    },
+    "Polyisobutylene Rubber": {
+        "Formula": "C69H136",
+        "Form": "liquid",
+        "Colour": 871259,
+        "Colour2": 8353549,
+        "Source": "polyisobutylene"
+    },
+    "Malic Acid": {
+        "Formula": "C4H6O5",
+        "Form": "solid",
+        "Colour": 14503022,
+        "Colour2": 5983525,
+        "Source": "malicAcid"
+    },
+    "Vinyl Chloride Monomer": {
+        "Formula": "C2H3Cl",
+        "Form": "gas",
+        "Colour": 10271764,
+        "Colour2": 7784648,
+        "Source": "vinylChloride"
+    },
+    "Polyvinyl Chloride": {
+        "Formula": "C128H192Cl64",
+        "Form": "solid",
+        "Colour": 9839828,
+        "Colour2": 16558066,
+        "Source": "polyvinylChloride"
+    },
+    "Methamphetamine": {
+        "Formula": "C10H15N",
+        "Form": "solid",
+        "Colour": 9380703,
+        "Colour2": 4160205,
+        "Source": "methamphetamine"
+    },
+    "Psilocybin": {
+        "Formula": "C12H17N2O4P",
+        "Form": "solid",
+        "Colour": 13607125,
+        "Colour2": 12767532,
+        "Source": "psilocybin"
+    },
+    "Iron (III) Oxide": {
+        "Formula": "Fe2O3",
+        "Form": "solid",
+        "Colour": 3518353,
+        "Colour2": 1553762,
+        "Source": "iron3oxide"
+    },
+    "Strontium Nitrate": {
+        "Formula": "SrN2O6",
+        "Form": "solid",
+        "Colour": 6643692,
+        "Colour2": 15957576,
+        "Source": "strontiumNitrate"
+    },
+    "Magnetite": {
+        "Formula": "Fe3O4",
+        "Form": "solid",
+        "Colour": 14739215,
+        "Colour2": 10351610,
+        "Source": "magnetite"
+    },
+    "Magnesium Oxide": {
+        "Formula": "MgO",
+        "Form": "solid",
+        "Colour": 7197098,
+        "Colour2": 6878373,
+        "Source": "magnesiumOxide"
+    },
+    "Cucurbitacin": {
+        "Formula": "C30H42O7",
+        "Form": "solid",
+        "Colour": 14114904,
+        "Colour2": 219009,
+        "Source": "cucurbitacin"
+    },
+    "Aspartic Acid": {
+        "Formula": "C4H7NO4",
+        "Form": "solid",
+        "Colour": 15872318,
+        "Colour2": 3398752,
+        "Source": "asparticAcid"
+    },
+    "Hydroxylapatite": {
+        "Formula": "Ca5P3O13H",
+        "Form": "solid",
+        "Colour": 2571063,
+        "Colour2": 6576311,
+        "Source": "hydroxylapatite"
+    },
+    "Alanine": {
+        "Formula": "C3H7NO2",
+        "Form": "solid",
+        "Colour": 2755553,
+        "Colour2": 16465799,
+        "Source": "alinine"
+    },
+    "Glycine": {
+        "Formula": "C2H5NO2",
+        "Form": "solid",
+        "Colour": 5716874,
+        "Colour2": 4851941,
+        "Source": "glycine"
+    },
+    "Serine": {
+        "Formula": "C3H7NO3",
+        "Form": "solid",
+        "Colour": 1427563,
+        "Colour2": 5791506,
+        "Source": "serine"
+    },
+    "Mescaline": {
+        "Formula": "C11H17NO3",
+        "Form": "solid",
+        "Colour": 8540332,
+        "Colour2": 7930927,
+        "Source": "mescaline"
+    },
+    "Methyl (ion)": {
+        "Formula": "CH3",
+        "Form": "liquid",
+        "Colour": 4502425,
+        "Colour2": 11790267,
+        "Source": "methyl"
+    },
+    "Methylene (ion)": {
+        "Formula": "CH2",
+        "Form": "liquid",
+        "Colour": 12638469,
+        "Colour2": 1598835,
+        "Source": "methylene"
+    },
+    "Methyl Methacrylate": {
+        "Formula": "C5H9O2",
+        "Form": "liquid",
+        "Colour": 7817971,
+        "Colour2": 5460613,
+        "Source": "memethacrylate"
+    },
+    "Poly(methyl methacrylate)": {
+        "Formula": "C15H27O6",
+        "Form": "solid",
+        "Colour": 12406867,
+        "Colour2": 12773681,
+        "Source": "pmma"
+    },
+    "Cobalt(II) Nitrate": {
+        "Formula": "CoN2O6",
+        "Form": "solid",
+        "Colour": 3213489,
+        "Colour2": 3331982,
+        "Source": "redPigment"
+    },
+    "Potassium Dichromate": {
+        "Formula": "K2Cr2O7",
+        "Form": "solid",
+        "Colour": 14473652,
+        "Colour2": 11157821,
+        "Source": "orangePigment"
+    },
+    "Potassium Chromate": {
+        "Formula": "CrK2O4",
+        "Form": "solid",
+        "Colour": 10160349,
+        "Colour2": 4494059,
+        "Source": "yellowPigment"
+    },
+    "Nickel(II) Chloride": {
+        "Formula": "NiCl2",
+        "Form": "solid",
+        "Colour": 11770129,
+        "Colour2": 7914533,
+        "Source": "limePigment"
+    },
+    "Copper(II) Sulfate": {
+        "Formula": "CuSO4",
+        "Form": "solid",
+        "Colour": 14909507,
+        "Colour2": 3309968,
+        "Source": "lightbluePigment"
+    },
+    "Potassium Permanganate": {
+        "Formula": "KMnO4",
+        "Form": "solid",
+        "Colour": 338706,
+        "Colour2": 11366367,
+        "Source": "purplePigment"
+    },
+    "Zinc Green": {
+        "Formula": "CoZnO2",
+        "Form": "solid",
+        "Colour": 12632675,
+        "Colour2": 5595378,
+        "Source": "greenPigment"
+    },
+    "Carbon Black": {
+        "Formula": "CH2O",
+        "Form": "gas",
+        "Colour": 16018086,
+        "Colour2": 6159520,
+        "Source": "blackPigment"
+    },
+    "Titanium Dioxide": {
+        "Formula": "TiO2",
+        "Form": "solid",
+        "Colour": 14761318,
+        "Colour2": 7906945,
+        "Source": "whitePigment"
+    },
+    "Metasilicate": {
+        "Formula": "SiO3",
+        "Form": "solid",
+        "Colour": 9315900,
+        "Colour2": 2049793,
+        "Source": "metasilicate"
+    },
+    "Beryl": {
+        "Formula": "Be3Al2Si6O18",
+        "Form": "solid",
+        "Colour": 4250874,
+        "Colour2": 7685144,
+        "Source": "beryl"
+    },
+    "Ethyl Alcohol": {
+        "Formula": "C2H6O",
+        "Form": "liquid",
+        "Colour": 9302845,
+        "Colour2": 16227489,
+        "Source": "ethanol"
+    },
+    "Amphetamine": {
+        "Formula": "C9H13N",
+        "Form": "liquid",
+        "Colour": 15068518,
+        "Colour2": 13365502,
+        "Source": "amphetamine"
+    },
+    "Theobromine": {
+        "Formula": "C7H8N4O2",
+        "Form": "solid",
+        "Colour": 837573,
+        "Colour2": 11587399,
+        "Source": "theobromine"
+    },
+    "Starch": {
+        "Formula": "C18H30O15",
+        "Form": "solid",
+        "Colour": 9768777,
+        "Colour2": 12908003,
+        "Source": "starch"
+    },
+    "Sucrose": {
+        "Formula": "C12H22O11",
+        "Form": "solid",
+        "Colour": 4160046,
+        "Colour2": 9689698,
+        "Source": "sucrose"
+    },
+    "Pantherine": {
+        "Formula": "C4H6N2O2",
+        "Form": "solid",
+        "Colour": 7915453,
+        "Colour2": 891007,
+        "Source": "pantherine"
+    },
+    "Aluminium Oxide": {
+        "Formula": "Al2O3",
+        "Form": "solid",
+        "Colour": 4738872,
+        "Colour2": 1294735,
+        "Source": "aluminiumOxide"
+    },
+    "Carbon Nanotubes": {
+        "Formula": "C256",
+        "Form": "solid",
+        "Colour": 7895160,
+        "Colour2": 7895160,
+        "Source": "fullrene"
+    },
+    "Valine": {
+        "Formula": "C5H11NO2",
+        "Form": "solid",
+        "Colour": 12044925,
+        "Colour2": 9439609,
+        "Source": "valine"
+    },
+    "Penicillin": {
+        "Formula": "C16H18N2O4S",
+        "Form": "solid",
+        "Colour": 14228536,
+        "Colour2": 16273143,
+        "Source": "penicillin"
+    },
+    "Testosterone": {
+        "Formula": "C19H28O2",
+        "Form": "liquid",
+        "Colour": 16637143,
+        "Colour2": 11917102,
+        "Source": "testosterone"
+    },
+    "Kaolinite": {
+        "Formula": "Al2Si2O9H4",
+        "Form": "solid",
+        "Colour": 11040727,
+        "Colour2": 5772514,
+        "Source": "kaolinite"
+    },
+    "Fingolimod": {
+        "Formula": "C19H33NO2",
+        "Form": "solid",
+        "Colour": 10406945,
+        "Colour2": 15835593,
+        "Source": "fingolimod"
+    },
+    "Arginine": {
+        "Formula": "C6H14N4O2",
+        "Form": "solid",
+        "Colour": 8416025,
+        "Colour2": 10766463,
+        "Source": "arginine"
+    },
+    "Shikimic Acid": {
+        "Formula": "C7H10O5",
+        "Form": "solid",
+        "Colour": 10073384,
+        "Colour2": 8122890,
+        "Source": "shikimicAcid"
+    },
+    "Sulfuric Acid": {
+        "Formula": "H2SO4",
+        "Form": "liquid",
+        "Colour": 1317427,
+        "Colour2": 3758247,
+        "Source": "sulfuricAcid"
+    },
+    "Glyphosate": {
+        "Formula": "C3H8NO5P",
+        "Form": "liquid",
+        "Colour": 9681096,
+        "Colour2": 13995569,
+        "Source": "glyphosate"
+    },
+    "Aspirin": {
+        "Formula": "C9H8O4",
+        "Form": "solid",
+        "Colour": 8765845,
+        "Colour2": 15363196,
+        "Source": "asprin"
+    },
+    "DDT": {
+        "Formula": "C14H9Cl5",
+        "Form": "solid",
+        "Colour": 10828666,
+        "Colour2": 1132261,
+        "Source": "ddt"
+    },
+    "DOTA": {
+        "Formula": "C16H28N4O8",
+        "Form": "solid",
+        "Colour": 3403414,
+        "Colour2": 5435783,
+        "Source": "dota"
+    },
+    "T-2 Mycotoxin": {
+        "Formula": "C24H34O9",
+        "Form": "solid",
+        "Colour": 14930962,
+        "Colour2": 14930962,
+        "Source": "mycotoxin"
+    },
+    "Salt": {
+        "Formula": "NaCl",
+        "Form": "solid",
+        "Colour": 13031891,
+        "Colour2": 10343855,
+        "Source": "salt"
+    },
+    "Ammonia": {
+        "Formula": "NH3",
+        "Form": "gas",
+        "Colour": 1977187,
+        "Colour2": 2384503,
+        "Source": "ammonia"
+    },
+    "Nodularin": {
+        "Formula": "C41H60N8O10",
+        "Form": "solid",
+        "Colour": 15204900,
+        "Colour2": 9148576,
+        "Source": "nodularin"
+    },
+    "Tetrodotoxin": {
+        "Formula": "C11H11N3O8",
+        "Form": "solid",
+        "Colour": 11138928,
+        "Colour2": 11257748,
+        "Source": "tetrodotoxin"
+    },
+    "THC": {
+        "Formula": "C21H30O2",
+        "Form": "solid",
+        "Colour": 3173034,
+        "Colour2": 14897289,
+        "Source": "thc"
+    },
+    "Methylcyclopentadienyl Manganese Tricarbonyl": {
+        "Formula": "C9H7MnO3",
+        "Form": "liquid",
+        "Colour": 14303279,
+        "Colour2": 4008615,
+        "Source": "mt"
+    },
+    "Tert-Butyllithium": {
+        "Formula": "LiC4H9",
+        "Form": "solid",
+        "Colour": 1426240,
+        "Colour2": 11282865,
+        "Source": "buli"
+    },
+    "Chloroplatinic Acid": {
+        "Formula": "H2PtCl6",
+        "Form": "solid",
+        "Colour": 8995835,
+        "Colour2": 9666784,
+        "Source": "plat"
+    },
+    "Phosgene": {
+        "Formula": "COCl2",
+        "Form": "gas",
+        "Colour": 1904138,
+        "Colour2": 4553568,
+        "Source": "phosgene"
+    },
+    "Allyl Alcohol": {
+        "Formula": "C3H6O",
+        "Form": "liquid",
+        "Colour": 12636649,
+        "Colour2": 16458617,
+        "Source": "aalc"
+    },
+    "Diphenhydramine": {
+        "Formula": "C17H21NO",
+        "Form": "solid",
+        "Colour": 13876602,
+        "Colour2": 6959347,
+        "Source": "hist"
+    },
+    "Batrachotoxin": {
+        "Formula": "C31H42N2O6",
+        "Form": "solid",
+        "Colour": 1225235,
+        "Colour2": 9631085,
+        "Source": "pal2"
+    },
+    "Retinol": {
+        "Formula": "C20H30O",
+        "Form": "solid",
+        "Colour": 2972679,
+        "Colour2": 4196475,
+        "Source": "retinol"
+    },
+    "Xylitol": {
+        "Formula": "C5H12O5",
+        "Form": "solid",
+        "Colour": 14434410,
+        "Colour2": 7885575,
+        "Source": "xylitol"
+    },
+    "Aminocyclopyrachlor": {
+        "Formula": "C8H8ClN3O2",
+        "Form": "solid",
+        "Colour": 682953,
+        "Colour2": 7415078,
+        "Source": "weedex"
+    },
+    "Alprazolam": {
+        "Formula": "C17H13ClN4",
+        "Form": "solid",
+        "Colour": 9313563,
+        "Colour2": 9496684,
+        "Source": "xanax"
+    },
+    "Hydrogen Chloride": {
+        "Formula": "HCl",
+        "Form": "liquid",
+        "Colour": 16682015,
+        "Colour2": 11329229,
+        "Source": "hcl"
+    },
+    "Cocaine": {
+        "Formula": "C17H21NO4",
+        "Form": "solid",
+        "Colour": 3891356,
+        "Colour2": 6288665,
+        "Source": "cocaine"
+    },
+    "Cocaine Hydrochloride": {
+        "Formula": "C17H22NO4Cl",
+        "Form": "solid",
+        "Colour": 15278206,
+        "Colour2": 130607,
+        "Source": "cocainehcl"
+    },
+    "Guaiazulene": {
+        "Formula": "C15H18",
+        "Form": "liquid",
+        "Colour": 12253425,
+        "Colour2": 3617638,
+        "Source": "blueorgodye"
+    },
+    "Pelargonidin": {
+        "Formula": "C15H11O11",
+        "Form": "solid",
+        "Colour": 10922635,
+        "Colour2": 12712358,
+        "Source": "redorgodye"
+    },
+    "Delphinidin": {
+        "Formula": "C15H11O7",
+        "Form": "solid",
+        "Colour": 8076603,
+        "Colour2": 11519048,
+        "Source": "purpleorgodye"
+    },
+    "Olivine": {
+        "Formula": "Fe2SiO4",
+        "Form": "solid",
+        "Colour": 10096823,
+        "Colour2": 15269126,
+        "Source": "olivine"
+    },
+    "Methylene Blue": {
+        "Formula": "C16H18N3SCl",
+        "Form": "solid",
+        "Colour": 2107038,
+        "Colour2": 3020582,
+        "Source": "metblue"
+    },
+    "Methyl Alcohol": {
+        "Formula": "CH4O",
+        "Form": "liquid",
+        "Colour": 11783330,
+        "Colour2": 15448457,
+        "Source": "meoh"
+    },
+    "Cholesteryl Benzoate": {
+        "Formula": "C34H50O2",
+        "Form": "solid",
+        "Colour": 16112904,
+        "Colour2": 15678560,
+        "Source": "lcd"
+    },
+    "Radium Chloride": {
+        "Formula": "RaCl2",
+        "Form": "solid",
+        "Colour": 6022456,
+        "Colour2": 8960131,
+        "Source": "radchlor"
+    },
+    "Caulerpenyne": {
+        "Formula": "C21H26O6",
+        "Form": "solid",
+        "Colour": 8636459,
+        "Colour2": 6275332,
+        "Source": "caulerpenyne"
+    },
+    "Hyoscyamine": {
+        "Formula": "C17H23NO4",
+        "Form": "solid",
+        "Colour": 5891855,
+        "Colour2": 6821547,
+        "Source": "latropine"
+    },
+    "Gallic Acid": {
+        "Formula": "C7H17O5",
+        "Form": "solid",
+        "Colour": 10724204,
+        "Colour2": 8051598,
+        "Source": "gallicacid"
+    },
+    "Glucose": {
+        "Formula": "C6H12O6",
+        "Form": "solid",
+        "Colour": 6825357,
+        "Colour2": 4833798,
+        "Source": "glucose"
+    },
+    "Tannic Acid": {
+        "Formula": "C76H182O56",
+        "Form": "solid",
+        "Colour": 4593387,
+        "Colour2": 11070918,
+        "Source": "tannicacid"
+    },
+    "Hydrogen Peroxide": {
+        "Formula": "H2O2",
+        "Form": "liquid",
+        "Colour": 2000887,
+        "Colour2": 7165526,
+        "Source": "hperox"
+    },
+    "Gallium Arsenide": {
+        "Formula": "GaAs",
+        "Form": "solid",
+        "Colour": 8509280,
+        "Colour2": 13628862,
+        "Source": "galliumarsenide"
+    },
+    "Fibroin": {
+        "Formula": "C15H36N6O13",
+        "Form": "liquid",
+        "Colour": 7965950,
+        "Colour2": 4411518,
+        "Source": "fibroin"
+    },
+    "Aluminium Phosphate": {
+        "Formula": "AlPO4",
+        "Form": "solid",
+        "Colour": 205298,
+        "Colour2": 11748193,
+        "Source": "aluminiumPhosphate"
+    },
+    "Potassium Oxide": {
+        "Formula": "K2O",
+        "Form": "solid",
+        "Colour": 15514532,
+        "Colour2": 7626284,
+        "Source": "potassiumOxide"
+    },
+    "Sodium Oxide": {
+        "Formula": "Na2O",
+        "Form": "solid",
+        "Colour": 3490412,
+        "Colour2": 16685086,
+        "Source": "sodiumOxide"
+    },
+    "Anorthite": {
+        "Formula": "CaAl2Si2O8",
+        "Form": "solid",
+        "Colour": 9622149,
+        "Colour2": 8844043,
+        "Source": "plagioclaseAnorthite"
+    },
+    "Albite": {
+        "Formula": "NaAl2Si3O8",
+        "Form": "solid",
+        "Colour": 15889562,
+        "Colour2": 11921446,
+        "Source": "plagioclaseAlbite"
+    },
+    "Orthoclase": {
+        "Formula": "KAlSi3O8",
+        "Form": "solid",
+        "Colour": 15192932,
+        "Colour2": 267767,
+        "Source": "orthoclase"
+    },
+    "Biotite": {
+        "Formula": "KFe3AlSi3O10F2",
+        "Form": "solid",
+        "Colour": 16671740,
+        "Colour2": 6446809,
+        "Source": "biotite"
+    },
+    "Augite": {
+        "Formula": "NaFeAl2O6",
+        "Form": "solid",
+        "Colour": 15018326,
+        "Colour2": 5804737,
+        "Source": "augite"
+    },
+    "Talc": {
+        "Formula": "Mg3Si4O10",
+        "Form": "solid",
+        "Colour": 10202801,
+        "Colour2": 7320349,
+        "Source": "talc"
+    },
+    "Propane": {
+        "Formula": "C3H8",
+        "Form": "gas",
+        "Colour": 15562784,
+        "Colour2": 9305704,
+        "Source": "propane"
+    },
+    "Peridot": {
+        "Formula": "Mg2O4Si",
+        "Form": "solid",
+        "Colour": 6994248,
+        "Colour2": 6384361,
+        "Source": "peridot"
+    },
+    "Topaz": {
+        "Formula": "Al2O4F2",
+        "Form": "solid",
+        "Colour": 9878280,
+        "Colour2": 2912537,
+        "Source": "topaz"
+    },
+    "Zoisite": {
+        "Formula": "Ca2Al3Si3O13H",
+        "Form": "solid",
+        "Colour": 417966,
+        "Colour2": 4899775,
+        "Source": "zoisite"
+    },
+    "Cysteine": {
+        "Formula": "C3H7NO2S",
+        "Form": "solid",
+        "Colour": 4519815,
+        "Colour2": 14889577,
+        "Source": "cysteine"
+    },
+    "Threonine": {
+        "Formula": "C4H9NO3",
+        "Form": "solid",
+        "Colour": 11529520,
+        "Colour2": 9331227,
+        "Source": "threonine"
+    },
+    "Lysine": {
+        "Formula": "C6H14N2O2",
+        "Form": "solid",
+        "Colour": 1568361,
+        "Colour2": 7542243,
+        "Source": "lysine"
+    },
+    "Methionine": {
+        "Formula": "C5H11NO2S",
+        "Form": "solid",
+        "Colour": 3382172,
+        "Colour2": 14629148,
+        "Source": "methionine"
+    },
+    "Tyrosine": {
+        "Formula": "C9H11NO3",
+        "Form": "solid",
+        "Colour": 3715887,
+        "Colour2": 9813142,
+        "Source": "tyrosine"
+    },
+    "Histidine": {
+        "Formula": "C6H9N3O2",
+        "Form": "solid",
+        "Colour": 7371429,
+        "Colour2": 2581961,
+        "Source": "histidine"
+    },
+    "Phenylalanine": {
+        "Formula": "C9H11NO2",
+        "Form": "solid",
+        "Colour": 11938974,
+        "Colour2": 2287635,
+        "Source": "phenylalanine"
+    },
+    "Glutamine": {
+        "Formula": "C5H10N2O3",
+        "Form": "solid",
+        "Colour": 14356079,
+        "Colour2": 10507156,
+        "Source": "glutamine"
+    },
+    "Proline": {
+        "Formula": "C5H9NO2",
+        "Form": "solid",
+        "Colour": 6103973,
+        "Colour2": 11198630,
+        "Source": "proline"
+    },
+    "Leucine": {
+        "Formula": "C6H13NO2",
+        "Form": "solid",
+        "Colour": 9479160,
+        "Colour2": 791155,
+        "Source": "leucine"
+    },
+    "Tryptophan": {
+        "Formula": "C11H12N2O2",
+        "Form": "solid",
+        "Colour": 4953681,
+        "Colour2": 14147213,
+        "Source": "tryptophan"
+    },
+    "Isoleucine": {
+        "Formula": "C6H13NO2",
+        "Form": "solid",
+        "Colour": 6385988,
+        "Colour2": 2382966,
+        "Source": "isoleucine"
+    },
+    "Glutamic Acid": {
+        "Formula": "C5H9NO4",
+        "Form": "solid",
+        "Colour": 7969439,
+        "Colour2": 14884415,
+        "Source": "glutamates"
+    },
+    "Asparagine": {
+        "Formula": "C4H8N2O3",
+        "Form": "solid",
+        "Colour": 3330065,
+        "Colour2": 11465668,
+        "Source": "asparagine"
+    },
+    "Keratin": {
+        "Formula": "C29H59N7O16S2",
+        "Form": "solid",
+        "Colour": 6141981,
+        "Colour2": 12443990,
+        "Source": "keratin"
+    },
+    "Asbestos": {
+        "Formula": "Mg3Si2O9H4",
+        "Form": "solid",
+        "Colour": 1868372,
+        "Colour2": 15663576,
+        "Source": "asbestos"
+    },
+    "Lithium Hydroxide": {
+        "Formula": "LiOH",
+        "Form": "solid",
+        "Colour": 8181803,
+        "Colour2": 2759754,
+        "Source": "lithiumHydroxide"
+    },
+    "Sodium Hydroxide": {
+        "Formula": "NaOH",
+        "Form": "solid",
+        "Colour": 4781265,
+        "Colour2": 5039312,
+        "Source": "sodiumHydroxide"
+    },
+    "Potassium Hydroxide": {
+        "Formula": "KOH",
+        "Form": "solid",
+        "Colour": 8481648,
+        "Colour2": 5056176,
+        "Source": "potassiumHydroxide"
+    },
+    "Rubidium Hydroxide": {
+        "Formula": "RbOH",
+        "Form": "solid",
+        "Colour": 10262854,
+        "Colour2": 15145475,
+        "Source": "rubidiumHydroxide"
+    },
+    "Cesium Hydroxide": {
+        "Formula": "CsOH",
+        "Form": "solid",
+        "Colour": 13143746,
+        "Colour2": 4487760,
+        "Source": "cesiumHydroxide"
+    },
+    "Francium Hydroxide": {
+        "Formula": "FrOH",
+        "Form": "solid",
+        "Colour": 16350479,
+        "Colour2": 13766982,
+        "Source": "franciumHydroxide"
+    },
+    "Hypophosphite": {
+        "Formula": "H2PO2",
+        "Form": "solid",
+        "Colour": 4093982,
+        "Colour2": 12021854,
+        "Source": "hypophosphite"
+    },
+    "Aluminium Hypophosphite": {
+        "Formula": "AlH6P3O6",
+        "Form": "solid",
+        "Colour": 16334388,
+        "Colour2": 2455600,
+        "Source": "aluminiumHypophosphite"
+    },
+    "Omphacite": {
+        "Formula": "CaAlSi2O6",
+        "Form": "solid",
+        "Colour": 8037690,
+        "Colour2": 1275543,
+        "Source": "omphacite"
+    },
+    "Silicate": {
+        "Formula": "SiO4",
+        "Form": "solid",
+        "Colour": 1316042,
+        "Colour2": 8571594,
+        "Source": "silicate"
+    },
+    "Pyrope": {
+        "Formula": "Mg3Al2Si3O12",
+        "Form": "solid",
+        "Colour": 7026092,
+        "Colour2": 13941381,
+        "Source": "pyrope"
+    },
+    "Almandine": {
+        "Formula": "Fe3Al2Si3O12",
+        "Form": "solid",
+        "Colour": 6965756,
+        "Colour2": 5745994,
+        "Source": "almadine"
+    },
+    "Spessartine": {
+        "Formula": "Mn3Al2Si3O12",
+        "Form": "solid",
+        "Colour": 111162,
+        "Colour2": 11568928,
+        "Source": "spessartine"
+    },
+    "Red Garnet": {
+        "Formula": "Mg9Al32Si48O192Fe15Mn24",
+        "Form": "solid",
+        "Colour": 5912438,
+        "Colour2": 727481,
+        "Source": "redGarnet"
+    },
+    "Forsterite": {
+        "Formula": "Mg2SiO4",
+        "Form": "solid",
+        "Colour": 12377012,
+        "Colour2": 14247543,
+        "Source": "forsterite"
+    },
+    "Chromite": {
+        "Formula": "FeCr2O4",
+        "Form": "solid",
+        "Colour": 2435645,
+        "Colour2": 3704227,
+        "Source": "chromite"
+    },
+    "Silicon Oxide": {
+        "Formula": "SiO",
+        "Form": "solid",
+        "Colour": 6711810,
+        "Colour2": 7696658,
+        "Source": "siliconOxide"
+    },
+    "Iron Oxide": {
+        "Formula": "FeO",
+        "Form": "solid",
+        "Colour": 15552098,
+        "Colour2": 338451,
+        "Source": "ironOxide"
+    },
+    "Gallium Oxide": {
+        "Formula": "GaO2",
+        "Form": "solid",
+        "Colour": 7235251,
+        "Colour2": 6711269,
+        "Source": "galliumOxide"
+    },
+    "Arsenic Oxide": {
+        "Formula": "AsO2",
+        "Form": "solid",
+        "Colour": 6070033,
+        "Colour2": 13944619,
+        "Source": "arsenicOxide"
+    },
+    "Sulfur Dioxide": {
+        "Formula": "SO2",
+        "Form": "gas",
+        "Colour": 13477453,
+        "Colour2": 13046393,
+        "Source": "sulfurDioxide"
+    },
+    "Hydrogen Sulfide": {
+        "Formula": "H2S",
+        "Form": "gas",
+        "Colour": 3851512,
+        "Colour2": 11791941,
+        "Source": "hydrogenSulfide"
+    },
+    "Sodium Bisulfate": {
+        "Formula": "NaHSO4",
+        "Form": "solid",
+        "Colour": 220452,
+        "Colour2": 14138653,
+        "Source": "sodiumBisulfate"
+    },
+    "Sodium Sulfate": {
+        "Formula": "Na2SO4",
+        "Form": "solid",
+        "Colour": 13040650,
+        "Colour2": 188082,
+        "Source": "sodiumSulfate"
+    },
+    "Dimethyltryptamine": {
+        "Formula": "C12H16N2",
+        "Form": "solid",
+        "Colour": 1933461,
+        "Colour2": 16253817,
+        "Source": "dimethyltryptamine"
+    },
+    "Oleic Acid": {
+        "Formula": "C18H34O2",
+        "Form": "solid",
+        "Colour": 10514721,
+        "Colour2": 4023313,
+        "Source": "oleicAcid"
+    }
+}

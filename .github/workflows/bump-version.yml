@@ -1,0 +1,58 @@
+# Raises the mod version: writes mod_version in gradle.properties, adds an empty section to CHANGELOG.md, commits on the
+# branch it runs on and creates the tag v<version>. It does not publish: publish.yml does that, by hand.
+name: Bump version
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "New version, for example 26.1.2.2-beta.1 or 26.1.2.2"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  bump:
+    name: Bump the mod version
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Update the version, the changelog and the tag
+        env:
+          NEW_VERSION: ${{ inputs.version }}
+        run: |
+          set -euo pipefail
+          if ! [[ "$NEW_VERSION" =~ ^26\.1\.2\.[0-9]+(-(alpha|beta)\.[0-9]+)?$ ]]; then
+            echo "::error::Version '$NEW_VERSION' does not match 26.1.2.<build>[-alpha|beta.<n>]"
+            exit 1
+          fi
+          if git rev-parse -q --verify "refs/tags/v$NEW_VERSION" >/dev/null; then
+            echo "::error::The tag v$NEW_VERSION already exists"
+            exit 1
+          fi
+          if grep -q "^## \[$NEW_VERSION\]" CHANGELOG.md; then
+            echo "::error::CHANGELOG.md already has a section [$NEW_VERSION]"
+            exit 1
+          fi
+
+          sed -i "s/^mod_version=.*/mod_version=$NEW_VERSION/" gradle.properties
+          # New section right after the first line that starts with "## " (the first release section).
+          today=$(date -u +%F)
+          sed -i "0,/^## \[/s//## [$NEW_VERSION] - $today\n\n### Changed\n\n- Nothing yet.\n\n## [/" CHANGELOG.md
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add gradle.properties CHANGELOG.md
+          git commit -m "Version $NEW_VERSION"
+          git tag "v$NEW_VERSION"
+          git push origin "HEAD:$GITHUB_REF_NAME" --follow-tags
+          # A tag pushed with GITHUB_TOKEN does not start the Release workflow, so start it here.
+          gh workflow run release.yml --ref "v$NEW_VERSION" -f tag="v$NEW_VERSION"

@@ -1,0 +1,8063 @@
+{
+  "source": "Molecule outputs are the display names of the en_US lang file (molecule.<id>). Fluid inputs are keyed fluid:<name>; only the vanilla fluids water and lava are here (milk and the molten metals, ender, etc. are mod or Forge fluids, not in NeoForge 26.1 vanilla, so they are left out).",
+  "recipes": [
+    {
+      "kind": "plain",
+      "input": "Cellulose",
+      "chance": 1.0,
+      "line": 62,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 6
+        },
+        {
+          "symbol": "H",
+          "amount": 10
+        },
+        {
+          "symbol": "O",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Water",
+      "chance": 1.0,
+      "line": 63,
+      "outputs": [
+        {
+          "symbol": "H",
+          "amount": 2
+        },
+        {
+          "symbol": "O",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Carbon Dioxide",
+      "chance": 1.0,
+      "line": 64,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Nitrogen Dioxide",
+      "chance": 1.0,
+      "line": 65,
+      "outputs": [
+        {
+          "symbol": "N",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Toluene",
+      "chance": 1.0,
+      "line": 66,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 7
+        },
+        {
+          "symbol": "H",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Potassium Nitrate",
+      "chance": 1.0,
+      "line": 67,
+      "outputs": [
+        {
+          "symbol": "K",
+          "amount": 1
+        },
+        {
+          "symbol": "N",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Trinitrotoluene",
+      "chance": 1.0,
+      "line": 68,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 6
+        },
+        {
+          "symbol": "H",
+          "amount": 2
+        },
+        {
+          "name": "Nitrogen Dioxide",
+          "amount": 3
+        },
+        {
+          "name": "Toluene",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Silicon Dioxide",
+      "chance": 1.0,
+      "line": 69,
+      "outputs": [
+        {
+          "symbol": "Si",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "calcicPyroxene",
+      "chance": 1.0,
+      "line": 71,
+      "outputs": [
+        {
+          "symbol": "Ca",
+          "amount": 1
+        },
+        {
+          "symbol": "Cr",
+          "amount": 1
+        },
+        {
+          "symbol": "Si",
+          "amount": 2
+        },
+        {
+          "symbol": "O",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Pyrite",
+      "chance": 1.0,
+      "line": 72,
+      "outputs": [
+        {
+          "symbol": "Fe",
+          "amount": 1
+        },
+        {
+          "symbol": "S",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Nepheline",
+      "chance": 1.0,
+      "line": 73,
+      "outputs": [
+        {
+          "symbol": "Al",
+          "amount": 1
+        },
+        {
+          "symbol": "Si",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Sulfate (ion)",
+      "chance": 1.0,
+      "line": 74,
+      "outputs": [
+        {
+          "symbol": "S",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Noselite",
+      "chance": 1.0,
+      "line": 75,
+      "outputs": [
+        {
+          "symbol": "Na",
+          "amount": 8
+        },
+        {
+          "name": "Nepheline",
+          "amount": 6
+        },
+        {
+          "name": "Sulfate (ion)",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Sodalite",
+      "chance": 1.0,
+      "line": 76,
+      "outputs": [
+        {
+          "symbol": "Na",
+          "amount": 8
+        },
+        {
+          "name": "Nepheline",
+          "amount": 6
+        },
+        {
+          "symbol": "Cl",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Nitrate (ion)",
+      "chance": 1.0,
+      "line": 77,
+      "outputs": [
+        {
+          "symbol": "N",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Carbonate (ion)",
+      "chance": 1.0,
+      "line": 78,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Potassium Cyanide",
+      "chance": 1.0,
+      "line": 79,
+      "outputs": [
+        {
+          "symbol": "K",
+          "amount": 1
+        },
+        {
+          "symbol": "C",
+          "amount": 1
+        },
+        {
+          "symbol": "N",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Phosphate (ion)",
+      "chance": 1.0,
+      "line": 80,
+      "outputs": [
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Acetate (ion)",
+      "chance": 1.0,
+      "line": 81,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 2
+        },
+        {
+          "symbol": "H",
+          "amount": 3
+        },
+        {
+          "symbol": "O",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Chromate (ion)",
+      "chance": 1.0,
+      "line": 82,
+      "outputs": [
+        {
+          "symbol": "Cr",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Hydroxide (ion)",
+      "chance": 1.0,
+      "line": 83,
+      "outputs": [
+        {
+          "symbol": "O",
+          "amount": 1
+        },
+        {
+          "symbol": "H",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Ammonium (ion)",
+      "chance": 1.0,
+      "line": 84,
+      "outputs": [
+        {
+          "symbol": "N",
+          "amount": 1
+        },
+        {
+          "symbol": "H",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Hydronium (ion)",
+      "chance": 1.0,
+      "line": 85,
+      "outputs": [
+        {
+          "symbol": "H",
+          "amount": 3
+        },
+        {
+          "symbol": "O",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Peroxide (ion)",
+      "chance": 1.0,
+      "line": 86,
+      "outputs": [
+        {
+          "symbol": "O",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Calcium Oxide",
+      "chance": 1.0,
+      "line": 87,
+      "outputs": [
+        {
+          "symbol": "Ca",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Calcium Carbonate",
+      "chance": 1.0,
+      "line": 88,
+      "outputs": [
+        {
+          "symbol": "Ca",
+          "amount": 1
+        },
+        {
+          "name": "Carbonate (ion)",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Magnesium Carbonate",
+      "chance": 1.0,
+      "line": 89,
+      "outputs": [
+        {
+          "symbol": "Mg",
+          "amount": 1
+        },
+        {
+          "name": "Carbonate (ion)",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Lazurite",
+      "chance": 1.0,
+      "line": 90,
+      "outputs": [
+        {
+          "symbol": "Na",
+          "amount": 8
+        },
+        {
+          "name": "Nepheline",
+          "amount": 1
+        },
+        {
+          "name": "Sulfate (ion)",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Isoprene",
+      "chance": 1.0,
+      "line": 91,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 5
+        },
+        {
+          "symbol": "H",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Butene",
+      "chance": 1.0,
+      "line": 92,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 4
+        },
+        {
+          "symbol": "H",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Polyisobutylene Rubber",
+      "chance": 1.0,
+      "line": 93,
+      "outputs": [
+        {
+          "name": "Butene",
+          "amount": 16
+        },
+        {
+          "name": "Isoprene",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Malic Acid",
+      "chance": 1.0,
+      "line": 94,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 4
+        },
+        {
+          "symbol": "H",
+          "amount": 6
+        },
+        {
+          "symbol": "O",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Vinyl Chloride Monomer",
+      "chance": 1.0,
+      "line": 95,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 2
+        },
+        {
+          "symbol": "H",
+          "amount": 3
+        },
+        {
+          "symbol": "Cl",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Polyvinyl Chloride",
+      "chance": 1.0,
+      "line": 96,
+      "outputs": [
+        {
+          "name": "Vinyl Chloride Monomer",
+          "amount": 64
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Methamphetamine",
+      "chance": 1.0,
+      "line": 97,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 10
+        },
+        {
+          "symbol": "H",
+          "amount": 15
+        },
+        {
+          "symbol": "N",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "fluid:water",
+      "chance": 1.0,
+      "line": 97,
+      "fluidAmount": 1000,
+      "outputs": [
+        {
+          "symbol": "H",
+          "amount": 2
+        },
+        {
+          "symbol": "O",
+          "amount": 1
+        }
+      ],
+      "basis": "The fluid registry constant is added first; a later duplicate for the same fluid is ignored."
+    },
+    {
+      "kind": "plain",
+      "input": "Psilocybin",
+      "chance": 1.0,
+      "line": 98,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 12
+        },
+        {
+          "symbol": "H",
+          "amount": 17
+        },
+        {
+          "symbol": "N",
+          "amount": 2
+        },
+        {
+          "symbol": "O",
+          "amount": 4
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Iron (III) Oxide",
+      "chance": 1.0,
+      "line": 99,
+      "outputs": [
+        {
+          "symbol": "Fe",
+          "amount": 2
+        },
+        {
+          "symbol": "O",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Strontium Nitrate",
+      "chance": 1.0,
+      "line": 100,
+      "outputs": [
+        {
+          "symbol": "Sr",
+          "amount": 1
+        },
+        {
+          "name": "Nitrate (ion)",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Magnetite",
+      "chance": 1.0,
+      "line": 101,
+      "outputs": [
+        {
+          "symbol": "Fe",
+          "amount": 3
+        },
+        {
+          "symbol": "O",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Magnesium Oxide",
+      "chance": 1.0,
+      "line": 102,
+      "outputs": [
+        {
+          "symbol": "Mg",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Cucurbitacin",
+      "chance": 1.0,
+      "line": 103,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 30
+        },
+        {
+          "symbol": "H",
+          "amount": 42
+        },
+        {
+          "symbol": "O",
+          "amount": 7
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Aspartic Acid",
+      "chance": 1.0,
+      "line": 104,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 4
+        },
+        {
+          "symbol": "H",
+          "amount": 7
+        },
+        {
+          "symbol": "N",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Hydroxylapatite",
+      "chance": 1.0,
+      "line": 105,
+      "outputs": [
+        {
+          "symbol": "Ca",
+          "amount": 5
+        },
+        {
+          "name": "Phosphate (ion)",
+          "amount": 3
+        },
+        {
+          "symbol": "O",
+          "amount": 1
+        },
+        {
+          "symbol": "H",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "select",
+      "input": "fluid:lava",
+      "chance": 0.2,
+      "line": 105,
+      "fluidAmount": 250,
+      "alternatives": [
+        [
+          {
+            "symbol": "Si",
+            "amount": 1
+          },
+          {
+            "symbol": "O",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Fe",
+            "amount": 1
+          },
+          {
+            "symbol": "O",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Mg",
+            "amount": 1
+          },
+          {
+            "symbol": "O",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Ti",
+            "amount": 1
+          },
+          {
+            "symbol": "O",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Pb",
+            "amount": 1
+          },
+          {
+            "symbol": "O",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Na",
+            "amount": 1
+          },
+          {
+            "symbol": "Cl",
+            "amount": 1
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Alanine",
+      "chance": 1.0,
+      "line": 106,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 3
+        },
+        {
+          "symbol": "H",
+          "amount": 7
+        },
+        {
+          "symbol": "N",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Glycine",
+      "chance": 1.0,
+      "line": 107,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 2
+        },
+        {
+          "symbol": "H",
+          "amount": 5
+        },
+        {
+          "symbol": "N",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Serine",
+      "chance": 1.0,
+      "line": 108,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 3
+        },
+        {
+          "symbol": "H",
+          "amount": 7
+        },
+        {
+          "name": "Nitrate (ion)",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Mescaline",
+      "chance": 1.0,
+      "line": 109,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 11
+        },
+        {
+          "symbol": "H",
+          "amount": 17
+        },
+        {
+          "name": "Nitrate (ion)",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Methyl (ion)",
+      "chance": 1.0,
+      "line": 110,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 1
+        },
+        {
+          "symbol": "H",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Methylene (ion)",
+      "chance": 1.0,
+      "line": 111,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 1
+        },
+        {
+          "symbol": "H",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Methyl Methacrylate",
+      "chance": 1.0,
+      "line": 112,
+      "outputs": [
+        {
+          "name": "Methyl (ion)",
+          "amount": 3
+        },
+        {
+          "symbol": "C",
+          "amount": 2
+        },
+        {
+          "symbol": "O",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Poly(methyl methacrylate)",
+      "chance": 1.0,
+      "line": 113,
+      "outputs": [
+        {
+          "name": "Methyl Methacrylate",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Cobalt(II) Nitrate",
+      "chance": 1.0,
+      "line": 114,
+      "outputs": [
+        {
+          "symbol": "Co",
+          "amount": 1
+        },
+        {
+          "name": "Nitrate (ion)",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Potassium Dichromate",
+      "chance": 1.0,
+      "line": 115,
+      "outputs": [
+        {
+          "symbol": "K",
+          "amount": 2
+        },
+        {
+          "symbol": "Cr",
+          "amount": 2
+        },
+        {
+          "symbol": "O",
+          "amount": 7
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Potassium Chromate",
+      "chance": 1.0,
+      "line": 116,
+      "outputs": [
+        {
+          "symbol": "Cr",
+          "amount": 1
+        },
+        {
+          "symbol": "K",
+          "amount": 2
+        },
+        {
+          "symbol": "O",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Nickel(II) Chloride",
+      "chance": 1.0,
+      "line": 117,
+      "outputs": [
+        {
+          "symbol": "Ni",
+          "amount": 1
+        },
+        {
+          "symbol": "Cl",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Copper(II) Sulfate",
+      "chance": 1.0,
+      "line": 118,
+      "outputs": [
+        {
+          "symbol": "Cu",
+          "amount": 1
+        },
+        {
+          "name": "Sulfate (ion)",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Potassium Permanganate",
+      "chance": 1.0,
+      "line": 119,
+      "outputs": [
+        {
+          "symbol": "K",
+          "amount": 1
+        },
+        {
+          "symbol": "Mn",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Zinc Green",
+      "chance": 1.0,
+      "line": 120,
+      "outputs": [
+        {
+          "symbol": "Co",
+          "amount": 1
+        },
+        {
+          "symbol": "Zn",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Carbon Black",
+      "chance": 1.0,
+      "line": 121,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 1
+        },
+        {
+          "symbol": "H",
+          "amount": 2
+        },
+        {
+          "symbol": "O",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Titanium Dioxide",
+      "chance": 1.0,
+      "line": 122,
+      "outputs": [
+        {
+          "symbol": "Ti",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Metasilicate",
+      "chance": 1.0,
+      "line": 123,
+      "outputs": [
+        {
+          "symbol": "Si",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Beryl",
+      "chance": 1.0,
+      "line": 124,
+      "outputs": [
+        {
+          "symbol": "Be",
+          "amount": 3
+        },
+        {
+          "symbol": "Al",
+          "amount": 2
+        },
+        {
+          "name": "Metasilicate",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Ethyl Alcohol",
+      "chance": 1.0,
+      "line": 125,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 2
+        },
+        {
+          "symbol": "H",
+          "amount": 5
+        },
+        {
+          "name": "Hydroxide (ion)",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Amphetamine",
+      "chance": 1.0,
+      "line": 126,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 9
+        },
+        {
+          "symbol": "H",
+          "amount": 13
+        },
+        {
+          "symbol": "N",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Theobromine",
+      "chance": 1.0,
+      "line": 127,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 7
+        },
+        {
+          "symbol": "H",
+          "amount": 8
+        },
+        {
+          "symbol": "N",
+          "amount": 4
+        },
+        {
+          "symbol": "O",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Starch",
+      "chance": 1.0,
+      "line": 128,
+      "outputs": [
+        {
+          "name": "Cellulose",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Sucrose",
+      "chance": 1.0,
+      "line": 129,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 12
+        },
+        {
+          "symbol": "H",
+          "amount": 22
+        },
+        {
+          "symbol": "O",
+          "amount": 11
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Pantherine",
+      "chance": 1.0,
+      "line": 130,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 4
+        },
+        {
+          "symbol": "H",
+          "amount": 6
+        },
+        {
+          "symbol": "N",
+          "amount": 2
+        },
+        {
+          "symbol": "O",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Aluminium Oxide",
+      "chance": 1.0,
+      "line": 131,
+      "outputs": [
+        {
+          "symbol": "Al",
+          "amount": 2
+        },
+        {
+          "symbol": "O",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Carbon Nanotubes",
+      "chance": 1.0,
+      "line": 132,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 64
+        },
+        {
+          "symbol": "C",
+          "amount": 64
+        },
+        {
+          "symbol": "C",
+          "amount": 64
+        },
+        {
+          "symbol": "C",
+          "amount": 64
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Valine",
+      "chance": 1.0,
+      "line": 133,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 5
+        },
+        {
+          "symbol": "H",
+          "amount": 11
+        },
+        {
+          "symbol": "N",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Penicillin",
+      "chance": 1.0,
+      "line": 134,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 16
+        },
+        {
+          "symbol": "H",
+          "amount": 18
+        },
+        {
+          "symbol": "N",
+          "amount": 2
+        },
+        {
+          "symbol": "O",
+          "amount": 4
+        },
+        {
+          "symbol": "S",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Testosterone",
+      "chance": 1.0,
+      "line": 135,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 19
+        },
+        {
+          "symbol": "H",
+          "amount": 28
+        },
+        {
+          "symbol": "O",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Kaolinite",
+      "chance": 1.0,
+      "line": 136,
+      "outputs": [
+        {
+          "symbol": "Al",
+          "amount": 2
+        },
+        {
+          "symbol": "Si",
+          "amount": 2
+        },
+        {
+          "symbol": "O",
+          "amount": 5
+        },
+        {
+          "name": "Hydroxide (ion)",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Fingolimod",
+      "chance": 1.0,
+      "line": 137,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 19
+        },
+        {
+          "symbol": "H",
+          "amount": 33
+        },
+        {
+          "name": "Nitrogen Dioxide",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Arginine",
+      "chance": 1.0,
+      "line": 138,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 6
+        },
+        {
+          "symbol": "H",
+          "amount": 14
+        },
+        {
+          "symbol": "N",
+          "amount": 4
+        },
+        {
+          "symbol": "O",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Shikimic Acid",
+      "chance": 1.0,
+      "line": 139,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 7
+        },
+        {
+          "symbol": "H",
+          "amount": 10
+        },
+        {
+          "symbol": "O",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Sulfuric Acid",
+      "chance": 1.0,
+      "line": 140,
+      "outputs": [
+        {
+          "symbol": "H",
+          "amount": 2
+        },
+        {
+          "symbol": "S",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Glyphosate",
+      "chance": 1.0,
+      "line": 141,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 3
+        },
+        {
+          "symbol": "H",
+          "amount": 8
+        },
+        {
+          "symbol": "N",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 5
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Aspirin",
+      "chance": 1.0,
+      "line": 142,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 9
+        },
+        {
+          "symbol": "H",
+          "amount": 8
+        },
+        {
+          "symbol": "O",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "DDT",
+      "chance": 1.0,
+      "line": 143,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 14
+        },
+        {
+          "symbol": "H",
+          "amount": 9
+        },
+        {
+          "symbol": "Cl",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "DOTA",
+      "chance": 1.0,
+      "line": 144,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 16
+        },
+        {
+          "symbol": "H",
+          "amount": 28
+        },
+        {
+          "symbol": "N",
+          "amount": 4
+        },
+        {
+          "symbol": "O",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "T-2 Mycotoxin",
+      "chance": 1.0,
+      "line": 145,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 24
+        },
+        {
+          "symbol": "H",
+          "amount": 34
+        },
+        {
+          "symbol": "O",
+          "amount": 9
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Salt",
+      "chance": 1.0,
+      "line": 146,
+      "outputs": [
+        {
+          "symbol": "Na",
+          "amount": 1
+        },
+        {
+          "symbol": "Cl",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Ammonia",
+      "chance": 1.0,
+      "line": 147,
+      "outputs": [
+        {
+          "symbol": "N",
+          "amount": 1
+        },
+        {
+          "symbol": "H",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Nodularin",
+      "chance": 1.0,
+      "line": 148,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 41
+        },
+        {
+          "symbol": "H",
+          "amount": 60
+        },
+        {
+          "symbol": "N",
+          "amount": 8
+        },
+        {
+          "symbol": "O",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Tetrodotoxin",
+      "chance": 1.0,
+      "line": 149,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 11
+        },
+        {
+          "symbol": "H",
+          "amount": 11
+        },
+        {
+          "symbol": "N",
+          "amount": 3
+        },
+        {
+          "symbol": "O",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "THC",
+      "chance": 1.0,
+      "line": 150,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 21
+        },
+        {
+          "symbol": "H",
+          "amount": 30
+        },
+        {
+          "symbol": "O",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Methylcyclopentadienyl Manganese Tricarbonyl",
+      "chance": 1.0,
+      "line": 151,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 9
+        },
+        {
+          "symbol": "H",
+          "amount": 7
+        },
+        {
+          "symbol": "Mn",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Tert-Butyllithium",
+      "chance": 1.0,
+      "line": 152,
+      "outputs": [
+        {
+          "symbol": "Li",
+          "amount": 1
+        },
+        {
+          "symbol": "C",
+          "amount": 4
+        },
+        {
+          "symbol": "H",
+          "amount": 9
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Chloroplatinic Acid",
+      "chance": 1.0,
+      "line": 153,
+      "outputs": [
+        {
+          "symbol": "H",
+          "amount": 2
+        },
+        {
+          "symbol": "Pt",
+          "amount": 1
+        },
+        {
+          "symbol": "Cl",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Phosgene",
+      "chance": 1.0,
+      "line": 154,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 1
+        },
+        {
+          "symbol": "Cl",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Allyl Alcohol",
+      "chance": 1.0,
+      "line": 155,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 3
+        },
+        {
+          "symbol": "H",
+          "amount": 5
+        },
+        {
+          "name": "Hydroxide (ion)",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Diphenhydramine",
+      "chance": 1.0,
+      "line": 156,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 17
+        },
+        {
+          "symbol": "H",
+          "amount": 21
+        },
+        {
+          "symbol": "N",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Batrachotoxin",
+      "chance": 1.0,
+      "line": 157,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 31
+        },
+        {
+          "symbol": "H",
+          "amount": 42
+        },
+        {
+          "symbol": "N",
+          "amount": 2
+        },
+        {
+          "symbol": "O",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Retinol",
+      "chance": 1.0,
+      "line": 158,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 20
+        },
+        {
+          "symbol": "H",
+          "amount": 29
+        },
+        {
+          "name": "Hydroxide (ion)",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Xylitol",
+      "chance": 1.0,
+      "line": 159,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 5
+        },
+        {
+          "symbol": "H",
+          "amount": 12
+        },
+        {
+          "symbol": "O",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Aminocyclopyrachlor",
+      "chance": 1.0,
+      "line": 160,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 8
+        },
+        {
+          "symbol": "H",
+          "amount": 8
+        },
+        {
+          "symbol": "Cl",
+          "amount": 1
+        },
+        {
+          "symbol": "N",
+          "amount": 3
+        },
+        {
+          "symbol": "O",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Alprazolam",
+      "chance": 1.0,
+      "line": 161,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 17
+        },
+        {
+          "symbol": "H",
+          "amount": 13
+        },
+        {
+          "symbol": "Cl",
+          "amount": 1
+        },
+        {
+          "symbol": "N",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Hydrogen Chloride",
+      "chance": 1.0,
+      "line": 162,
+      "outputs": [
+        {
+          "symbol": "H",
+          "amount": 1
+        },
+        {
+          "symbol": "Cl",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Cocaine",
+      "chance": 1.0,
+      "line": 163,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 17
+        },
+        {
+          "symbol": "H",
+          "amount": 21
+        },
+        {
+          "symbol": "N",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Cocaine Hydrochloride",
+      "chance": 1.0,
+      "line": 164,
+      "outputs": [
+        {
+          "name": "Cocaine",
+          "amount": 1
+        },
+        {
+          "name": "Hydrogen Chloride",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Guaiazulene",
+      "chance": 1.0,
+      "line": 165,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 15
+        },
+        {
+          "symbol": "H",
+          "amount": 18
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Pelargonidin",
+      "chance": 1.0,
+      "line": 166,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 15
+        },
+        {
+          "symbol": "H",
+          "amount": 11
+        },
+        {
+          "symbol": "O",
+          "amount": 11
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Delphinidin",
+      "chance": 1.0,
+      "line": 167,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 15
+        },
+        {
+          "symbol": "H",
+          "amount": 11
+        },
+        {
+          "symbol": "O",
+          "amount": 7
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Olivine",
+      "chance": 1.0,
+      "line": 168,
+      "outputs": [
+        {
+          "symbol": "Fe",
+          "amount": 2
+        },
+        {
+          "symbol": "Si",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Methylene Blue",
+      "chance": 1.0,
+      "line": 169,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 16
+        },
+        {
+          "symbol": "H",
+          "amount": 18
+        },
+        {
+          "symbol": "N",
+          "amount": 3
+        },
+        {
+          "symbol": "S",
+          "amount": 1
+        },
+        {
+          "symbol": "Cl",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Methyl Alcohol",
+      "chance": 1.0,
+      "line": 170,
+      "outputs": [
+        {
+          "name": "Methyl (ion)",
+          "amount": 1
+        },
+        {
+          "name": "Hydroxide (ion)",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Cholesteryl Benzoate",
+      "chance": 1.0,
+      "line": 171,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 34
+        },
+        {
+          "symbol": "H",
+          "amount": 50
+        },
+        {
+          "symbol": "O",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Radium Chloride",
+      "chance": 1.0,
+      "line": 172,
+      "outputs": [
+        {
+          "symbol": "Ra",
+          "amount": 1
+        },
+        {
+          "symbol": "Cl",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Caulerpenyne",
+      "chance": 1.0,
+      "line": 173,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 21
+        },
+        {
+          "symbol": "H",
+          "amount": 26
+        },
+        {
+          "symbol": "O",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Hyoscyamine",
+      "chance": 1.0,
+      "line": 174,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 17
+        },
+        {
+          "symbol": "H",
+          "amount": 23
+        },
+        {
+          "symbol": "N",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Gallic Acid",
+      "chance": 1.0,
+      "line": 175,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 7
+        },
+        {
+          "symbol": "H",
+          "amount": 17
+        },
+        {
+          "symbol": "O",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Glucose",
+      "chance": 1.0,
+      "line": 176,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 6
+        },
+        {
+          "symbol": "H",
+          "amount": 12
+        },
+        {
+          "symbol": "O",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Tannic Acid",
+      "chance": 1.0,
+      "line": 177,
+      "outputs": [
+        {
+          "name": "Gallic Acid",
+          "amount": 10
+        },
+        {
+          "name": "Glucose",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Hydrogen Peroxide",
+      "chance": 1.0,
+      "line": 178,
+      "outputs": [
+        {
+          "symbol": "H",
+          "amount": 2
+        },
+        {
+          "name": "Peroxide (ion)",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Gallium Arsenide",
+      "chance": 1.0,
+      "line": 179,
+      "outputs": [
+        {
+          "symbol": "Ga",
+          "amount": 1
+        },
+        {
+          "symbol": "As",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Fibroin",
+      "chance": 1.0,
+      "line": 180,
+      "outputs": [
+        {
+          "name": "Glycine",
+          "amount": 1
+        },
+        {
+          "name": "Serine",
+          "amount": 1
+        },
+        {
+          "name": "Glycine",
+          "amount": 1
+        },
+        {
+          "name": "Alanine",
+          "amount": 1
+        },
+        {
+          "name": "Glycine",
+          "amount": 1
+        },
+        {
+          "name": "Alanine",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Aluminium Phosphate",
+      "chance": 1.0,
+      "line": 181,
+      "outputs": [
+        {
+          "symbol": "Al",
+          "amount": 1
+        },
+        {
+          "name": "Phosphate (ion)",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Potassium Oxide",
+      "chance": 1.0,
+      "line": 182,
+      "outputs": [
+        {
+          "symbol": "K",
+          "amount": 2
+        },
+        {
+          "symbol": "O",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Sodium Oxide",
+      "chance": 1.0,
+      "line": 183,
+      "outputs": [
+        {
+          "symbol": "Na",
+          "amount": 2
+        },
+        {
+          "symbol": "O",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Anorthite",
+      "chance": 1.0,
+      "line": 187,
+      "outputs": [
+        {
+          "symbol": "Ca",
+          "amount": 1
+        },
+        {
+          "symbol": "Al",
+          "amount": 2
+        },
+        {
+          "symbol": "Si",
+          "amount": 2
+        },
+        {
+          "symbol": "O",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Albite",
+      "chance": 1.0,
+      "line": 188,
+      "outputs": [
+        {
+          "symbol": "Na",
+          "amount": 1
+        },
+        {
+          "symbol": "Al",
+          "amount": 2
+        },
+        {
+          "symbol": "Si",
+          "amount": 3
+        },
+        {
+          "symbol": "O",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Orthoclase",
+      "chance": 1.0,
+      "line": 189,
+      "outputs": [
+        {
+          "symbol": "K",
+          "amount": 1
+        },
+        {
+          "symbol": "Al",
+          "amount": 1
+        },
+        {
+          "symbol": "Si",
+          "amount": 3
+        },
+        {
+          "symbol": "O",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Biotite",
+      "chance": 1.0,
+      "line": 190,
+      "outputs": [
+        {
+          "symbol": "K",
+          "amount": 1
+        },
+        {
+          "symbol": "Fe",
+          "amount": 3
+        },
+        {
+          "symbol": "Al",
+          "amount": 1
+        },
+        {
+          "symbol": "Si",
+          "amount": 3
+        },
+        {
+          "symbol": "O",
+          "amount": 10
+        },
+        {
+          "symbol": "F",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Augite",
+      "chance": 1.0,
+      "line": 191,
+      "outputs": [
+        {
+          "symbol": "Na",
+          "amount": 1
+        },
+        {
+          "symbol": "Fe",
+          "amount": 1
+        },
+        {
+          "symbol": "Al",
+          "amount": 2
+        },
+        {
+          "symbol": "O",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Talc",
+      "chance": 1.0,
+      "line": 192,
+      "outputs": [
+        {
+          "symbol": "Mg",
+          "amount": 3
+        },
+        {
+          "symbol": "Si",
+          "amount": 4
+        },
+        {
+          "symbol": "O",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Propane",
+      "chance": 1.0,
+      "line": 195,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 3
+        },
+        {
+          "symbol": "H",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Peridot",
+      "chance": 1.0,
+      "line": 196,
+      "outputs": [
+        {
+          "symbol": "Mg",
+          "amount": 2
+        },
+        {
+          "symbol": "O",
+          "amount": 4
+        },
+        {
+          "symbol": "Si",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Topaz",
+      "chance": 1.0,
+      "line": 197,
+      "outputs": [
+        {
+          "symbol": "Al",
+          "amount": 2
+        },
+        {
+          "symbol": "O",
+          "amount": 4
+        },
+        {
+          "symbol": "F",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Zoisite",
+      "chance": 1.0,
+      "line": 198,
+      "outputs": [
+        {
+          "symbol": "Ca",
+          "amount": 2
+        },
+        {
+          "symbol": "Al",
+          "amount": 3
+        },
+        {
+          "symbol": "Si",
+          "amount": 3
+        },
+        {
+          "symbol": "O",
+          "amount": 13
+        },
+        {
+          "symbol": "H",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Cysteine",
+      "chance": 1.0,
+      "line": 200,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 3
+        },
+        {
+          "symbol": "H",
+          "amount": 7
+        },
+        {
+          "symbol": "N",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 2
+        },
+        {
+          "symbol": "S",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Threonine",
+      "chance": 1.0,
+      "line": 201,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 4
+        },
+        {
+          "symbol": "H",
+          "amount": 9
+        },
+        {
+          "symbol": "N",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Lysine",
+      "chance": 1.0,
+      "line": 202,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 6
+        },
+        {
+          "symbol": "H",
+          "amount": 14
+        },
+        {
+          "symbol": "N",
+          "amount": 2
+        },
+        {
+          "symbol": "O",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Methionine",
+      "chance": 1.0,
+      "line": 203,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 5
+        },
+        {
+          "symbol": "H",
+          "amount": 11
+        },
+        {
+          "symbol": "N",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 2
+        },
+        {
+          "symbol": "S",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Tyrosine",
+      "chance": 1.0,
+      "line": 204,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 9
+        },
+        {
+          "symbol": "H",
+          "amount": 11
+        },
+        {
+          "symbol": "N",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Histidine",
+      "chance": 1.0,
+      "line": 205,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 6
+        },
+        {
+          "symbol": "H",
+          "amount": 9
+        },
+        {
+          "symbol": "N",
+          "amount": 3
+        },
+        {
+          "symbol": "O",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Phenylalanine",
+      "chance": 1.0,
+      "line": 206,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 9
+        },
+        {
+          "symbol": "H",
+          "amount": 11
+        },
+        {
+          "symbol": "N",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Glutamine",
+      "chance": 1.0,
+      "line": 207,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 5
+        },
+        {
+          "symbol": "H",
+          "amount": 10
+        },
+        {
+          "symbol": "N",
+          "amount": 2
+        },
+        {
+          "symbol": "O",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Proline",
+      "chance": 1.0,
+      "line": 208,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 5
+        },
+        {
+          "symbol": "H",
+          "amount": 9
+        },
+        {
+          "symbol": "N",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Leucine",
+      "chance": 1.0,
+      "line": 209,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 6
+        },
+        {
+          "symbol": "H",
+          "amount": 13
+        },
+        {
+          "symbol": "N",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Tryptophan",
+      "chance": 1.0,
+      "line": 210,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 11
+        },
+        {
+          "symbol": "H",
+          "amount": 12
+        },
+        {
+          "symbol": "N",
+          "amount": 2
+        },
+        {
+          "symbol": "O",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Isoleucine",
+      "chance": 1.0,
+      "line": 211,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 6
+        },
+        {
+          "symbol": "H",
+          "amount": 13
+        },
+        {
+          "symbol": "N",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Glutamic Acid",
+      "chance": 1.0,
+      "line": 212,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 5
+        },
+        {
+          "symbol": "H",
+          "amount": 9
+        },
+        {
+          "symbol": "N",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Asparagine",
+      "chance": 1.0,
+      "line": 213,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 4
+        },
+        {
+          "symbol": "H",
+          "amount": 8
+        },
+        {
+          "symbol": "N",
+          "amount": 2
+        },
+        {
+          "symbol": "O",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Keratin",
+      "chance": 1.0,
+      "line": 214,
+      "outputs": [
+        {
+          "name": "Threonine",
+          "amount": 1
+        },
+        {
+          "name": "Cysteine",
+          "amount": 1
+        },
+        {
+          "name": "Proline",
+          "amount": 1
+        },
+        {
+          "name": "Threonine",
+          "amount": 1
+        },
+        {
+          "name": "Proline",
+          "amount": 1
+        },
+        {
+          "name": "Cysteine",
+          "amount": 1
+        },
+        {
+          "name": "Proline",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Asbestos",
+      "chance": 1.0,
+      "line": 217,
+      "outputs": [
+        {
+          "symbol": "Mg",
+          "amount": 3
+        },
+        {
+          "symbol": "Si",
+          "amount": 2
+        },
+        {
+          "symbol": "O",
+          "amount": 5
+        },
+        {
+          "name": "Hydroxide (ion)",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Lithium Hydroxide",
+      "chance": 1.0,
+      "line": 220,
+      "outputs": [
+        {
+          "symbol": "Li",
+          "amount": 1
+        },
+        {
+          "name": "Hydroxide (ion)",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Sodium Hydroxide",
+      "chance": 1.0,
+      "line": 221,
+      "outputs": [
+        {
+          "symbol": "Na",
+          "amount": 1
+        },
+        {
+          "name": "Hydroxide (ion)",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Potassium Hydroxide",
+      "chance": 1.0,
+      "line": 222,
+      "outputs": [
+        {
+          "symbol": "K",
+          "amount": 1
+        },
+        {
+          "name": "Hydroxide (ion)",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Rubidium Hydroxide",
+      "chance": 1.0,
+      "line": 223,
+      "outputs": [
+        {
+          "symbol": "Rb",
+          "amount": 1
+        },
+        {
+          "name": "Hydroxide (ion)",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Cesium Hydroxide",
+      "chance": 1.0,
+      "line": 224,
+      "outputs": [
+        {
+          "symbol": "Cs",
+          "amount": 1
+        },
+        {
+          "name": "Hydroxide (ion)",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Francium Hydroxide",
+      "chance": 1.0,
+      "line": 225,
+      "outputs": [
+        {
+          "symbol": "Fr",
+          "amount": 1
+        },
+        {
+          "name": "Hydroxide (ion)",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Hypophosphite",
+      "chance": 1.0,
+      "line": 228,
+      "outputs": [
+        {
+          "symbol": "H",
+          "amount": 2
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Aluminium Hypophosphite",
+      "chance": 1.0,
+      "line": 229,
+      "outputs": [
+        {
+          "symbol": "Al",
+          "amount": 1
+        },
+        {
+          "name": "Hypophosphite",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Omphacite",
+      "chance": 1.0,
+      "line": 232,
+      "outputs": [
+        {
+          "symbol": "Ca",
+          "amount": 1
+        },
+        {
+          "symbol": "Al",
+          "amount": 1
+        },
+        {
+          "symbol": "Si",
+          "amount": 2
+        },
+        {
+          "symbol": "O",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Silicate",
+      "chance": 1.0,
+      "line": 233,
+      "outputs": [
+        {
+          "symbol": "Si",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Pyrope",
+      "chance": 1.0,
+      "line": 234,
+      "outputs": [
+        {
+          "symbol": "Mg",
+          "amount": 3
+        },
+        {
+          "symbol": "Al",
+          "amount": 2
+        },
+        {
+          "name": "Silicate",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Almandine",
+      "chance": 1.0,
+      "line": 235,
+      "outputs": [
+        {
+          "symbol": "Fe",
+          "amount": 3
+        },
+        {
+          "symbol": "Al",
+          "amount": 2
+        },
+        {
+          "name": "Silicate",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Spessartine",
+      "chance": 1.0,
+      "line": 236,
+      "outputs": [
+        {
+          "symbol": "Mn",
+          "amount": 3
+        },
+        {
+          "symbol": "Al",
+          "amount": 2
+        },
+        {
+          "name": "Silicate",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Red Garnet",
+      "chance": 1.0,
+      "line": 237,
+      "outputs": [
+        {
+          "name": "Pyrope",
+          "amount": 3
+        },
+        {
+          "name": "Almandine",
+          "amount": 5
+        },
+        {
+          "name": "Spessartine",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Forsterite",
+      "chance": 1.0,
+      "line": 238,
+      "outputs": [
+        {
+          "symbol": "Mg",
+          "amount": 2
+        },
+        {
+          "name": "Silicate",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Chromite",
+      "chance": 1.0,
+      "line": 239,
+      "outputs": [
+        {
+          "symbol": "Fe",
+          "amount": 1
+        },
+        {
+          "symbol": "Cr",
+          "amount": 2
+        },
+        {
+          "symbol": "O",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Silicon Oxide",
+      "chance": 1.0,
+      "line": 242,
+      "outputs": [
+        {
+          "symbol": "Si",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Iron Oxide",
+      "chance": 1.0,
+      "line": 243,
+      "outputs": [
+        {
+          "symbol": "Fe",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Gallium Oxide",
+      "chance": 1.0,
+      "line": 246,
+      "outputs": [
+        {
+          "symbol": "Ga",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Arsenic Oxide",
+      "chance": 1.0,
+      "line": 247,
+      "outputs": [
+        {
+          "symbol": "As",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Sulfur Dioxide",
+      "chance": 1.0,
+      "line": 250,
+      "outputs": [
+        {
+          "symbol": "S",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Hydrogen Sulfide",
+      "chance": 1.0,
+      "line": 251,
+      "outputs": [
+        {
+          "symbol": "H",
+          "amount": 2
+        },
+        {
+          "symbol": "S",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Sodium Bisulfate",
+      "chance": 1.0,
+      "line": 252,
+      "outputs": [
+        {
+          "symbol": "Na",
+          "amount": 1
+        },
+        {
+          "symbol": "H",
+          "amount": 1
+        },
+        {
+          "name": "Sulfate (ion)",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Sodium Sulfate",
+      "chance": 1.0,
+      "line": 253,
+      "outputs": [
+        {
+          "symbol": "Na",
+          "amount": 2
+        },
+        {
+          "name": "Sulfate (ion)",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Dimethyltryptamine",
+      "chance": 1.0,
+      "line": 254,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 12
+        },
+        {
+          "symbol": "H",
+          "amount": 16
+        },
+        {
+          "symbol": "N",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "Oleic Acid",
+      "chance": 1.0,
+      "line": 256,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 18
+        },
+        {
+          "symbol": "H",
+          "amount": 34
+        },
+        {
+          "symbol": "O",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "select",
+      "input": "minecraft:stone",
+      "chance": 0.2,
+      "line": 284,
+      "alternatives": [
+        [
+          {
+            "symbol": "Si",
+            "amount": 1
+          },
+          {
+            "symbol": "O",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Fe",
+            "amount": 1
+          },
+          {
+            "symbol": "O",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Mg",
+            "amount": 1
+          },
+          {
+            "symbol": "O",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Ti",
+            "amount": 1
+          },
+          {
+            "symbol": "O",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Pb",
+            "amount": 1
+          },
+          {
+            "symbol": "O",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Zn",
+            "amount": 1
+          },
+          {
+            "symbol": "O",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Al",
+            "amount": 1
+          },
+          {
+            "symbol": "O",
+            "amount": 1
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "select",
+      "input": "minecraft:grass_block",
+      "chance": 0.07,
+      "line": 316,
+      "alternatives": [
+        [
+          {
+            "symbol": "Si",
+            "amount": 1
+          },
+          {
+            "symbol": "O",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Fe",
+            "amount": 1
+          },
+          {
+            "symbol": "O",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Mg",
+            "amount": 1
+          },
+          {
+            "symbol": "O",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Ti",
+            "amount": 1
+          },
+          {
+            "symbol": "O",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Pb",
+            "amount": 1
+          },
+          {
+            "symbol": "O",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Zn",
+            "amount": 1
+          },
+          {
+            "symbol": "O",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Ga",
+            "amount": 1
+          },
+          {
+            "symbol": "As",
+            "amount": 1
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "select",
+      "input": "minecraft:dirt",
+      "chance": 0.07,
+      "line": 353,
+      "alternatives": [
+        [
+          {
+            "symbol": "Si",
+            "amount": 1
+          },
+          {
+            "symbol": "O",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Fe",
+            "amount": 1
+          },
+          {
+            "symbol": "O",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Mg",
+            "amount": 1
+          },
+          {
+            "symbol": "O",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Ti",
+            "amount": 1
+          },
+          {
+            "symbol": "O",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Pb",
+            "amount": 1
+          },
+          {
+            "symbol": "O",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Zn",
+            "amount": 1
+          },
+          {
+            "symbol": "O",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Ga",
+            "amount": 1
+          },
+          {
+            "symbol": "As",
+            "amount": 1
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "select",
+      "input": "minecraft:podzol",
+      "chance": 0.07,
+      "line": 378,
+      "alternatives": [
+        [
+          {
+            "symbol": "Si",
+            "amount": 1
+          },
+          {
+            "symbol": "O",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Fe",
+            "amount": 1
+          },
+          {
+            "symbol": "O",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Mg",
+            "amount": 1
+          },
+          {
+            "symbol": "O",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Ti",
+            "amount": 1
+          },
+          {
+            "symbol": "O",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Pb",
+            "amount": 1
+          },
+          {
+            "symbol": "O",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Zn",
+            "amount": 1
+          },
+          {
+            "symbol": "O",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Ga",
+            "amount": 1
+          },
+          {
+            "symbol": "As",
+            "amount": 1
+          }
+        ]
+      ],
+      "basis": "Legacy vanilla metadata order, not verified against the game: dirt metadata 2 = podzol."
+    },
+    {
+      "kind": "select",
+      "input": "minecraft:cobblestone",
+      "chance": 0.1,
+      "line": 414,
+      "alternatives": [
+        [
+          {
+            "symbol": "Si",
+            "amount": 1
+          },
+          {
+            "symbol": "O",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Fe",
+            "amount": 1
+          },
+          {
+            "symbol": "O",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Mg",
+            "amount": 1
+          },
+          {
+            "symbol": "O",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Ti",
+            "amount": 1
+          },
+          {
+            "symbol": "O",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Pb",
+            "amount": 1
+          },
+          {
+            "symbol": "O",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Na",
+            "amount": 1
+          },
+          {
+            "symbol": "Cl",
+            "amount": 1
+          }
+        ]
+      ]
+    },
+    {
+      "input": "minecraft:oak_planks",
+      "chance": 0.4,
+      "line": 449,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Cellulose",
+          "amount": 2
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:spruce_planks",
+      "chance": 0.4,
+      "line": 453,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Cellulose",
+          "amount": 2
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:birch_planks",
+      "chance": 0.4,
+      "line": 457,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Cellulose",
+          "amount": 2
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:jungle_planks",
+      "chance": 0.4,
+      "line": 461,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Cellulose",
+          "amount": 2
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:acacia_planks",
+      "chance": 0.4,
+      "line": 465,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Cellulose",
+          "amount": 2
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:dark_oak_planks",
+      "chance": 0.4,
+      "line": 469,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Cellulose",
+          "amount": 2
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:oak_slab",
+      "chance": 0.4,
+      "line": 506,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Cellulose",
+          "amount": 2
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:spruce_slab",
+      "chance": 0.4,
+      "line": 510,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Cellulose",
+          "amount": 2
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:birch_slab",
+      "chance": 0.4,
+      "line": 514,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Cellulose",
+          "amount": 2
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:jungle_slab",
+      "chance": 0.4,
+      "line": 518,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Cellulose",
+          "amount": 2
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:acacia_slab",
+      "chance": 0.4,
+      "line": 522,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Cellulose",
+          "amount": 2
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:dark_oak_slab",
+      "chance": 0.4,
+      "line": 526,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Cellulose",
+          "amount": 2
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:oak_sapling",
+      "chance": 0.25,
+      "line": 562,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Cellulose",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:spruce_sapling",
+      "chance": 0.25,
+      "line": 566,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Cellulose",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:birch_sapling",
+      "chance": 0.25,
+      "line": 570,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Cellulose",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:jungle_sapling",
+      "chance": 0.25,
+      "line": 574,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Cellulose",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:acacia_sapling",
+      "chance": 0.25,
+      "line": 578,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Cellulose",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:dark_oak_sapling",
+      "chance": 0.25,
+      "line": 582,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Cellulose",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:sand",
+      "chance": 1.0,
+      "line": 613,
+      "outputs": [
+        {
+          "name": "Silicon Dioxide",
+          "amount": 16
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:gravel",
+      "chance": 0.35,
+      "line": 624,
+      "outputs": [
+        {
+          "name": "Silicon Dioxide",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:gold_ore",
+      "chance": 1.0,
+      "line": 635,
+      "outputs": [
+        {
+          "symbol": "Au",
+          "amount": 48
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:iron_ore",
+      "chance": 1.0,
+      "line": 642,
+      "outputs": [
+        {
+          "symbol": "Fe",
+          "amount": 48
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:coal_ore",
+      "chance": 1.0,
+      "line": 649,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 48
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:oak_log",
+      "chance": 0.5,
+      "line": 661,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Cellulose",
+          "amount": 8
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:spruce_log",
+      "chance": 0.5,
+      "line": 665,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Cellulose",
+          "amount": 8
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:birch_log",
+      "chance": 0.5,
+      "line": 669,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Cellulose",
+          "amount": 8
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:jungle_log",
+      "chance": 0.5,
+      "line": 673,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Cellulose",
+          "amount": 8
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:acacia_log",
+      "chance": 0.5,
+      "line": 677,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Cellulose",
+          "amount": 8
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:dark_oak_log",
+      "chance": 0.5,
+      "line": 681,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Cellulose",
+          "amount": 8
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:oak_leaves",
+      "chance": 0.5,
+      "line": 717,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Cellulose",
+          "amount": 4
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:spruce_leaves",
+      "chance": 0.5,
+      "line": 721,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Cellulose",
+          "amount": 4
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:birch_leaves",
+      "chance": 0.5,
+      "line": 725,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Cellulose",
+          "amount": 4
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:jungle_leaves",
+      "chance": 0.5,
+      "line": 729,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Cellulose",
+          "amount": 4
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:acacia_leaves",
+      "chance": 0.5,
+      "line": 733,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Cellulose",
+          "amount": 4
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:dark_oak_leaves",
+      "chance": 0.5,
+      "line": 737,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Cellulose",
+          "amount": 4
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:black_dye",
+      "chance": 1.0,
+      "line": 783,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Carbon Black",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:red_dye",
+      "chance": 1.0,
+      "line": 787,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Cobalt(II) Nitrate",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:green_dye",
+      "chance": 1.0,
+      "line": 791,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Zinc Green",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:cocoa_beans",
+      "chance": 0.4,
+      "line": 795,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Theobromine",
+          "amount": 1
+        },
+        {
+          "name": "Tannic Acid",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:lapis_lazuli",
+      "chance": 1.0,
+      "line": 800,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Lazurite",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:purple_dye",
+      "chance": 1.0,
+      "line": 804,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Potassium Permanganate",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:cyan_dye",
+      "chance": 1.0,
+      "line": 808,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Copper(II) Sulfate",
+          "amount": 1
+        },
+        {
+          "name": "Titanium Dioxide",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:light_gray_dye",
+      "chance": 1.0,
+      "line": 812,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Titanium Dioxide",
+          "amount": 1
+        },
+        {
+          "name": "Carbon Black",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:gray_dye",
+      "chance": 1.0,
+      "line": 816,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Titanium Dioxide",
+          "amount": 1
+        },
+        {
+          "name": "Carbon Black",
+          "amount": 2
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:pink_dye",
+      "chance": 1.0,
+      "line": 820,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Cobalt(II) Nitrate",
+          "amount": 1
+        },
+        {
+          "name": "Titanium Dioxide",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:lime_dye",
+      "chance": 1.0,
+      "line": 824,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Nickel(II) Chloride",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:yellow_dye",
+      "chance": 1.0,
+      "line": 828,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Potassium Chromate",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:light_blue_dye",
+      "chance": 1.0,
+      "line": 832,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Copper(II) Sulfate",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:magenta_dye",
+      "chance": 1.0,
+      "line": 836,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Copper(II) Sulfate",
+          "amount": 1
+        },
+        {
+          "name": "Cobalt(II) Nitrate",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:orange_dye",
+      "chance": 1.0,
+      "line": 840,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Potassium Dichromate",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:bone_meal",
+      "chance": 1.0,
+      "line": 844,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Titanium Dioxide",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:glass",
+      "chance": 1.0,
+      "line": 931,
+      "outputs": [
+        {
+          "name": "Silicon Dioxide",
+          "amount": 16
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:glass_pane",
+      "chance": 1.0,
+      "line": 1023,
+      "outputs": [
+        {
+          "name": "Silicon Dioxide",
+          "amount": 6
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:lapis_ore",
+      "chance": 1.0,
+      "line": 1099,
+      "outputs": [
+        {
+          "name": "Lazurite",
+          "amount": 6
+        },
+        {
+          "name": "Sodalite",
+          "amount": 1
+        },
+        {
+          "name": "Noselite",
+          "amount": 1
+        },
+        {
+          "name": "Calcium Carbonate",
+          "amount": 1
+        },
+        {
+          "name": "Pyrite",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:lapis_block",
+      "chance": 1.0,
+      "line": 1106,
+      "outputs": [
+        {
+          "name": "Lazurite",
+          "amount": 9
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:cobweb",
+      "chance": 1.0,
+      "line": 1117,
+      "outputs": [
+        {
+          "name": "Fibroin",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:sunflower",
+      "chance": 0.3,
+      "line": 1129,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Shikimic Acid",
+          "amount": 2
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:lilac",
+      "chance": 0.3,
+      "line": 1133,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Shikimic Acid",
+          "amount": 2
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:tall_grass",
+      "chance": 0.3,
+      "line": 1137,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Shikimic Acid",
+          "amount": 2
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:large_fern",
+      "chance": 0.3,
+      "line": 1141,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Shikimic Acid",
+          "amount": 2
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:rose_bush",
+      "chance": 0.3,
+      "line": 1145,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Shikimic Acid",
+          "amount": 2
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:peony",
+      "chance": 0.3,
+      "line": 1149,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Shikimic Acid",
+          "amount": 2
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:sandstone",
+      "chance": 1.0,
+      "line": 1182,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Silicon Dioxide",
+          "amount": 16
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:chiseled_sandstone",
+      "chance": 1.0,
+      "line": 1186,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Silicon Dioxide",
+          "amount": 16
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:smooth_sandstone",
+      "chance": 1.0,
+      "line": 1190,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Silicon Dioxide",
+          "amount": 16
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:white_wool",
+      "chance": 0.6,
+      "line": 1224,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Glycine",
+          "amount": 2
+        },
+        {
+          "name": "Titanium Dioxide",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:orange_wool",
+      "chance": 0.6,
+      "line": 1228,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Glycine",
+          "amount": 2
+        },
+        {
+          "name": "Potassium Dichromate",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:magenta_wool",
+      "chance": 0.6,
+      "line": 1232,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Glycine",
+          "amount": 2
+        },
+        {
+          "name": "Copper(II) Sulfate",
+          "amount": 1
+        },
+        {
+          "name": "Cobalt(II) Nitrate",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:light_blue_wool",
+      "chance": 0.6,
+      "line": 1236,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Glycine",
+          "amount": 2
+        },
+        {
+          "name": "Copper(II) Sulfate",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:yellow_wool",
+      "chance": 0.6,
+      "line": 1240,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Glycine",
+          "amount": 2
+        },
+        {
+          "name": "Potassium Chromate",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:lime_wool",
+      "chance": 0.6,
+      "line": 1244,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Glycine",
+          "amount": 2
+        },
+        {
+          "name": "Nickel(II) Chloride",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:pink_wool",
+      "chance": 0.6,
+      "line": 1248,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Glycine",
+          "amount": 2
+        },
+        {
+          "name": "Cobalt(II) Nitrate",
+          "amount": 1
+        },
+        {
+          "name": "Titanium Dioxide",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:gray_wool",
+      "chance": 0.6,
+      "line": 1252,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Glycine",
+          "amount": 2
+        },
+        {
+          "name": "Titanium Dioxide",
+          "amount": 1
+        },
+        {
+          "name": "Carbon Black",
+          "amount": 2
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:light_gray_wool",
+      "chance": 0.6,
+      "line": 1256,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Glycine",
+          "amount": 2
+        },
+        {
+          "name": "Titanium Dioxide",
+          "amount": 1
+        },
+        {
+          "name": "Carbon Black",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:cyan_wool",
+      "chance": 0.6,
+      "line": 1260,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Glycine",
+          "amount": 2
+        },
+        {
+          "name": "Copper(II) Sulfate",
+          "amount": 1
+        },
+        {
+          "name": "Titanium Dioxide",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:purple_wool",
+      "chance": 0.6,
+      "line": 1264,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Glycine",
+          "amount": 2
+        },
+        {
+          "name": "Potassium Permanganate",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:blue_wool",
+      "chance": 0.6,
+      "line": 1268,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Glycine",
+          "amount": 2
+        },
+        {
+          "name": "Lazurite",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:brown_wool",
+      "chance": 0.6,
+      "line": 1272,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Glycine",
+          "amount": 2
+        },
+        {
+          "name": "Tannic Acid",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:green_wool",
+      "chance": 0.6,
+      "line": 1276,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Glycine",
+          "amount": 2
+        },
+        {
+          "name": "Zinc Green",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:red_wool",
+      "chance": 0.6,
+      "line": 1280,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Glycine",
+          "amount": 2
+        },
+        {
+          "name": "Cobalt(II) Nitrate",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:black_wool",
+      "chance": 0.6,
+      "line": 1284,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Glycine",
+          "amount": 2
+        },
+        {
+          "name": "Carbon Black",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:white_carpet",
+      "chance": 0.4,
+      "line": 1366,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Glycine",
+          "amount": 1
+        },
+        {
+          "name": "Titanium Dioxide",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:orange_carpet",
+      "chance": 0.4,
+      "line": 1370,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Glycine",
+          "amount": 1
+        },
+        {
+          "name": "Potassium Dichromate",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:magenta_carpet",
+      "chance": 0.4,
+      "line": 1374,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Glycine",
+          "amount": 1
+        },
+        {
+          "name": "Copper(II) Sulfate",
+          "amount": 1
+        },
+        {
+          "name": "Cobalt(II) Nitrate",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:light_blue_carpet",
+      "chance": 0.2,
+      "line": 1378,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Glycine",
+          "amount": 1
+        },
+        {
+          "name": "Copper(II) Sulfate",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:yellow_carpet",
+      "chance": 0.4,
+      "line": 1382,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Glycine",
+          "amount": 1
+        },
+        {
+          "name": "Potassium Chromate",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:lime_carpet",
+      "chance": 0.4,
+      "line": 1386,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Glycine",
+          "amount": 1
+        },
+        {
+          "name": "Nickel(II) Chloride",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:pink_carpet",
+      "chance": 0.4,
+      "line": 1390,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Glycine",
+          "amount": 1
+        },
+        {
+          "name": "Cobalt(II) Nitrate",
+          "amount": 1
+        },
+        {
+          "name": "Titanium Dioxide",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:gray_carpet",
+      "chance": 0.4,
+      "line": 1394,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Glycine",
+          "amount": 1
+        },
+        {
+          "name": "Titanium Dioxide",
+          "amount": 1
+        },
+        {
+          "name": "Carbon Black",
+          "amount": 2
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:light_gray_carpet",
+      "chance": 0.4,
+      "line": 1398,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Glycine",
+          "amount": 1
+        },
+        {
+          "name": "Titanium Dioxide",
+          "amount": 1
+        },
+        {
+          "name": "Carbon Black",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:cyan_carpet",
+      "chance": 0.4,
+      "line": 1402,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Glycine",
+          "amount": 1
+        },
+        {
+          "name": "Copper(II) Sulfate",
+          "amount": 1
+        },
+        {
+          "name": "Titanium Dioxide",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:purple_carpet",
+      "chance": 0.4,
+      "line": 1406,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Glycine",
+          "amount": 1
+        },
+        {
+          "name": "Potassium Permanganate",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:blue_carpet",
+      "chance": 0.4,
+      "line": 1410,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Glycine",
+          "amount": 1
+        },
+        {
+          "name": "Lazurite",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:brown_carpet",
+      "chance": 0.4,
+      "line": 1414,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Glycine",
+          "amount": 1
+        },
+        {
+          "name": "Tannic Acid",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:green_carpet",
+      "chance": 0.4,
+      "line": 1418,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Glycine",
+          "amount": 1
+        },
+        {
+          "name": "Zinc Green",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:red_carpet",
+      "chance": 0.4,
+      "line": 1422,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Glycine",
+          "amount": 1
+        },
+        {
+          "name": "Cobalt(II) Nitrate",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:black_carpet",
+      "chance": 0.4,
+      "line": 1426,
+      "basis": "Legacy vanilla metadata order, not verified against the game.",
+      "outputs": [
+        {
+          "name": "Glycine",
+          "amount": 1
+        },
+        {
+          "name": "Carbon Black",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:brown_mushroom",
+      "setting": "recreationalChemicalEffects",
+      "chance": 1.0,
+      "line": 1549,
+      "outputs": [
+        {
+          "name": "Psilocybin",
+          "amount": 1
+        },
+        {
+          "name": "Water",
+          "amount": 2
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:red_mushroom",
+      "chance": 1.0,
+      "line": 1554,
+      "outputs": [
+        {
+          "name": "Pantherine",
+          "amount": 1
+        },
+        {
+          "name": "Water",
+          "amount": 2
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:gold_block",
+      "chance": 1.0,
+      "line": 1560,
+      "outputs": [
+        {
+          "symbol": "Au",
+          "amount": 144
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:iron_block",
+      "chance": 1.0,
+      "line": 1570,
+      "outputs": [
+        {
+          "symbol": "Fe",
+          "amount": 144
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:tnt",
+      "chance": 1.0,
+      "line": 1581,
+      "outputs": [
+        {
+          "name": "Trinitrotoluene",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:obsidian",
+      "chance": 1.0,
+      "line": 1592,
+      "outputs": [
+        {
+          "name": "Silicon Dioxide",
+          "amount": 16
+        },
+        {
+          "name": "Magnesium Oxide",
+          "amount": 8
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:diamond_ore",
+      "chance": 1.0,
+      "line": 1604,
+      "outputs": [
+        {
+          "name": "Carbon Nanotubes",
+          "amount": 6
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:diamond_block",
+      "chance": 1.0,
+      "line": 1611,
+      "outputs": [
+        {
+          "name": "Carbon Nanotubes",
+          "amount": 27
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:oak_pressure_plate",
+      "chance": 0.4,
+      "line": 1624,
+      "outputs": [
+        {
+          "name": "Cellulose",
+          "amount": 4
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:redstone_ore",
+      "chance": 0.8,
+      "line": 1631,
+      "outputs": [
+        {
+          "name": "Iron (III) Oxide",
+          "amount": 9
+        },
+        {
+          "symbol": "Cu",
+          "amount": 9
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:cactus",
+      "chance": 1.0,
+      "line": 1638,
+      "outputs": [
+        {
+          "name": "Mescaline",
+          "amount": 1
+        },
+        {
+          "name": "Water",
+          "amount": 20
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:pumpkin",
+      "chance": 1.0,
+      "line": 1649,
+      "outputs": [
+        {
+          "name": "Cucurbitacin",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:pumpkin",
+      "chance": 1.0,
+      "line": 1660,
+      "outputs": [
+        {
+          "name": "Water",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "kind": "select",
+      "input": "minecraft:netherrack",
+      "chance": 0.1,
+      "line": 1671,
+      "alternatives": [
+        [
+          {
+            "symbol": "Si",
+            "amount": 2
+          },
+          {
+            "symbol": "O",
+            "amount": 1
+          },
+          {
+            "symbol": "Fe",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Si",
+            "amount": 2
+          },
+          {
+            "symbol": "Ni",
+            "amount": 1
+          },
+          {
+            "symbol": "Tc",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Si",
+            "amount": 3
+          },
+          {
+            "symbol": "Ti",
+            "amount": 1
+          },
+          {
+            "symbol": "Fe",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Si",
+            "amount": 1
+          },
+          {
+            "symbol": "W",
+            "amount": 4
+          },
+          {
+            "symbol": "Cr",
+            "amount": 2
+          }
+        ],
+        [
+          {
+            "symbol": "Si",
+            "amount": 10
+          },
+          {
+            "symbol": "W",
+            "amount": 1
+          },
+          {
+            "symbol": "Zn",
+            "amount": 8
+          },
+          {
+            "symbol": "Be",
+            "amount": 4
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "select",
+      "input": "minecraft:nether_brick",
+      "chance": 0.15,
+      "line": 1693,
+      "alternatives": [
+        [
+          {
+            "symbol": "Si",
+            "amount": 2
+          },
+          {
+            "symbol": "C",
+            "amount": 1
+          },
+          {
+            "symbol": "Fe",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Si",
+            "amount": 2
+          },
+          {
+            "symbol": "Ni",
+            "amount": 1
+          },
+          {
+            "symbol": "Tc",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Si",
+            "amount": 3
+          },
+          {
+            "symbol": "Ti",
+            "amount": 1
+          },
+          {
+            "symbol": "Fe",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Si",
+            "amount": 1
+          },
+          {
+            "symbol": "W",
+            "amount": 4
+          },
+          {
+            "symbol": "Cr",
+            "amount": 2
+          }
+        ],
+        [
+          {
+            "symbol": "Si",
+            "amount": 10
+          },
+          {
+            "symbol": "W",
+            "amount": 1
+          },
+          {
+            "symbol": "Zn",
+            "amount": 8
+          },
+          {
+            "symbol": "Be",
+            "amount": 4
+          }
+        ]
+      ]
+    },
+    {
+      "input": "minecraft:ice",
+      "chance": 1.0,
+      "line": 1730,
+      "outputs": [
+        {
+          "name": "Water",
+          "amount": 8
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "kind": "select",
+      "input": "minecraft:soul_sand",
+      "chance": 0.2,
+      "line": 1737,
+      "alternatives": [
+        [
+          {
+            "symbol": "Pb",
+            "amount": 3
+          },
+          {
+            "symbol": "Be",
+            "amount": 1
+          },
+          {
+            "symbol": "Si",
+            "amount": 2
+          },
+          {
+            "symbol": "O",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Pb",
+            "amount": 1
+          },
+          {
+            "symbol": "Si",
+            "amount": 5
+          },
+          {
+            "symbol": "O",
+            "amount": 2
+          }
+        ],
+        [
+          {
+            "symbol": "Si",
+            "amount": 2
+          },
+          {
+            "symbol": "O",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Si",
+            "amount": 6
+          },
+          {
+            "symbol": "O",
+            "amount": 2
+          }
+        ],
+        [
+          {
+            "symbol": "Es",
+            "amount": 1
+          },
+          {
+            "symbol": "O",
+            "amount": 2
+          }
+        ]
+      ]
+    },
+    {
+      "input": "minecraft:glowstone",
+      "chance": 1.0,
+      "line": 1759,
+      "outputs": [
+        {
+          "symbol": "P",
+          "amount": 4
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:mycelium",
+      "chance": 0.09,
+      "line": 1770,
+      "outputs": [
+        {
+          "name": "Fingolimod",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "kind": "select",
+      "input": "minecraft:end_stone",
+      "chance": 0.8,
+      "line": 1781,
+      "alternatives": [
+        [
+          {
+            "symbol": "Si",
+            "amount": 2
+          },
+          {
+            "symbol": "O",
+            "amount": 1
+          },
+          {
+            "symbol": "H",
+            "amount": 4
+          },
+          {
+            "symbol": "Li",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Es",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Pu",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Fr",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Nd",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Si",
+            "amount": 2
+          },
+          {
+            "symbol": "O",
+            "amount": 4
+          }
+        ],
+        [
+          {
+            "symbol": "H",
+            "amount": 4
+          }
+        ],
+        [
+          {
+            "symbol": "Be",
+            "amount": 8
+          }
+        ],
+        [
+          {
+            "symbol": "Li",
+            "amount": 2
+          }
+        ],
+        [
+          {
+            "symbol": "Zr",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Na",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Rb",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Ga",
+            "amount": 1
+          },
+          {
+            "symbol": "As",
+            "amount": 1
+          }
+        ]
+      ]
+    },
+    {
+      "input": "minecraft:emerald_ore",
+      "chance": 1.0,
+      "line": 1827,
+      "outputs": [
+        {
+          "name": "Beryl",
+          "amount": 6
+        },
+        {
+          "symbol": "Cr",
+          "amount": 6
+        },
+        {
+          "symbol": "V",
+          "amount": 6
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:emerald_block",
+      "chance": 1.0,
+      "line": 1839,
+      "outputs": [
+        {
+          "name": "Beryl",
+          "amount": 18
+        },
+        {
+          "symbol": "Cr",
+          "amount": 18
+        },
+        {
+          "symbol": "V",
+          "amount": 18
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:apple",
+      "chance": 1.0,
+      "line": 1847,
+      "outputs": [
+        {
+          "name": "Malic Acid",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:arrow",
+      "chance": 1.0,
+      "line": 1858,
+      "outputs": [
+        {
+          "symbol": "Si",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 2
+        },
+        {
+          "symbol": "N",
+          "amount": 6
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:coal",
+      "chance": 0.92,
+      "line": 1865,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 8
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:coal_block",
+      "chance": 0.82,
+      "line": 1872,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 72
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:diamond",
+      "chance": 1.0,
+      "line": 1889,
+      "outputs": [
+        {
+          "name": "Carbon Nanotubes",
+          "amount": 3
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:iron_ingot",
+      "chance": 1.0,
+      "line": 1911,
+      "outputs": [
+        {
+          "symbol": "Fe",
+          "amount": 16
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:gold_ingot",
+      "chance": 1.0,
+      "line": 1922,
+      "outputs": [
+        {
+          "symbol": "Au",
+          "amount": 16
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:stick",
+      "chance": 0.3,
+      "line": 1933,
+      "outputs": [
+        {
+          "name": "Cellulose",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:string",
+      "chance": 0.45,
+      "line": 1940,
+      "outputs": [
+        {
+          "name": "Serine",
+          "amount": 1
+        },
+        {
+          "name": "Glycine",
+          "amount": 1
+        },
+        {
+          "name": "Alanine",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:feather",
+      "chance": 1.0,
+      "line": 1951,
+      "outputs": [
+        {
+          "name": "Water",
+          "amount": 8
+        },
+        {
+          "symbol": "N",
+          "amount": 6
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:gunpowder",
+      "chance": 1.0,
+      "line": 1963,
+      "outputs": [
+        {
+          "name": "Potassium Nitrate",
+          "amount": 1
+        },
+        {
+          "symbol": "S",
+          "amount": 2
+        },
+        {
+          "symbol": "C",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:bread",
+      "chance": 0.1,
+      "line": 1974,
+      "outputs": [
+        {
+          "name": "Starch",
+          "amount": 1
+        },
+        {
+          "name": "Sucrose",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:flint",
+      "chance": 0.5,
+      "line": 1981,
+      "outputs": [
+        {
+          "name": "Silicon Dioxide",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:golden_apple",
+      "chance": 1.0,
+      "line": 1992,
+      "outputs": [
+        {
+          "name": "Malic Acid",
+          "amount": 1
+        },
+        {
+          "symbol": "Au",
+          "amount": 64
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:oak_door",
+      "chance": 0.4,
+      "line": 1999,
+      "outputs": [
+        {
+          "name": "Cellulose",
+          "amount": 12
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:bucket",
+      "chance": 1.0,
+      "line": 2006,
+      "outputs": [
+        {
+          "symbol": "Fe",
+          "amount": 48
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:water_bucket",
+      "chance": 1.0,
+      "line": 2014,
+      "outputs": [
+        {
+          "name": "Water",
+          "amount": 16
+        },
+        {
+          "symbol": "Fe",
+          "amount": 48
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:redstone",
+      "chance": 0.42,
+      "line": 2025,
+      "outputs": [
+        {
+          "name": "Iron (III) Oxide",
+          "amount": 1
+        },
+        {
+          "symbol": "Cu",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:redstone_block",
+      "chance": 0.42,
+      "line": 2035,
+      "outputs": [
+        {
+          "name": "Iron (III) Oxide",
+          "amount": 9
+        },
+        {
+          "symbol": "Cu",
+          "amount": 9
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:snowball",
+      "chance": 1.0,
+      "line": 2046,
+      "outputs": [
+        {
+          "name": "Water",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:leather",
+      "chance": 0.2,
+      "line": 2057,
+      "outputs": [
+        {
+          "name": "Keratin",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:brick",
+      "chance": 0.5,
+      "line": 2068,
+      "outputs": [
+        {
+          "name": "Kaolinite",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:clay_ball",
+      "chance": 0.5,
+      "line": 2079,
+      "outputs": [
+        {
+          "name": "Kaolinite",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:sugar_cane",
+      "chance": 0.65,
+      "line": 2090,
+      "outputs": [
+        {
+          "name": "Sucrose",
+          "amount": 1
+        },
+        {
+          "symbol": "H",
+          "amount": 2
+        },
+        {
+          "symbol": "O",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:vine",
+      "chance": 1.0,
+      "line": 2097,
+      "outputs": [
+        {
+          "name": "Cellulose",
+          "amount": 6
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:paper",
+      "chance": 0.35,
+      "line": 2108,
+      "outputs": [
+        {
+          "name": "Cellulose",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "kind": "select",
+      "input": "minecraft:compass",
+      "chance": 1.0,
+      "line": 2119,
+      "alternatives": [
+        [
+          {
+            "symbol": "Fe",
+            "amount": 64
+          }
+        ],
+        [
+          {
+            "symbol": "Fe",
+            "amount": 64
+          },
+          {
+            "name": "Iron (III) Oxide",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Fe",
+            "amount": 64
+          },
+          {
+            "name": "Iron (III) Oxide",
+            "amount": 1
+          },
+          {
+            "symbol": "Cu",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Fe",
+            "amount": 64
+          },
+          {
+            "symbol": "Cu",
+            "amount": 1
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "composite",
+      "input": "minecraft:map",
+      "line": 2141,
+      "components": {
+        "minecraft:paper": 8.0,
+        "minecraft:compass": 1.0
+      }
+    },
+    {
+      "kind": "composite",
+      "input": "minecraft:book",
+      "line": 2148,
+      "components": {
+        "minecraft:paper": 3.0,
+        "minecraft:leather": 1.0
+      }
+    },
+    {
+      "kind": "composite",
+      "input": "minecraft:bookshelf",
+      "line": 2155,
+      "components": {
+        "minecraft:birch_planks": 6.0,
+        "minecraft:book": 3.0
+      }
+    },
+    {
+      "kind": "select",
+      "input": "minecraft:slime_ball",
+      "chance": 0.9,
+      "line": 2164,
+      "alternatives": [
+        [
+          {
+            "name": "Poly(methyl methacrylate)",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Hg",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "name": "Water",
+            "amount": 10
+          }
+        ]
+      ]
+    },
+    {
+      "input": "minecraft:glowstone_dust",
+      "chance": 1.0,
+      "line": 2180,
+      "outputs": [
+        {
+          "symbol": "P",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:bone",
+      "chance": 1.0,
+      "line": 2187,
+      "outputs": [
+        {
+          "name": "Hydroxylapatite",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:sugar",
+      "chance": 0.75,
+      "line": 2198,
+      "outputs": [
+        {
+          "name": "Sucrose",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:melon_slice",
+      "chance": 1.0,
+      "line": 2209,
+      "outputs": [
+        {
+          "name": "Water",
+          "amount": 1
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:melon",
+      "chance": 1.0,
+      "line": 2220,
+      "outputs": [
+        {
+          "name": "Cucurbitacin",
+          "amount": 1
+        },
+        {
+          "name": "Aspartic Acid",
+          "amount": 1
+        },
+        {
+          "name": "Water",
+          "amount": 16
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "input": "minecraft:cooked_chicken",
+      "chance": 1.0,
+      "line": 2231,
+      "outputs": [
+        {
+          "symbol": "K",
+          "amount": 1
+        },
+        {
+          "symbol": "Na",
+          "amount": 1
+        },
+        {
+          "symbol": "C",
+          "amount": 2
+        }
+      ],
+      "kind": "plain"
+    },
+    {
+      "kind": "plain",
+      "input": "minecraft:rotten_flesh",
+      "chance": 0.05,
+      "outputs": [
+        {
+          "name": "Nodularin",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "minecraft:ender_pearl",
+      "chance": 1.0,
+      "outputs": [
+        {
+          "symbol": "Es",
+          "amount": 1
+        },
+        {
+          "name": "Calcium Carbonate",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "minecraft:dragon_egg",
+      "chance": 1.0,
+      "outputs": [
+        {
+          "name": "Calcium Carbonate",
+          "amount": 16
+        },
+        {
+          "name": "Hydroxylapatite",
+          "amount": 6
+        },
+        {
+          "symbol": "Pu",
+          "amount": 18
+        },
+        {
+          "symbol": "Fm",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "minecraft:blaze_rod",
+      "chance": 1.0,
+      "outputs": [
+        {
+          "symbol": "Pu",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "minecraft:blaze_powder",
+      "chance": 1.0,
+      "outputs": [
+        {
+          "symbol": "Pu",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "minecraft:ghast_tear",
+      "chance": 1.0,
+      "outputs": [
+        {
+          "symbol": "Yb",
+          "amount": 4
+        },
+        {
+          "symbol": "No",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "minecraft:nether_wart",
+      "setting": "recreationalChemicalEffects",
+      "chance": 0.5,
+      "outputs": [
+        {
+          "name": "Cocaine Hydrochloride",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "minecraft:spider_eye",
+      "chance": 0.2,
+      "outputs": [
+        {
+          "name": "Tetrodotoxin",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "minecraft:fermented_spider_eye",
+      "chance": 1.0,
+      "outputs": [
+        {
+          "symbol": "Po",
+          "amount": 1
+        },
+        {
+          "name": "Ethyl Alcohol",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "minecraft:magma_cream",
+      "chance": 1.0,
+      "outputs": [
+        {
+          "symbol": "Hg",
+          "amount": 1
+        },
+        {
+          "symbol": "Pu",
+          "amount": 1
+        },
+        {
+          "name": "Poly(methyl methacrylate)",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "minecraft:glistering_melon_slice",
+      "chance": 1.0,
+      "outputs": [
+        {
+          "name": "Water",
+          "amount": 4
+        },
+        {
+          "name": "Titanium Dioxide",
+          "amount": 1
+        },
+        {
+          "symbol": "Au",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "minecraft:emerald",
+      "chance": 1.0,
+      "outputs": [
+        {
+          "name": "Beryl",
+          "amount": 2
+        },
+        {
+          "symbol": "Cr",
+          "amount": 2
+        },
+        {
+          "symbol": "V",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "minecraft:wheat",
+      "chance": 0.3,
+      "outputs": [
+        {
+          "name": "Cellulose",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "minecraft:carrot",
+      "chance": 1.0,
+      "outputs": [
+        {
+          "name": "Retinol",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "minecraft:potato",
+      "chance": 0.4,
+      "outputs": [
+        {
+          "name": "Water",
+          "amount": 8
+        },
+        {
+          "symbol": "K",
+          "amount": 2
+        },
+        {
+          "name": "Cellulose",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "minecraft:golden_carrot",
+      "chance": 1.0,
+      "outputs": [
+        {
+          "name": "Retinol",
+          "amount": 1
+        },
+        {
+          "symbol": "Au",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "minecraft:nether_star",
+      "chance": 1.0,
+      "outputs": [
+        {
+          "symbol": "He",
+          "amount": 64
+        },
+        {
+          "symbol": "He",
+          "amount": 64
+        },
+        {
+          "symbol": "He",
+          "amount": 64
+        },
+        {
+          "symbol": "C",
+          "amount": 64
+        },
+        {
+          "symbol": "Cn",
+          "amount": 16
+        },
+        {
+          "symbol": "He",
+          "amount": 64
+        },
+        {
+          "symbol": "H",
+          "amount": 64
+        },
+        {
+          "symbol": "H",
+          "amount": 64
+        },
+        {
+          "symbol": "H",
+          "amount": 64
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "minecraft:quartz",
+      "chance": 1.0,
+      "outputs": [
+        {
+          "name": "Silicon Dioxide",
+          "amount": 4
+        },
+        {
+          "name": "Gallium Arsenide",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "minecraft:iron_bars",
+      "chance": 1.0,
+      "outputs": [
+        {
+          "symbol": "Fe",
+          "amount": 3
+        },
+        {
+          "symbol": "Fe",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "minecraft:music_disc_13",
+      "chance": 1.0,
+      "outputs": [
+        {
+          "name": "Polyvinyl Chloride",
+          "amount": 1
+        },
+        {
+          "name": "Polyvinyl Chloride",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "minecraft:music_disc_cat",
+      "chance": 1.0,
+      "outputs": [
+        {
+          "name": "Polyvinyl Chloride",
+          "amount": 1
+        },
+        {
+          "name": "Polyvinyl Chloride",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "minecraft:music_disc_far",
+      "chance": 1.0,
+      "outputs": [
+        {
+          "name": "Polyvinyl Chloride",
+          "amount": 1
+        },
+        {
+          "name": "Polyvinyl Chloride",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "minecraft:music_disc_mall",
+      "chance": 1.0,
+      "outputs": [
+        {
+          "name": "Polyvinyl Chloride",
+          "amount": 1
+        },
+        {
+          "name": "Polyvinyl Chloride",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "minecraft:music_disc_mellohi",
+      "chance": 1.0,
+      "outputs": [
+        {
+          "name": "Polyvinyl Chloride",
+          "amount": 1
+        },
+        {
+          "name": "Polyvinyl Chloride",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "minecraft:music_disc_stal",
+      "chance": 1.0,
+      "outputs": [
+        {
+          "name": "Polyvinyl Chloride",
+          "amount": 1
+        },
+        {
+          "name": "Polyvinyl Chloride",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "minecraft:music_disc_strad",
+      "chance": 1.0,
+      "outputs": [
+        {
+          "name": "Polyvinyl Chloride",
+          "amount": 1
+        },
+        {
+          "name": "Polyvinyl Chloride",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "minecraft:music_disc_ward",
+      "chance": 1.0,
+      "outputs": [
+        {
+          "name": "Polyvinyl Chloride",
+          "amount": 1
+        },
+        {
+          "name": "Polyvinyl Chloride",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "minecraft:music_disc_chirp",
+      "chance": 1.0,
+      "outputs": [
+        {
+          "name": "Polyvinyl Chloride",
+          "amount": 1
+        },
+        {
+          "name": "Polyvinyl Chloride",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "minecraft:music_disc_11",
+      "chance": 1.0,
+      "outputs": [
+        {
+          "name": "Polyvinyl Chloride",
+          "amount": 1
+        },
+        {
+          "name": "Polyvinyl Chloride",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "minecraft:music_disc_wait",
+      "chance": 1.0,
+      "outputs": [
+        {
+          "name": "Polyvinyl Chloride",
+          "amount": 1
+        },
+        {
+          "name": "Polyvinyl Chloride",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "minecraft:music_disc_blocks",
+      "chance": 1.0,
+      "outputs": [
+        {
+          "name": "Polyvinyl Chloride",
+          "amount": 1
+        },
+        {
+          "name": "Polyvinyl Chloride",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "minecraft:dandelion",
+      "chance": 0.3,
+      "outputs": [
+        {
+          "name": "Shikimic Acid",
+          "amount": 2
+        },
+        {
+          "name": "Potassium Chromate",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "minecraft:poppy",
+      "chance": 0.3,
+      "outputs": [
+        {
+          "name": "Shikimic Acid",
+          "amount": 2
+        },
+        {
+          "name": "Cobalt(II) Nitrate",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "minecraft:blue_orchid",
+      "chance": 0.3,
+      "outputs": [
+        {
+          "name": "Shikimic Acid",
+          "amount": 2
+        },
+        {
+          "name": "Lazurite",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "minecraft:allium",
+      "chance": 0.3,
+      "outputs": [
+        {
+          "name": "Shikimic Acid",
+          "amount": 2
+        },
+        {
+          "name": "Potassium Permanganate",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "minecraft:azure_bluet",
+      "chance": 0.3,
+      "outputs": [
+        {
+          "name": "Shikimic Acid",
+          "amount": 2
+        },
+        {
+          "name": "Titanium Dioxide",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "minecraft:red_tulip",
+      "chance": 0.3,
+      "outputs": [
+        {
+          "name": "Shikimic Acid",
+          "amount": 2
+        },
+        {
+          "name": "Cobalt(II) Nitrate",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "minecraft:orange_tulip",
+      "chance": 0.3,
+      "outputs": [
+        {
+          "name": "Shikimic Acid",
+          "amount": 2
+        },
+        {
+          "name": "Potassium Dichromate",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "minecraft:white_tulip",
+      "chance": 0.3,
+      "outputs": [
+        {
+          "name": "Shikimic Acid",
+          "amount": 2
+        },
+        {
+          "name": "Titanium Dioxide",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "minecraft:pink_tulip",
+      "chance": 0.3,
+      "outputs": [
+        {
+          "name": "Shikimic Acid",
+          "amount": 2
+        },
+        {
+          "name": "Titanium Dioxide",
+          "amount": 1
+        },
+        {
+          "name": "Cobalt(II) Nitrate",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "minecraft:oxeye_daisy",
+      "chance": 0.3,
+      "outputs": [
+        {
+          "name": "Shikimic Acid",
+          "amount": 2
+        },
+        {
+          "name": "Titanium Dioxide",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "minecraft:charcoal",
+      "chance": 0.82,
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "minechem:water_bottle",
+      "chance": 1.0,
+      "line": 1718,
+      "outputs": [
+        {
+          "name": "Water",
+          "amount": 5
+        },
+        {
+          "name": "Silicon Dioxide",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "enderio:energetic_alloy_ingot",
+      "chance": 1.0,
+      "line": 2860,
+      "outputs": [
+        {
+          "symbol": "Au",
+          "amount": 8
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "name": "Iron (III) Oxide",
+          "amount": 1
+        },
+        {
+          "symbol": "Cu",
+          "amount": 1
+        }
+      ],
+      "requires": "enderio"
+    },
+    {
+      "kind": "plain",
+      "input": "enderio:vibrant_alloy_ingot",
+      "chance": 1.0,
+      "line": 2864,
+      "outputs": [
+        {
+          "symbol": "Au",
+          "amount": 8
+        },
+        {
+          "symbol": "P",
+          "amount": 1
+        },
+        {
+          "name": "Iron (III) Oxide",
+          "amount": 1
+        },
+        {
+          "symbol": "Cu",
+          "amount": 1
+        },
+        {
+          "symbol": "Es",
+          "amount": 1
+        },
+        {
+          "name": "Calcium Carbonate",
+          "amount": 4
+        }
+      ],
+      "requires": "enderio"
+    },
+    {
+      "kind": "plain",
+      "input": "enderio:redstone_alloy_ingot",
+      "chance": 1.0,
+      "line": 2868,
+      "outputs": [
+        {
+          "symbol": "Si",
+          "amount": 12
+        },
+        {
+          "name": "Iron (III) Oxide",
+          "amount": 1
+        },
+        {
+          "symbol": "Cu",
+          "amount": 1
+        }
+      ],
+      "requires": "enderio"
+    },
+    {
+      "kind": "plain",
+      "input": "enderio:conductive_alloy_ingot",
+      "chance": 1.0,
+      "line": 2872,
+      "outputs": [
+        {
+          "symbol": "Fe",
+          "amount": 12
+        },
+        {
+          "name": "Iron (III) Oxide",
+          "amount": 1
+        },
+        {
+          "symbol": "Cu",
+          "amount": 1
+        }
+      ],
+      "requires": "enderio"
+    },
+    {
+      "kind": "plain",
+      "input": "enderio:pulsating_alloy_ingot",
+      "chance": 1.0,
+      "line": 2876,
+      "outputs": [
+        {
+          "symbol": "Fe",
+          "amount": 12
+        },
+        {
+          "symbol": "Es",
+          "amount": 1
+        },
+        {
+          "name": "Calcium Carbonate",
+          "amount": 6
+        }
+      ],
+      "requires": "enderio"
+    },
+    {
+      "kind": "plain",
+      "input": "enderio:dark_steel_ingot",
+      "chance": 1.0,
+      "line": 2880,
+      "outputs": [
+        {
+          "name": "Magnesium Oxide",
+          "amount": 4
+        },
+        {
+          "name": "Silicon Oxide",
+          "amount": 8
+        },
+        {
+          "symbol": "Fe",
+          "amount": 8
+        },
+        {
+          "symbol": "C",
+          "amount": 4
+        }
+      ],
+      "requires": "enderio"
+    },
+    {
+      "kind": "select",
+      "input": "enderio:soularium_ingot",
+      "chance": 0.4,
+      "line": 2884,
+      "alternatives": [
+        [
+          {
+            "symbol": "Pb",
+            "amount": 3
+          },
+          {
+            "symbol": "Be",
+            "amount": 1
+          },
+          {
+            "symbol": "Si",
+            "amount": 2
+          },
+          {
+            "symbol": "O",
+            "amount": 1
+          },
+          {
+            "symbol": "Au",
+            "amount": 8
+          }
+        ],
+        [
+          {
+            "symbol": "Pb",
+            "amount": 1
+          },
+          {
+            "symbol": "Si",
+            "amount": 5
+          },
+          {
+            "symbol": "O",
+            "amount": 2
+          },
+          {
+            "symbol": "Au",
+            "amount": 8
+          }
+        ],
+        [
+          {
+            "symbol": "Si",
+            "amount": 2
+          },
+          {
+            "symbol": "O",
+            "amount": 1
+          },
+          {
+            "symbol": "Au",
+            "amount": 8
+          }
+        ],
+        [
+          {
+            "symbol": "Si",
+            "amount": 6
+          },
+          {
+            "symbol": "O",
+            "amount": 2
+          },
+          {
+            "symbol": "Au",
+            "amount": 8
+          }
+        ],
+        [
+          {
+            "symbol": "Es",
+            "amount": 1
+          },
+          {
+            "symbol": "O",
+            "amount": 2
+          },
+          {
+            "symbol": "Au",
+            "amount": 8
+          }
+        ]
+      ],
+      "requires": "enderio"
+    },
+    {
+      "kind": "plain",
+      "input": "ae2:charged_certus_quartz_crystal",
+      "chance": 1.0,
+      "line": 2939,
+      "outputs": [
+        {
+          "name": "Aluminium Hypophosphite",
+          "amount": 4
+        }
+      ],
+      "requires": "ae2"
+    },
+    {
+      "kind": "plain",
+      "input": "ae2:singularity",
+      "chance": 1.0,
+      "line": 2942,
+      "outputs": [
+        {
+          "symbol": "Fm",
+          "amount": 148
+        },
+        {
+          "symbol": "Md",
+          "amount": 142
+        },
+        {
+          "symbol": "No",
+          "amount": 133
+        },
+        {
+          "symbol": "Lr",
+          "amount": 124
+        },
+        {
+          "symbol": "Rf",
+          "amount": 107
+        },
+        {
+          "symbol": "Db",
+          "amount": 104
+        },
+        {
+          "symbol": "Sg",
+          "amount": 93
+        },
+        {
+          "symbol": "Bh",
+          "amount": 81
+        },
+        {
+          "symbol": "Hs",
+          "amount": 67
+        },
+        {
+          "symbol": "Mt",
+          "amount": 54
+        },
+        {
+          "symbol": "Ds",
+          "amount": 52
+        },
+        {
+          "symbol": "Rg",
+          "amount": 37
+        },
+        {
+          "symbol": "Cn",
+          "amount": 33
+        },
+        {
+          "symbol": "Nh",
+          "amount": 22
+        }
+      ],
+      "requires": "ae2"
+    },
+    {
+      "kind": "select",
+      "input": "ae2:sky_stone_block",
+      "chance": 0.9,
+      "line": 2947,
+      "alternatives": [
+        [
+          {
+            "symbol": "Si",
+            "amount": 1
+          },
+          {
+            "symbol": "He",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Fe",
+            "amount": 1
+          },
+          {
+            "symbol": "Xe",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Mg",
+            "amount": 1
+          },
+          {
+            "symbol": "Ar",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Ti",
+            "amount": 1
+          },
+          {
+            "symbol": "He",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Pb",
+            "amount": 1
+          },
+          {
+            "symbol": "Ne",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Zn",
+            "amount": 1
+          },
+          {
+            "symbol": "He",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Al",
+            "amount": 1
+          },
+          {
+            "symbol": "He",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Si",
+            "amount": 1
+          },
+          {
+            "symbol": "Xe",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Fe",
+            "amount": 1
+          },
+          {
+            "symbol": "Ar",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Mg",
+            "amount": 1
+          },
+          {
+            "symbol": "Kr",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Ti",
+            "amount": 1
+          },
+          {
+            "symbol": "Ne",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Pb",
+            "amount": 1
+          },
+          {
+            "symbol": "Rn",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Zn",
+            "amount": 1
+          },
+          {
+            "symbol": "Ne",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "symbol": "Al",
+            "amount": 1
+          },
+          {
+            "symbol": "Ar",
+            "amount": 1
+          }
+        ]
+      ],
+      "requires": "ae2"
+    },
+    {
+      "kind": "plain",
+      "input": "ae2:quartz_glass",
+      "chance": 1.0,
+      "line": 2994,
+      "outputs": [
+        {
+          "name": "Aluminium Phosphate",
+          "amount": 5
+        },
+        {
+          "name": "Silicon Dioxide",
+          "amount": 16
+        }
+      ],
+      "requires": "ae2"
+    },
+    {
+      "kind": "plain",
+      "input": "enderio:end_steel_ingot",
+      "chance": 1.0,
+      "requires": "enderio",
+      "note": "End Steel is an Ender IO item. Real-world match: tungsten steel, iron with carbon and tungsten.",
+      "outputs": [
+        {
+          "symbol": "Fe",
+          "amount": 8
+        },
+        {
+          "symbol": "C",
+          "amount": 4
+        },
+        {
+          "symbol": "W",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "enderio:powdered_iron",
+      "chance": 1.0,
+      "requires": "enderio",
+      "note": "Same decomposition as the vanilla item of the same material.",
+      "outputs": [
+        {
+          "symbol": "Fe",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "enderio:powdered_gold",
+      "chance": 1.0,
+      "requires": "enderio",
+      "note": "Same decomposition as the vanilla item of the same material.",
+      "outputs": [
+        {
+          "symbol": "Au",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "enderio:powdered_copper",
+      "chance": 1.0,
+      "requires": "enderio",
+      "note": "Copper dust: the metal of the copper ingot.",
+      "outputs": [
+        {
+          "symbol": "Cu",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "enderio:powdered_tin",
+      "chance": 1.0,
+      "requires": "enderio",
+      "note": "Tin dust: tin is the metal itself. Real-world match.",
+      "outputs": [
+        {
+          "symbol": "Sn",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "enderio:powdered_coal",
+      "chance": 1.0,
+      "requires": "enderio",
+      "note": "Same decomposition as the vanilla item of the same material.",
+      "outputs": [
+        {
+          "symbol": "C",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "enderio:powdered_quartz",
+      "chance": 1.0,
+      "requires": "enderio",
+      "note": "Same decomposition as the vanilla item of the same material.",
+      "outputs": [
+        {
+          "name": "Silicon Dioxide",
+          "amount": 4
+        },
+        {
+          "name": "Gallium Arsenide",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "enderio:powdered_lapis_lazuli",
+      "chance": 1.0,
+      "requires": "enderio",
+      "note": "Same decomposition as the vanilla item of the same material.",
+      "outputs": [
+        {
+          "name": "Lazurite",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "enderio:powdered_obsidian",
+      "chance": 1.0,
+      "requires": "enderio",
+      "note": "Same decomposition as the vanilla item of the same material.",
+      "outputs": [
+        {
+          "name": "Silicon Dioxide",
+          "amount": 16
+        },
+        {
+          "name": "Magnesium Oxide",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "enderio:powdered_ender_pearl",
+      "chance": 1.0,
+      "requires": "enderio",
+      "note": "Same decomposition as the vanilla item of the same material.",
+      "outputs": [
+        {
+          "symbol": "Es",
+          "amount": 1
+        },
+        {
+          "name": "Calcium Carbonate",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "enderio:ender_crystal_powder",
+      "chance": 1.0,
+      "requires": "enderio",
+      "note": "Grains of the End: iridium, the element of extraterrestrial rock (meteorites). Real-world match for the End.",
+      "outputs": [
+        {
+          "symbol": "Ir",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "enderio:soul_powder",
+      "chance": 1.0,
+      "requires": "enderio",
+      "note": "Soul dust: bone-like calcium phosphate, the nearest real material to the sand of the afterlife. Real-world match.",
+      "outputs": [
+        {
+          "symbol": "Ca",
+          "amount": 5
+        },
+        {
+          "symbol": "P",
+          "amount": 3
+        },
+        {
+          "symbol": "O",
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "enderio:vibrant_powder",
+      "chance": 1.0,
+      "requires": "enderio",
+      "note": "Grains of Vibrancy: neon, the gas that glows in signs. Real-world match.",
+      "outputs": [
+        {
+          "symbol": "Ne",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "enderio:pulsating_powder",
+      "chance": 1.0,
+      "requires": "enderio",
+      "note": "Grains of Piezallity: lead zirconate titanate (PZT), the piezoelectric ceramic. Real-world match, written as its elements.",
+      "outputs": [
+        {
+          "symbol": "Pb",
+          "amount": 1
+        },
+        {
+          "symbol": "Zr",
+          "amount": 1
+        },
+        {
+          "symbol": "Ti",
+          "amount": 1
+        },
+        {
+          "symbol": "O",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "enderio:withering_powder",
+      "chance": 1.0,
+      "requires": "enderio",
+      "note": "Withering: thallium, a poisonous metal (it withers the body). Real-world match, non-radioactive on purpose.",
+      "outputs": [
+        {
+          "symbol": "Tl",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "enderio:prescient_powder",
+      "chance": 1.0,
+      "requires": "enderio",
+      "note": "Grains of Prescience: helium, found in the spectrum of the Sun before it was found on Earth. Real-world match.",
+      "outputs": [
+        {
+          "symbol": "He",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "enderio:confusing_powder",
+      "chance": 1.0,
+      "requires": "enderio",
+      "note": "Confusion Powder: mercury, whose poisoning confused its victims (the mad hatter). Real-world match.",
+      "outputs": [
+        {
+          "symbol": "Hg",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "kind": "plain",
+      "input": "railcraft:white_post",
+      "chance": 1.0,
+      "requires": "railcraft",
+      "note": "Railcraft post (tile.railcraft.post, empty decomposition: nothing comes out). Railcraft Reborn has it in 16 colours; each colour gets the same empty decomposition.",
+      "outputs": []
+    },
+    {
+      "kind": "plain",
+      "input": "railcraft:orange_post",
+      "chance": 1.0,
+      "requires": "railcraft",
+      "note": "Railcraft post (tile.railcraft.post, empty decomposition: nothing comes out). Railcraft Reborn has it in 16 colours; each colour gets the same empty decomposition.",
+      "outputs": []
+    },
+    {
+      "kind": "plain",
+      "input": "railcraft:magenta_post",
+      "chance": 1.0,
+      "requires": "railcraft",
+      "note": "Railcraft post (tile.railcraft.post, empty decomposition: nothing comes out). Railcraft Reborn has it in 16 colours; each colour gets the same empty decomposition.",
+      "outputs": []
+    },
+    {
+      "kind": "plain",
+      "input": "railcraft:light_blue_post",
+      "chance": 1.0,
+      "requires": "railcraft",
+      "note": "Railcraft post (tile.railcraft.post, empty decomposition: nothing comes out). Railcraft Reborn has it in 16 colours; each colour gets the same empty decomposition.",
+      "outputs": []
+    },
+    {
+      "kind": "plain",
+      "input": "railcraft:yellow_post",
+      "chance": 1.0,
+      "requires": "railcraft",
+      "note": "Railcraft post (tile.railcraft.post, empty decomposition: nothing comes out). Railcraft Reborn has it in 16 colours; each colour gets the same empty decomposition.",
+      "outputs": []
+    },
+    {
+      "kind": "plain",
+      "input": "railcraft:lime_post",
+      "chance": 1.0,
+      "requires": "railcraft",
+      "note": "Railcraft post (tile.railcraft.post, empty decomposition: nothing comes out). Railcraft Reborn has it in 16 colours; each colour gets the same empty decomposition.",
+      "outputs": []
+    },
+    {
+      "kind": "plain",
+      "input": "railcraft:pink_post",
+      "chance": 1.0,
+      "requires": "railcraft",
+      "note": "Railcraft post (tile.railcraft.post, empty decomposition: nothing comes out). Railcraft Reborn has it in 16 colours; each colour gets the same empty decomposition.",
+      "outputs": []
+    },
+    {
+      "kind": "plain",
+      "input": "railcraft:gray_post",
+      "chance": 1.0,
+      "requires": "railcraft",
+      "note": "Railcraft post (tile.railcraft.post, empty decomposition: nothing comes out). Railcraft Reborn has it in 16 colours; each colour gets the same empty decomposition.",
+      "outputs": []
+    },
+    {
+      "kind": "plain",
+      "input": "railcraft:light_gray_post",
+      "chance": 1.0,
+      "requires": "railcraft",
+      "note": "Railcraft post (tile.railcraft.post, empty decomposition: nothing comes out). Railcraft Reborn has it in 16 colours; each colour gets the same empty decomposition.",
+      "outputs": []
+    },
+    {
+      "kind": "plain",
+      "input": "railcraft:cyan_post",
+      "chance": 1.0,
+      "requires": "railcraft",
+      "note": "Railcraft post (tile.railcraft.post, empty decomposition: nothing comes out). Railcraft Reborn has it in 16 colours; each colour gets the same empty decomposition.",
+      "outputs": []
+    },
+    {
+      "kind": "plain",
+      "input": "railcraft:purple_post",
+      "chance": 1.0,
+      "requires": "railcraft",
+      "note": "Railcraft post (tile.railcraft.post, empty decomposition: nothing comes out). Railcraft Reborn has it in 16 colours; each colour gets the same empty decomposition.",
+      "outputs": []
+    },
+    {
+      "kind": "plain",
+      "input": "railcraft:blue_post",
+      "chance": 1.0,
+      "requires": "railcraft",
+      "note": "Railcraft post (tile.railcraft.post, empty decomposition: nothing comes out). Railcraft Reborn has it in 16 colours; each colour gets the same empty decomposition.",
+      "outputs": []
+    },
+    {
+      "kind": "plain",
+      "input": "railcraft:brown_post",
+      "chance": 1.0,
+      "requires": "railcraft",
+      "note": "Railcraft post (tile.railcraft.post, empty decomposition: nothing comes out). Railcraft Reborn has it in 16 colours; each colour gets the same empty decomposition.",
+      "outputs": []
+    },
+    {
+      "kind": "plain",
+      "input": "railcraft:green_post",
+      "chance": 1.0,
+      "requires": "railcraft",
+      "note": "Railcraft post (tile.railcraft.post, empty decomposition: nothing comes out). Railcraft Reborn has it in 16 colours; each colour gets the same empty decomposition.",
+      "outputs": []
+    },
+    {
+      "kind": "plain",
+      "input": "railcraft:red_post",
+      "chance": 1.0,
+      "requires": "railcraft",
+      "note": "Railcraft post (tile.railcraft.post, empty decomposition: nothing comes out). Railcraft Reborn has it in 16 colours; each colour gets the same empty decomposition.",
+      "outputs": []
+    },
+    {
+      "kind": "plain",
+      "input": "railcraft:black_post",
+      "chance": 1.0,
+      "requires": "railcraft",
+      "note": "Railcraft post (tile.railcraft.post, empty decomposition: nothing comes out). Railcraft Reborn has it in 16 colours; each colour gets the same empty decomposition.",
+      "outputs": []
+    }
+  ]
+}

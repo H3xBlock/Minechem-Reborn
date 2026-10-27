@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " LI",
+    " PI",
+    "III"
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "L": "minechem:microscope_lens",
+    "P": "minecraft:glass_pane"
+  },
+  "result": {
+    "id": "minechem:microscope",
+    "count": 1
+  }
+}

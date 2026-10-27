@@ -1,0 +1,6189 @@
+{
+  "_comment": "OreDictionary decomposer rules. A rule with name applies to that OreDictionary name; a rule with contains applies to the first name that contains that text (the first matching rule wins). tags: item tags read directly (for names with no NeoForge common tag). requires: a setting that must be on. The 4 first rules are the decomposer-only ones; the rest are the same chemicals as synthesisOreRecipes.json.",
+  "rules": [
+    {
+      "name": "oreUranium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "U",
+          "amount": 48
+        }
+      ]
+    },
+    {
+      "name": "dustSalt",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Na",
+          "amount": 1
+        },
+        {
+          "kind": "element",
+          "symbol": "Cl",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "logWood",
+      "tags": [
+        "minecraft:logs"
+      ],
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Cellulose",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "plankWood",
+      "tags": [
+        "minecraft:planks"
+      ],
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Cellulose",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "ingotIron",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "ingotGold",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Au",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "ingotCopper",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "ingotTin",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Sn",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "ingotSilver",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ag",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "ingotLead",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pb",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "ingotPlatinum",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pt",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "ingotAluminium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Al",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "ingotMagnesium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Mg",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "ingotSteel",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 15
+        },
+        {
+          "kind": "element",
+          "symbol": "C",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "ingotHSLA",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 15
+        },
+        {
+          "kind": "element",
+          "symbol": "C",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "ingotBronze",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 12
+        },
+        {
+          "kind": "element",
+          "symbol": "Sn",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "ingotElectrum",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ag",
+          "amount": 8
+        },
+        {
+          "kind": "element",
+          "symbol": "Au",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "ingotInvar",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 10
+        },
+        {
+          "kind": "element",
+          "symbol": "Ni",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "contains": "gemApatite",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ca",
+          "amount": 5
+        },
+        {
+          "kind": "molecule",
+          "name": "Phosphate (ion)",
+          "amount": 4
+        },
+        {
+          "kind": "element",
+          "symbol": "Cl",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "contains": "plateSilicon",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Si",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "contains": "xychoriumBlue",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Zr",
+          "amount": 2
+        },
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "contains": "xychoriumRed",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Zr",
+          "amount": 2
+        },
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "contains": "xychoriumGreen",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Zr",
+          "amount": 2
+        },
+        {
+          "kind": "element",
+          "symbol": "V",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "contains": "xychoriumDark",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Zr",
+          "amount": 2
+        },
+        {
+          "kind": "element",
+          "symbol": "Si",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "contains": "xychoriumLight",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Zr",
+          "amount": 2
+        },
+        {
+          "kind": "element",
+          "symbol": "Ti",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "contains": "gemPeridot",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Olivine",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "contains": "cropMaloberry",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Xylitol",
+          "amount": 1
+        },
+        {
+          "kind": "molecule",
+          "name": "Sucrose",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "contains": "cropDuskberry",
+      "requires": "recreationalChemicalEffects",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Psilocybin",
+          "amount": 1
+        },
+        {
+          "kind": "element",
+          "symbol": "S",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "contains": "cropSkyberry",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Theobromine",
+          "amount": 1
+        },
+        {
+          "kind": "element",
+          "symbol": "S",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "contains": "cropBlightberry",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Aspirin",
+          "amount": 1
+        },
+        {
+          "kind": "element",
+          "symbol": "S",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "contains": "cropBlueberry",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Guaiazulene",
+          "amount": 1
+        },
+        {
+          "kind": "molecule",
+          "name": "Sucrose",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "contains": "cropRaspberry",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Pelargonidin",
+          "amount": 1
+        },
+        {
+          "kind": "molecule",
+          "name": "Sucrose",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "contains": "cropBlackberry",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Delphinidin",
+          "amount": 1
+        },
+        {
+          "kind": "molecule",
+          "name": "Sucrose",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "rawIron",
+      "tags": [
+        "c:raw_materials/iron"
+      ],
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "rawCopper",
+      "tags": [
+        "c:raw_materials/copper"
+      ],
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "rawGold",
+      "tags": [
+        "c:raw_materials/gold"
+      ],
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Au",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "rawIronBlock",
+      "tags": [
+        "c:storage_blocks/raw_iron"
+      ],
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 144
+        }
+      ]
+    },
+    {
+      "name": "rawCopperBlock",
+      "tags": [
+        "c:storage_blocks/raw_copper"
+      ],
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 144
+        }
+      ]
+    },
+    {
+      "name": "rawGoldBlock",
+      "tags": [
+        "c:storage_blocks/raw_gold"
+      ],
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Au",
+          "amount": 144
+        }
+      ]
+    },
+    {
+      "name": "copperBlock",
+      "tags": [
+        "minecraft:copper"
+      ],
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 144
+        }
+      ]
+    },
+    {
+      "name": "copperNugget",
+      "tags": [
+        "c:nuggets/copper"
+      ],
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "copperOres",
+      "tags": [
+        "minecraft:copper_ores"
+      ],
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 48
+        }
+      ]
+    },
+    {
+      "name": "ironOres",
+      "tags": [
+        "minecraft:iron_ores"
+      ],
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 48
+        }
+      ]
+    },
+    {
+      "name": "goldOres",
+      "tags": [
+        "minecraft:gold_ores"
+      ],
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Au",
+          "amount": 48
+        }
+      ]
+    },
+    {
+      "name": "coalOres",
+      "tags": [
+        "minecraft:coal_ores"
+      ],
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "C",
+          "amount": 48
+        }
+      ]
+    },
+    {
+      "name": "diamondOres",
+      "tags": [
+        "minecraft:diamond_ores"
+      ],
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Carbon Nanotubes",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "name": "emeraldOres",
+      "tags": [
+        "minecraft:emerald_ores"
+      ],
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Beryl",
+          "amount": 6
+        },
+        {
+          "kind": "element",
+          "symbol": "Cr",
+          "amount": 6
+        },
+        {
+          "kind": "element",
+          "symbol": "V",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "name": "redstoneOres",
+      "tags": [
+        "minecraft:redstone_ores"
+      ],
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Iron (III) Oxide",
+          "amount": 9
+        },
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 9
+        }
+      ]
+    },
+    {
+      "name": "lapisOres",
+      "tags": [
+        "minecraft:lapis_ores"
+      ],
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Lazurite",
+          "amount": 6
+        },
+        {
+          "kind": "molecule",
+          "name": "Sodalite",
+          "amount": 1
+        },
+        {
+          "kind": "molecule",
+          "name": "Noselite",
+          "amount": 1
+        },
+        {
+          "kind": "molecule",
+          "name": "Calcium Carbonate",
+          "amount": 1
+        },
+        {
+          "kind": "molecule",
+          "name": "Pyrite",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "netheriteIngot",
+      "tags": [
+        "c:ingots/netherite"
+      ],
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ir",
+          "amount": 16
+        },
+        {
+          "kind": "element",
+          "symbol": "Au",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "netheriteBlock",
+      "tags": [
+        "c:storage_blocks/netherite"
+      ],
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ir",
+          "amount": 144
+        },
+        {
+          "kind": "element",
+          "symbol": "Au",
+          "amount": 144
+        }
+      ]
+    },
+    {
+      "name": "ancientDebris",
+      "tags": [
+        "c:ores/netherite_scrap"
+      ],
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ir",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "netherScrap",
+      "tags": [
+        "minechem:decomposer/netherite_scrap"
+      ],
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ir",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "keratinItems",
+      "tags": [
+        "minechem:decomposer/keratin"
+      ],
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Keratin",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "shulkerShell",
+      "tags": [
+        "minechem:decomposer/cellulose_polymer"
+      ],
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Cellulose",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "calciumCarbonateItems",
+      "tags": [
+        "minechem:decomposer/calcium_carbonate"
+      ],
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Calcium Carbonate",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "chorusFruit",
+      "tags": [
+        "minechem:decomposer/sugar"
+      ],
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Glucose",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "glowInk",
+      "tags": [
+        "minechem:decomposer/phosphorescent"
+      ],
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "P",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "silicaItems",
+      "tags": [
+        "minechem:decomposer/silica"
+      ],
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Silicon Dioxide",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "tuff",
+      "tags": [
+        "minechem:decomposer/volcanic"
+      ],
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Anorthite",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "uraniumOre",
+      "tags": [
+        "minechem:decomposer/uranium_ore"
+      ],
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "U",
+          "amount": 48
+        }
+      ]
+    },
+    {
+      "name": "oreNetherIron",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 96
+        }
+      ]
+    },
+    {
+      "name": "oreIron",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 48
+        }
+      ],
+      "tags": [
+        "minecraft:iron_ores"
+      ],
+      "note": "The vanilla ore tag (the NeoForge common tag does not exist for it)."
+    },
+    {
+      "name": "nuggetIron",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "dustDirtyIron",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "name": "dustSmallIron",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "dustIron",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "plateIron",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "gemIron",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "crystalIron",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "blockIron",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 144
+        }
+      ],
+      "note": "A block of the metal is nine ingots."
+    },
+    {
+      "name": "oreNetherGold",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Au",
+          "amount": 96
+        }
+      ]
+    },
+    {
+      "name": "oreGold",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Au",
+          "amount": 48
+        }
+      ]
+    },
+    {
+      "name": "nuggetGold",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Au",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "dustDirtyGold",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Au",
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "name": "dustSmallGold",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Au",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "dustGold",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Au",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "plateGold",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Au",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "gemGold",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Au",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "crystalGold",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Au",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "blockGold",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Au",
+          "amount": 144
+        }
+      ],
+      "note": "A block of the metal is nine ingots."
+    },
+    {
+      "name": "oreNetherCopper",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 96
+        }
+      ]
+    },
+    {
+      "name": "oreCopper",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 48
+        }
+      ]
+    },
+    {
+      "name": "nuggetCopper",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "dustDirtyCopper",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "name": "dustSmallCopper",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "dustCopper",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "plateCopper",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "gemCopper",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "crystalCopper",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "blockCopper",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 144
+        }
+      ],
+      "note": "A block of the metal is nine ingots."
+    },
+    {
+      "name": "oreNetherTin",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Sn",
+          "amount": 96
+        }
+      ]
+    },
+    {
+      "name": "oreTin",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Sn",
+          "amount": 48
+        }
+      ]
+    },
+    {
+      "name": "nuggetTin",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Sn",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "dustDirtyTin",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Sn",
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "name": "dustSmallTin",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Sn",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "dustTin",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Sn",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "plateTin",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Sn",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "gemTin",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Sn",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "crystalTin",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Sn",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "blockTin",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Sn",
+          "amount": 144
+        }
+      ],
+      "note": "A block of the metal is nine ingots."
+    },
+    {
+      "name": "oreNetherSilver",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ag",
+          "amount": 96
+        }
+      ]
+    },
+    {
+      "name": "oreSilver",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ag",
+          "amount": 48
+        }
+      ]
+    },
+    {
+      "name": "nuggetSilver",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ag",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "dustDirtySilver",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ag",
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "name": "dustSmallSilver",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ag",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "dustSilver",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ag",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "plateSilver",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ag",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "gemSilver",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ag",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "crystalSilver",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ag",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "blockSilver",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ag",
+          "amount": 144
+        }
+      ],
+      "note": "A block of the metal is nine ingots."
+    },
+    {
+      "name": "oreNetherAluminum",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Al",
+          "amount": 96
+        }
+      ]
+    },
+    {
+      "name": "oreAluminum",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Al",
+          "amount": 48
+        }
+      ]
+    },
+    {
+      "name": "ingotAluminum",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Al",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "nuggetAluminum",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Al",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "dustDirtyAluminum",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Al",
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "name": "dustSmallAluminum",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Al",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "dustAluminum",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Al",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "plateAluminum",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Al",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "gemAluminum",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Al",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "crystalAluminum",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Al",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "blockAluminum",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Al",
+          "amount": 144
+        }
+      ],
+      "note": "A block of the metal is nine ingots."
+    },
+    {
+      "name": "oreNetherAluminium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Al",
+          "amount": 96
+        }
+      ]
+    },
+    {
+      "name": "oreAluminium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Al",
+          "amount": 48
+        }
+      ]
+    },
+    {
+      "name": "nuggetAluminium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Al",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "dustDirtyAluminium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Al",
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "name": "dustSmallAluminium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Al",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "dustAluminium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Al",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "plateAluminium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Al",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "gemAluminium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Al",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "crystalAluminium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Al",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "blockAluminium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Al",
+          "amount": 144
+        }
+      ],
+      "note": "A block of the metal is nine ingots."
+    },
+    {
+      "name": "oreNetherTitanium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ti",
+          "amount": 96
+        }
+      ]
+    },
+    {
+      "name": "oreTitanium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ti",
+          "amount": 48
+        }
+      ]
+    },
+    {
+      "name": "ingotTitanium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ti",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "nuggetTitanium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ti",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "dustDirtyTitanium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ti",
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "name": "dustSmallTitanium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ti",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "dustTitanium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ti",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "plateTitanium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ti",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "gemTitanium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ti",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "crystalTitanium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ti",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "blockTitanium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ti",
+          "amount": 144
+        }
+      ],
+      "note": "A block of the metal is nine ingots."
+    },
+    {
+      "name": "oreNetherChrome",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cr",
+          "amount": 96
+        }
+      ]
+    },
+    {
+      "name": "oreChrome",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cr",
+          "amount": 48
+        }
+      ]
+    },
+    {
+      "name": "ingotChrome",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cr",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "nuggetChrome",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cr",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "dustDirtyChrome",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cr",
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "name": "dustSmallChrome",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cr",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "dustChrome",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cr",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "plateChrome",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cr",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "gemChrome",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cr",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "crystalChrome",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cr",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "blockChrome",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cr",
+          "amount": 144
+        }
+      ],
+      "note": "A block of the metal is nine ingots."
+    },
+    {
+      "name": "oreNetherTungsten",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "W",
+          "amount": 96
+        }
+      ]
+    },
+    {
+      "name": "oreTungsten",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "W",
+          "amount": 48
+        }
+      ]
+    },
+    {
+      "name": "ingotTungsten",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "W",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "nuggetTungsten",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "W",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "dustDirtyTungsten",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "W",
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "name": "dustSmallTungsten",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "W",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "dustTungsten",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "W",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "plateTungsten",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "W",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "gemTungsten",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "W",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "crystalTungsten",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "W",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "blockTungsten",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "W",
+          "amount": 144
+        }
+      ],
+      "note": "A block of the metal is nine ingots."
+    },
+    {
+      "name": "oreNetherLead",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pb",
+          "amount": 96
+        }
+      ]
+    },
+    {
+      "name": "oreLead",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pb",
+          "amount": 48
+        }
+      ]
+    },
+    {
+      "name": "nuggetLead",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pb",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "dustDirtyLead",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pb",
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "name": "dustSmallLead",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pb",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "dustLead",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pb",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "plateLead",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pb",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "gemLead",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pb",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "crystalLead",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pb",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "blockLead",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pb",
+          "amount": 144
+        }
+      ],
+      "note": "A block of the metal is nine ingots."
+    },
+    {
+      "name": "oreNetherZinc",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Zn",
+          "amount": 96
+        }
+      ]
+    },
+    {
+      "name": "oreZinc",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Zn",
+          "amount": 48
+        }
+      ]
+    },
+    {
+      "name": "ingotZinc",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Zn",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "nuggetZinc",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Zn",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "dustDirtyZinc",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Zn",
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "name": "dustSmallZinc",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Zn",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "dustZinc",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Zn",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "plateZinc",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Zn",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "gemZinc",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Zn",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "crystalZinc",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Zn",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "blockZinc",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Zn",
+          "amount": 144
+        }
+      ],
+      "note": "A block of the metal is nine ingots."
+    },
+    {
+      "name": "oreNetherPlatinum",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pt",
+          "amount": 96
+        }
+      ]
+    },
+    {
+      "name": "orePlatinum",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pt",
+          "amount": 48
+        }
+      ]
+    },
+    {
+      "name": "nuggetPlatinum",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pt",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "dustDirtyPlatinum",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pt",
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "name": "dustSmallPlatinum",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pt",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "dustPlatinum",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pt",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "platePlatinum",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pt",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "gemPlatinum",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pt",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "crystalPlatinum",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pt",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "blockPlatinum",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pt",
+          "amount": 144
+        }
+      ],
+      "note": "A block of the metal is nine ingots."
+    },
+    {
+      "name": "oreNetherThorium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Th",
+          "amount": 96
+        }
+      ]
+    },
+    {
+      "name": "oreThorium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Th",
+          "amount": 48
+        }
+      ]
+    },
+    {
+      "name": "ingotThorium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Th",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "nuggetThorium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Th",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "dustDirtyThorium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Th",
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "name": "dustSmallThorium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Th",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "dustThorium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Th",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "plateThorium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Th",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "gemThorium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Th",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "crystalThorium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Th",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "blockThorium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Th",
+          "amount": 144
+        }
+      ],
+      "note": "A block of the metal is nine ingots."
+    },
+    {
+      "name": "oreNetherNickel",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ni",
+          "amount": 96
+        }
+      ]
+    },
+    {
+      "name": "oreNickel",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ni",
+          "amount": 48
+        }
+      ]
+    },
+    {
+      "name": "ingotNickel",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ni",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "nuggetNickel",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ni",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "dustDirtyNickel",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ni",
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "name": "dustSmallNickel",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ni",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "dustNickel",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ni",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "plateNickel",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ni",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "gemNickel",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ni",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "crystalNickel",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ni",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "blockNickel",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ni",
+          "amount": 144
+        }
+      ],
+      "note": "A block of the metal is nine ingots."
+    },
+    {
+      "name": "oreNetherOsmium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Os",
+          "amount": 96
+        }
+      ]
+    },
+    {
+      "name": "oreOsmium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Os",
+          "amount": 48
+        }
+      ]
+    },
+    {
+      "name": "ingotOsmium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Os",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "nuggetOsmium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Os",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "dustDirtyOsmium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Os",
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "name": "dustSmallOsmium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Os",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "dustOsmium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Os",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "plateOsmium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Os",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "gemOsmium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Os",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "crystalOsmium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Os",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "blockOsmium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Os",
+          "amount": 144
+        }
+      ],
+      "note": "A block of the metal is nine ingots."
+    },
+    {
+      "name": "oreNetherAntimony",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Sb",
+          "amount": 96
+        }
+      ]
+    },
+    {
+      "name": "oreAntimony",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Sb",
+          "amount": 48
+        }
+      ]
+    },
+    {
+      "name": "ingotAntimony",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Sb",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "nuggetAntimony",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Sb",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "dustDirtyAntimony",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Sb",
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "name": "dustSmallAntimony",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Sb",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "dustAntimony",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Sb",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "plateAntimony",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Sb",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "gemAntimony",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Sb",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "crystalAntimony",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Sb",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "blockAntimony",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Sb",
+          "amount": 144
+        }
+      ],
+      "note": "A block of the metal is nine ingots."
+    },
+    {
+      "name": "oreNetherIridium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ir",
+          "amount": 96
+        }
+      ]
+    },
+    {
+      "name": "oreIridium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ir",
+          "amount": 48
+        }
+      ]
+    },
+    {
+      "name": "ingotIridium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ir",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "nuggetIridium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ir",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "dustDirtyIridium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ir",
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "name": "dustSmallIridium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ir",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "dustIridium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ir",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "plateIridium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ir",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "gemIridium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ir",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "crystalIridium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ir",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "blockIridium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ir",
+          "amount": 144
+        }
+      ],
+      "note": "A block of the metal is nine ingots."
+    },
+    {
+      "name": "oreNetherUranium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "U",
+          "amount": 96
+        }
+      ]
+    },
+    {
+      "name": "ingotUranium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "U",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "nuggetUranium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "U",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "dustDirtyUranium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "U",
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "name": "dustSmallUranium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "U",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "dustUranium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "U",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "plateUranium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "U",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "gemUranium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "U",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "crystalUranium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "U",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "blockUranium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "U",
+          "amount": 144
+        }
+      ],
+      "note": "A block of the metal is nine ingots."
+    },
+    {
+      "name": "oreNetherPlutonium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pu",
+          "amount": 96
+        }
+      ]
+    },
+    {
+      "name": "orePlutonium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pu",
+          "amount": 48
+        }
+      ]
+    },
+    {
+      "name": "ingotPlutonium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pu",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "nuggetPlutonium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pu",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "dustDirtyPlutonium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pu",
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "name": "dustSmallPlutonium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pu",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "dustPlutonium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pu",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "platePlutonium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pu",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "gemPlutonium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pu",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "crystalPlutonium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pu",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "blockPlutonium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pu",
+          "amount": 144
+        }
+      ],
+      "note": "A block of the metal is nine ingots."
+    },
+    {
+      "name": "oreNetherManganese",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Mn",
+          "amount": 96
+        }
+      ]
+    },
+    {
+      "name": "oreManganese",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Mn",
+          "amount": 48
+        }
+      ]
+    },
+    {
+      "name": "ingotManganese",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Mn",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "nuggetManganese",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Mn",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "dustDirtyManganese",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Mn",
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "name": "dustSmallManganese",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Mn",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "dustManganese",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Mn",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "plateManganese",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Mn",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "gemManganese",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Mn",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "crystalManganese",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Mn",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "blockManganese",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Mn",
+          "amount": 144
+        }
+      ],
+      "note": "A block of the metal is nine ingots."
+    },
+    {
+      "name": "oreNetherPhosphorus",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "P",
+          "amount": 96
+        }
+      ]
+    },
+    {
+      "name": "orePhosphorus",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "P",
+          "amount": 48
+        }
+      ]
+    },
+    {
+      "name": "ingotPhosphorus",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "P",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "nuggetPhosphorus",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "P",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "dustDirtyPhosphorus",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "P",
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "name": "dustSmallPhosphorus",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "P",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "dustPhosphorus",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "P",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "platePhosphorus",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "P",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "gemPhosphorus",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "P",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "crystalPhosphorus",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "P",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "blockPhosphorus",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "P",
+          "amount": 144
+        }
+      ],
+      "note": "A block of the metal is nine ingots."
+    },
+    {
+      "name": "oreNetherBitumen",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Propane",
+          "amount": 96
+        }
+      ]
+    },
+    {
+      "name": "oreBitumen",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Propane",
+          "amount": 48
+        }
+      ]
+    },
+    {
+      "name": "ingotBitumen",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Propane",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "nuggetBitumen",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Propane",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "dustDirtyBitumen",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Propane",
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "name": "dustSmallBitumen",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Propane",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "dustBitumen",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Propane",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "plateBitumen",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Propane",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "gemBitumen",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Propane",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "crystalBitumen",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Propane",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "blockBitumen",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Propane",
+          "amount": 144
+        }
+      ],
+      "note": "A block of the metal is nine ingots."
+    },
+    {
+      "name": "oreNetherPrometheum",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pm",
+          "amount": 96
+        }
+      ]
+    },
+    {
+      "name": "orePrometheum",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pm",
+          "amount": 48
+        }
+      ]
+    },
+    {
+      "name": "ingotPrometheum",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pm",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "nuggetPrometheum",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pm",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "dustDirtyPrometheum",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pm",
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "name": "dustSmallPrometheum",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pm",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "dustPrometheum",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pm",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "platePrometheum",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pm",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "gemPrometheum",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pm",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "crystalPrometheum",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pm",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "blockPrometheum",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pm",
+          "amount": 144
+        }
+      ],
+      "note": "A block of the metal is nine ingots."
+    },
+    {
+      "name": "oreNetherAmethyst",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Silicon Dioxide",
+          "amount": 96
+        }
+      ]
+    },
+    {
+      "name": "oreAmethyst",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Silicon Dioxide",
+          "amount": 48
+        }
+      ]
+    },
+    {
+      "name": "ingotAmethyst",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Silicon Dioxide",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "nuggetAmethyst",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Silicon Dioxide",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "dustDirtyAmethyst",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Silicon Dioxide",
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "name": "dustSmallAmethyst",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Silicon Dioxide",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "dustAmethyst",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Silicon Dioxide",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "plateAmethyst",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Silicon Dioxide",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "gemAmethyst",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Silicon Dioxide",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "crystalAmethyst",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Silicon Dioxide",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "blockAmethyst",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Silicon Dioxide",
+          "amount": 144
+        }
+      ],
+      "note": "A block of the metal is nine ingots."
+    },
+    {
+      "name": "oreNetherPeridot",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Peridot",
+          "amount": 96
+        }
+      ]
+    },
+    {
+      "name": "orePeridot",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Peridot",
+          "amount": 48
+        }
+      ]
+    },
+    {
+      "name": "ingotPeridot",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Peridot",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "nuggetPeridot",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Peridot",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "dustDirtyPeridot",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Peridot",
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "name": "dustSmallPeridot",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Peridot",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "dustPeridot",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Peridot",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "platePeridot",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Peridot",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "gemPeridot",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Peridot",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "crystalPeridot",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Peridot",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "blockPeridot",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Peridot",
+          "amount": 144
+        }
+      ],
+      "note": "A block of the metal is nine ingots."
+    },
+    {
+      "name": "oreNetherTopaz",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Topaz",
+          "amount": 96
+        }
+      ]
+    },
+    {
+      "name": "oreTopaz",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Topaz",
+          "amount": 48
+        }
+      ]
+    },
+    {
+      "name": "ingotTopaz",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Topaz",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "nuggetTopaz",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Topaz",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "dustDirtyTopaz",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Topaz",
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "name": "dustSmallTopaz",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Topaz",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "dustTopaz",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Topaz",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "plateTopaz",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Topaz",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "gemTopaz",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Topaz",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "crystalTopaz",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Topaz",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "blockTopaz",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Topaz",
+          "amount": 144
+        }
+      ],
+      "note": "A block of the metal is nine ingots."
+    },
+    {
+      "name": "oreNetherTanzanite",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Zoisite",
+          "amount": 96
+        }
+      ]
+    },
+    {
+      "name": "oreTanzanite",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Zoisite",
+          "amount": 48
+        }
+      ]
+    },
+    {
+      "name": "ingotTanzanite",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Zoisite",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "nuggetTanzanite",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Zoisite",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "dustDirtyTanzanite",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Zoisite",
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "name": "dustSmallTanzanite",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Zoisite",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "dustTanzanite",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Zoisite",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "plateTanzanite",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Zoisite",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "gemTanzanite",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Zoisite",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "crystalTanzanite",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Zoisite",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "blockTanzanite",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Zoisite",
+          "amount": 144
+        }
+      ],
+      "note": "A block of the metal is nine ingots."
+    },
+    {
+      "name": "oreNetherPotash",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Potassium Nitrate",
+          "amount": 96
+        }
+      ]
+    },
+    {
+      "name": "orePotash",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Potassium Nitrate",
+          "amount": 48
+        }
+      ]
+    },
+    {
+      "name": "ingotPotash",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Potassium Nitrate",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "nuggetPotash",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Potassium Nitrate",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "dustDirtyPotash",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Potassium Nitrate",
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "name": "dustSmallPotash",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Potassium Nitrate",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "dustPotash",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Potassium Nitrate",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "platePotash",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Potassium Nitrate",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "gemPotash",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Potassium Nitrate",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "crystalPotash",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Potassium Nitrate",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "blockPotash",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Potassium Nitrate",
+          "amount": 144
+        }
+      ],
+      "note": "A block of the metal is nine ingots."
+    },
+    {
+      "name": "oreNetherSulfur",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "S",
+          "amount": 96
+        }
+      ]
+    },
+    {
+      "name": "oreSulfur",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "S",
+          "amount": 48
+        }
+      ]
+    },
+    {
+      "name": "ingotSulfur",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "S",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "nuggetSulfur",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "S",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "dustDirtySulfur",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "S",
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "name": "dustSmallSulfur",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "S",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "dustSulfur",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "S",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "plateSulfur",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "S",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "gemSulfur",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "S",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "crystalSulfur",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "S",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "blockSulfur",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "S",
+          "amount": 144
+        }
+      ],
+      "note": "A block of the metal is nine ingots."
+    },
+    {
+      "name": "oreNetherSaphire",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Aluminium Oxide",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "name": "oreSaphire",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Aluminium Oxide",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "ingotSaphire",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Aluminium Oxide",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "nuggetSaphire",
+      "outputs": []
+    },
+    {
+      "name": "dustDirtySaphire",
+      "outputs": []
+    },
+    {
+      "name": "dustSmallSaphire",
+      "outputs": []
+    },
+    {
+      "name": "dustSaphire",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Aluminium Oxide",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "plateSaphire",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Aluminium Oxide",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "gemSaphire",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Aluminium Oxide",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "crystalSaphire",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Aluminium Oxide",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "blockSaphire",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Aluminium Oxide",
+          "amount": 9
+        }
+      ],
+      "note": "A block of the metal is nine ingots."
+    },
+    {
+      "name": "oreNetherRuby",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Aluminium Oxide",
+          "amount": 6
+        },
+        {
+          "kind": "element",
+          "symbol": "Cr",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "name": "oreRuby",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Aluminium Oxide",
+          "amount": 3
+        },
+        {
+          "kind": "element",
+          "symbol": "Cr",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "ingotRuby",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Aluminium Oxide",
+          "amount": 1
+        },
+        {
+          "kind": "element",
+          "symbol": "Cr",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "nuggetRuby",
+      "outputs": []
+    },
+    {
+      "name": "dustDirtyRuby",
+      "outputs": []
+    },
+    {
+      "name": "dustSmallRuby",
+      "outputs": []
+    },
+    {
+      "name": "dustRuby",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Aluminium Oxide",
+          "amount": 1
+        },
+        {
+          "kind": "element",
+          "symbol": "Cr",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "plateRuby",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Aluminium Oxide",
+          "amount": 1
+        },
+        {
+          "kind": "element",
+          "symbol": "Cr",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "gemRuby",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Aluminium Oxide",
+          "amount": 1
+        },
+        {
+          "kind": "element",
+          "symbol": "Cr",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "crystalRuby",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Aluminium Oxide",
+          "amount": 1
+        },
+        {
+          "kind": "element",
+          "symbol": "Cr",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "blockRuby",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Aluminium Oxide",
+          "amount": 9
+        },
+        {
+          "kind": "element",
+          "symbol": "Cr",
+          "amount": 9
+        }
+      ],
+      "note": "A block of the metal is nine ingots."
+    },
+    {
+      "name": "oreNetherCobalt",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Co",
+          "amount": 96
+        }
+      ]
+    },
+    {
+      "name": "oreCobalt",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Co",
+          "amount": 48
+        }
+      ]
+    },
+    {
+      "name": "ingotCobalt",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Co",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "nuggetCobalt",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Co",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "dustDirtyCobalt",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Co",
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "name": "dustSmallCobalt",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Co",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "dustCobalt",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Co",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "plateCobalt",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Co",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "gemCobalt",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Co",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "crystalCobalt",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Co",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "blockCobalt",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Co",
+          "amount": 144
+        }
+      ],
+      "note": "A block of the metal is nine ingots."
+    },
+    {
+      "name": "oreNetherArdite",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ar",
+          "amount": 96
+        }
+      ]
+    },
+    {
+      "name": "oreArdite",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ar",
+          "amount": 48
+        }
+      ]
+    },
+    {
+      "name": "ingotArdite",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ar",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "nuggetArdite",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ar",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "dustDirtyArdite",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ar",
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "name": "dustSmallArdite",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ar",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "dustArdite",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ar",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "plateArdite",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ar",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "gemArdite",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ar",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "crystalArdite",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ar",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "blockArdite",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ar",
+          "amount": 144
+        }
+      ],
+      "note": "A block of the metal is nine ingots."
+    },
+    {
+      "name": "oreNetherSalpeter",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "K",
+          "amount": 6
+        },
+        {
+          "kind": "element",
+          "symbol": "N",
+          "amount": 6
+        },
+        {
+          "kind": "element",
+          "symbol": "O",
+          "amount": 18
+        }
+      ]
+    },
+    {
+      "name": "oreSalpeter",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "K",
+          "amount": 3
+        },
+        {
+          "kind": "element",
+          "symbol": "N",
+          "amount": 3
+        },
+        {
+          "kind": "element",
+          "symbol": "O",
+          "amount": 9
+        }
+      ]
+    },
+    {
+      "name": "ingotSalpeter",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "K",
+          "amount": 1
+        },
+        {
+          "kind": "element",
+          "symbol": "N",
+          "amount": 1
+        },
+        {
+          "kind": "element",
+          "symbol": "O",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "nuggetSalpeter",
+      "outputs": []
+    },
+    {
+      "name": "dustDirtySalpeter",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "O",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "dustSmallSalpeter",
+      "outputs": []
+    },
+    {
+      "name": "dustSalpeter",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "K",
+          "amount": 1
+        },
+        {
+          "kind": "element",
+          "symbol": "N",
+          "amount": 1
+        },
+        {
+          "kind": "element",
+          "symbol": "O",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "plateSalpeter",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "K",
+          "amount": 1
+        },
+        {
+          "kind": "element",
+          "symbol": "N",
+          "amount": 1
+        },
+        {
+          "kind": "element",
+          "symbol": "O",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "gemSalpeter",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "K",
+          "amount": 1
+        },
+        {
+          "kind": "element",
+          "symbol": "N",
+          "amount": 1
+        },
+        {
+          "kind": "element",
+          "symbol": "O",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "crystalSalpeter",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "K",
+          "amount": 1
+        },
+        {
+          "kind": "element",
+          "symbol": "N",
+          "amount": 1
+        },
+        {
+          "kind": "element",
+          "symbol": "O",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "blockSalpeter",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "K",
+          "amount": 9
+        },
+        {
+          "kind": "element",
+          "symbol": "N",
+          "amount": 9
+        },
+        {
+          "kind": "element",
+          "symbol": "O",
+          "amount": 27
+        }
+      ],
+      "note": "A block of the metal is nine ingots."
+    },
+    {
+      "name": "oreNetherSalt",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Na",
+          "amount": 6
+        },
+        {
+          "kind": "element",
+          "symbol": "Cl",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "name": "oreSalt",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Na",
+          "amount": 3
+        },
+        {
+          "kind": "element",
+          "symbol": "Cl",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "ingotSalt",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Na",
+          "amount": 1
+        },
+        {
+          "kind": "element",
+          "symbol": "Cl",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "nuggetSalt",
+      "outputs": []
+    },
+    {
+      "name": "dustDirtySalt",
+      "outputs": []
+    },
+    {
+      "name": "dustSmallSalt",
+      "outputs": []
+    },
+    {
+      "name": "plateSalt",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Na",
+          "amount": 1
+        },
+        {
+          "kind": "element",
+          "symbol": "Cl",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "gemSalt",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Na",
+          "amount": 1
+        },
+        {
+          "kind": "element",
+          "symbol": "Cl",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "crystalSalt",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Na",
+          "amount": 1
+        },
+        {
+          "kind": "element",
+          "symbol": "Cl",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "blockSalt",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Na",
+          "amount": 9
+        },
+        {
+          "kind": "element",
+          "symbol": "Cl",
+          "amount": 9
+        }
+      ],
+      "note": "A block of the metal is nine ingots."
+    },
+    {
+      "name": "oreNetherLimestone",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Calcium Carbonate",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "name": "oreLimestone",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Calcium Carbonate",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "ingotLimestone",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Calcium Carbonate",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "nuggetLimestone",
+      "outputs": []
+    },
+    {
+      "name": "dustDirtyLimestone",
+      "outputs": []
+    },
+    {
+      "name": "dustSmallLimestone",
+      "outputs": []
+    },
+    {
+      "name": "dustLimestone",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Calcium Carbonate",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "plateLimestone",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Calcium Carbonate",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "gemLimestone",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Calcium Carbonate",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "crystalLimestone",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Calcium Carbonate",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "blockLimestone",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Calcium Carbonate",
+          "amount": 9
+        }
+      ],
+      "note": "A block of the metal is nine ingots."
+    },
+    {
+      "name": "oreNetherObsidian",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Silicon Dioxide",
+          "amount": 96
+        },
+        {
+          "kind": "molecule",
+          "name": "Magnesium Oxide",
+          "amount": 48
+        }
+      ]
+    },
+    {
+      "name": "oreObsidian",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Silicon Dioxide",
+          "amount": 48
+        },
+        {
+          "kind": "molecule",
+          "name": "Magnesium Oxide",
+          "amount": 24
+        }
+      ]
+    },
+    {
+      "name": "ingotObsidian",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Silicon Dioxide",
+          "amount": 16
+        },
+        {
+          "kind": "molecule",
+          "name": "Magnesium Oxide",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "nuggetObsidian",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Silicon Dioxide",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "dustDirtyObsidian",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Silicon Dioxide",
+          "amount": 12
+        },
+        {
+          "kind": "molecule",
+          "name": "Magnesium Oxide",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "name": "dustSmallObsidian",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Silicon Dioxide",
+          "amount": 4
+        },
+        {
+          "kind": "molecule",
+          "name": "Magnesium Oxide",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "dustObsidian",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Silicon Dioxide",
+          "amount": 16
+        },
+        {
+          "kind": "molecule",
+          "name": "Magnesium Oxide",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "plateObsidian",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Silicon Dioxide",
+          "amount": 16
+        },
+        {
+          "kind": "molecule",
+          "name": "Magnesium Oxide",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "gemObsidian",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Silicon Dioxide",
+          "amount": 16
+        },
+        {
+          "kind": "molecule",
+          "name": "Magnesium Oxide",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "crystalObsidian",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Silicon Dioxide",
+          "amount": 16
+        },
+        {
+          "kind": "molecule",
+          "name": "Magnesium Oxide",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "blockObsidian",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Silicon Dioxide",
+          "amount": 144
+        },
+        {
+          "kind": "molecule",
+          "name": "Magnesium Oxide",
+          "amount": 72
+        }
+      ],
+      "note": "A block of the metal is nine ingots."
+    },
+    {
+      "name": "oreNetherDiamond",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Carbon Nanotubes",
+          "amount": 18
+        }
+      ]
+    },
+    {
+      "name": "oreDiamond",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Carbon Nanotubes",
+          "amount": 9
+        }
+      ],
+      "tags": [
+        "minecraft:diamond_ores"
+      ],
+      "note": "The vanilla ore tag (the NeoForge common tag does not exist for it)."
+    },
+    {
+      "name": "ingotDiamond",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Carbon Nanotubes",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "nuggetDiamond",
+      "outputs": []
+    },
+    {
+      "name": "dustDirtyDiamond",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Carbon Nanotubes",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "dustSmallDiamond",
+      "outputs": []
+    },
+    {
+      "name": "dustDiamond",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Carbon Nanotubes",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "plateDiamond",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Carbon Nanotubes",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "gemDiamond",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Carbon Nanotubes",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "crystalDiamond",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Carbon Nanotubes",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "blockDiamond",
+      "outputs": [
+        {
+          "kind": "molecule",
+          "name": "Carbon Nanotubes",
+          "amount": 27
+        }
+      ],
+      "note": "A block of the metal is nine ingots."
+    },
+    {
+      "name": "oreNetherBrass",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 66
+        },
+        {
+          "kind": "element",
+          "symbol": "Zn",
+          "amount": 30
+        }
+      ],
+      "note": "Brass, a real-world alloy of copper and zinc (11 Cu and 5 Zn)."
+    },
+    {
+      "name": "oreBrass",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 33
+        },
+        {
+          "kind": "element",
+          "symbol": "Zn",
+          "amount": 15
+        }
+      ],
+      "note": "Brass, a real-world alloy of copper and zinc (11 Cu and 5 Zn)."
+    },
+    {
+      "name": "ingotBrass",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 11
+        },
+        {
+          "kind": "element",
+          "symbol": "Zn",
+          "amount": 5
+        }
+      ],
+      "note": "Brass, a real-world alloy of copper and zinc (11 Cu and 5 Zn)."
+    },
+    {
+      "name": "nuggetBrass",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 1
+        }
+      ],
+      "note": "Brass, a real-world alloy of copper and zinc (11 Cu and 5 Zn)."
+    },
+    {
+      "name": "dustDirtyBrass",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 8
+        },
+        {
+          "kind": "element",
+          "symbol": "Zn",
+          "amount": 3
+        }
+      ],
+      "note": "Brass, a real-world alloy of copper and zinc (11 Cu and 5 Zn)."
+    },
+    {
+      "name": "dustSmallBrass",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 2
+        },
+        {
+          "kind": "element",
+          "symbol": "Zn",
+          "amount": 1
+        }
+      ],
+      "note": "Brass, a real-world alloy of copper and zinc (11 Cu and 5 Zn)."
+    },
+    {
+      "name": "dustBrass",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 11
+        },
+        {
+          "kind": "element",
+          "symbol": "Zn",
+          "amount": 5
+        }
+      ],
+      "note": "Brass, a real-world alloy of copper and zinc (11 Cu and 5 Zn)."
+    },
+    {
+      "name": "plateBrass",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 11
+        },
+        {
+          "kind": "element",
+          "symbol": "Zn",
+          "amount": 5
+        }
+      ],
+      "note": "Brass, a real-world alloy of copper and zinc (11 Cu and 5 Zn)."
+    },
+    {
+      "name": "gemBrass",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 11
+        },
+        {
+          "kind": "element",
+          "symbol": "Zn",
+          "amount": 5
+        }
+      ],
+      "note": "Brass, a real-world alloy of copper and zinc (11 Cu and 5 Zn)."
+    },
+    {
+      "name": "crystalBrass",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 11
+        },
+        {
+          "kind": "element",
+          "symbol": "Zn",
+          "amount": 5
+        }
+      ],
+      "note": "Brass, a real-world alloy of copper and zinc (11 Cu and 5 Zn)."
+    },
+    {
+      "name": "blockBrass",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 99
+        },
+        {
+          "kind": "element",
+          "symbol": "Zn",
+          "amount": 45
+        }
+      ],
+      "note": "Brass, a real-world alloy of copper and zinc (11 Cu and 5 Zn)."
+    },
+    {
+      "name": "nuggetBronze",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 1
+        }
+      ],
+      "note": "Bronze is a Railcraft metal; composition of ingotBronze; nine nuggets make an ingot."
+    },
+    {
+      "name": "plateBronze",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 12
+        },
+        {
+          "kind": "element",
+          "symbol": "Sn",
+          "amount": 4
+        }
+      ],
+      "note": "Bronze is a Railcraft metal; composition of ingotBronze; a plate has the composition of an ingot."
+    },
+    {
+      "name": "blockBronze",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 108
+        },
+        {
+          "kind": "element",
+          "symbol": "Sn",
+          "amount": 36
+        }
+      ],
+      "note": "Bronze is a Railcraft metal; composition of ingotBronze; a block is nine ingots."
+    },
+    {
+      "name": "nuggetInvar",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 1
+        }
+      ],
+      "note": "Invar is a Railcraft metal; composition of ingotInvar; nine nuggets make an ingot."
+    },
+    {
+      "name": "plateInvar",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 10
+        },
+        {
+          "kind": "element",
+          "symbol": "Ni",
+          "amount": 6
+        }
+      ],
+      "note": "Invar is a Railcraft metal; composition of ingotInvar; a plate has the composition of an ingot."
+    },
+    {
+      "name": "blockInvar",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 90
+        },
+        {
+          "kind": "element",
+          "symbol": "Ni",
+          "amount": 54
+        }
+      ],
+      "note": "Invar is a Railcraft metal; composition of ingotInvar; a block is nine ingots."
+    },
+    {
+      "name": "nuggetSteel",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 1
+        }
+      ],
+      "note": "Steel is a Railcraft metal; composition of ingotSteel; nine nuggets make an ingot."
+    },
+    {
+      "name": "plateSteel",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 15
+        },
+        {
+          "kind": "element",
+          "symbol": "C",
+          "amount": 1
+        }
+      ],
+      "note": "Steel is a Railcraft metal; composition of ingotSteel; a plate has the composition of an ingot."
+    },
+    {
+      "name": "blockSteel",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 135
+        },
+        {
+          "kind": "element",
+          "symbol": "C",
+          "amount": 9
+        }
+      ],
+      "note": "Steel is a Railcraft metal; composition of ingotSteel; a block is nine ingots."
+    },
+    {
+      "name": "ingotConductiveAlloy",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 9
+        },
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 7
+        }
+      ],
+      "note": "Ender IO alloy, copper-rich iron-copper alloy (the smelter takes iron and copper)."
+    },
+    {
+      "name": "nuggetConductiveAlloy",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 1
+        }
+      ],
+      "note": "The nugget of the Ender IO alloy (one ninth of the ingot)."
+    },
+    {
+      "name": "blockConductiveAlloy",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 81
+        },
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 63
+        }
+      ],
+      "note": "A block is nine ingots."
+    },
+    {
+      "name": "ingotRedstoneAlloy",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 9
+        },
+        {
+          "kind": "molecule",
+          "name": "Iron (III) Oxide",
+          "amount": 7
+        }
+      ],
+      "note": "Ender IO alloy, copper with the iron oxide of redstone (smelter: redstone dust, copper)."
+    },
+    {
+      "name": "nuggetRedstoneAlloy",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 1
+        }
+      ],
+      "note": "The nugget of the Ender IO alloy (one ninth of the ingot)."
+    },
+    {
+      "name": "blockRedstoneAlloy",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 81
+        },
+        {
+          "kind": "molecule",
+          "name": "Iron (III) Oxide",
+          "amount": 63
+        }
+      ],
+      "note": "A block is nine ingots."
+    },
+    {
+      "name": "ingotEnergeticAlloy",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Au",
+          "amount": 9
+        },
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 4
+        },
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 3
+        }
+      ],
+      "note": "Ender IO alloy, gold with copper and iron (smelter: redstone, conductive alloy, gold)."
+    },
+    {
+      "name": "nuggetEnergeticAlloy",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Au",
+          "amount": 1
+        }
+      ],
+      "note": "The nugget of the Ender IO alloy (one ninth of the ingot)."
+    },
+    {
+      "name": "blockEnergeticAlloy",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Au",
+          "amount": 81
+        },
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 36
+        },
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 27
+        }
+      ],
+      "note": "A block is nine ingots."
+    },
+    {
+      "name": "ingotVibrantAlloy",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Au",
+          "amount": 9
+        },
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 3
+        },
+        {
+          "kind": "element",
+          "symbol": "P",
+          "amount": 2
+        },
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 2
+        }
+      ],
+      "note": "Ender IO alloy, gold alloy with the phosphorus of glowstone (smelter: energetic alloy, ender pearl, glowstone)."
+    },
+    {
+      "name": "nuggetVibrantAlloy",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Au",
+          "amount": 1
+        }
+      ],
+      "note": "The nugget of the Ender IO alloy (one ninth of the ingot)."
+    },
+    {
+      "name": "blockVibrantAlloy",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Au",
+          "amount": 81
+        },
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 27
+        },
+        {
+          "kind": "element",
+          "symbol": "P",
+          "amount": 18
+        },
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 18
+        }
+      ],
+      "note": "A block is nine ingots."
+    },
+    {
+      "name": "ingotPulsatingAlloy",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 10
+        },
+        {
+          "kind": "molecule",
+          "name": "Calcium Carbonate",
+          "amount": 6
+        }
+      ],
+      "note": "Ender IO alloy, iron with the calcium carbonate of the ender pearl (smelter: iron, ender pearl)."
+    },
+    {
+      "name": "nuggetPulsatingAlloy",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 1
+        }
+      ],
+      "note": "The nugget of the Ender IO alloy (one ninth of the ingot)."
+    },
+    {
+      "name": "blockPulsatingAlloy",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 90
+        },
+        {
+          "kind": "molecule",
+          "name": "Calcium Carbonate",
+          "amount": 54
+        }
+      ],
+      "note": "A block is nine ingots."
+    },
+    {
+      "name": "ingotDarkSteel",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 10
+        },
+        {
+          "kind": "element",
+          "symbol": "C",
+          "amount": 4
+        },
+        {
+          "kind": "molecule",
+          "name": "Silicon Dioxide",
+          "amount": 2
+        }
+      ],
+      "note": "Ender IO alloy, steel with carbon and the silica of obsidian (smelter: iron, coal, obsidian)."
+    },
+    {
+      "name": "nuggetDarkSteel",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 1
+        }
+      ],
+      "note": "The nugget of the Ender IO alloy (one ninth of the ingot)."
+    },
+    {
+      "name": "blockDarkSteel",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 90
+        },
+        {
+          "kind": "element",
+          "symbol": "C",
+          "amount": 36
+        },
+        {
+          "kind": "molecule",
+          "name": "Silicon Dioxide",
+          "amount": 18
+        }
+      ],
+      "note": "A block is nine ingots."
+    },
+    {
+      "name": "ingotSoularium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Au",
+          "amount": 9
+        },
+        {
+          "kind": "molecule",
+          "name": "Silicon Dioxide",
+          "amount": 7
+        }
+      ],
+      "note": "Ender IO alloy, gold with the silica of soul sand (smelter: soul sand, gold)."
+    },
+    {
+      "name": "nuggetSoularium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Au",
+          "amount": 1
+        }
+      ],
+      "note": "The nugget of the Ender IO alloy (one ninth of the ingot)."
+    },
+    {
+      "name": "blockSoularium",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Au",
+          "amount": 81
+        },
+        {
+          "kind": "molecule",
+          "name": "Silicon Dioxide",
+          "amount": 63
+        }
+      ],
+      "note": "A block is nine ingots."
+    },
+    {
+      "name": "gearBrass",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 92
+        },
+        {
+          "kind": "element",
+          "symbol": "Zn",
+          "amount": 20
+        },
+        {
+          "kind": "element",
+          "symbol": "Sn",
+          "amount": 16
+        }
+      ],
+      "note": "The Railcraft gear, the composition of its craft (the ingots and the bushing gear of its recipe)."
+    },
+    {
+      "name": "gearBronze",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 96
+        },
+        {
+          "kind": "element",
+          "symbol": "Sn",
+          "amount": 32
+        }
+      ],
+      "note": "The Railcraft gear, the composition of its craft (the ingots and the bushing gear of its recipe)."
+    },
+    {
+      "name": "gearCopper",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 112
+        },
+        {
+          "kind": "element",
+          "symbol": "Sn",
+          "amount": 16
+        }
+      ],
+      "note": "The Railcraft gear, the composition of its craft (the ingots and the bushing gear of its recipe)."
+    },
+    {
+      "name": "gearGold",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Au",
+          "amount": 64
+        },
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 48
+        },
+        {
+          "kind": "element",
+          "symbol": "Sn",
+          "amount": 16
+        }
+      ],
+      "note": "The Railcraft gear, the composition of its craft (the ingots and the bushing gear of its recipe)."
+    },
+    {
+      "name": "gearInvar",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 40
+        },
+        {
+          "kind": "element",
+          "symbol": "Ni",
+          "amount": 24
+        },
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 48
+        },
+        {
+          "kind": "element",
+          "symbol": "Sn",
+          "amount": 16
+        }
+      ],
+      "note": "The Railcraft gear, the composition of its craft (the ingots and the bushing gear of its recipe)."
+    },
+    {
+      "name": "gearIron",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 64
+        },
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 48
+        },
+        {
+          "kind": "element",
+          "symbol": "Sn",
+          "amount": 16
+        }
+      ],
+      "note": "The Railcraft gear, the composition of its craft (the ingots and the bushing gear of its recipe)."
+    },
+    {
+      "name": "gearLead",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Pb",
+          "amount": 64
+        },
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 48
+        },
+        {
+          "kind": "element",
+          "symbol": "Sn",
+          "amount": 16
+        }
+      ],
+      "note": "The Railcraft gear, the composition of its craft (the ingots and the bushing gear of its recipe)."
+    },
+    {
+      "name": "gearNickel",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ni",
+          "amount": 64
+        },
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 48
+        },
+        {
+          "kind": "element",
+          "symbol": "Sn",
+          "amount": 16
+        }
+      ],
+      "note": "The Railcraft gear, the composition of its craft (the ingots and the bushing gear of its recipe)."
+    },
+    {
+      "name": "gearSilver",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Ag",
+          "amount": 64
+        },
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 48
+        },
+        {
+          "kind": "element",
+          "symbol": "Sn",
+          "amount": 16
+        }
+      ],
+      "note": "The Railcraft gear, the composition of its craft (the ingots and the bushing gear of its recipe)."
+    },
+    {
+      "name": "gearSteel",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 60
+        },
+        {
+          "kind": "element",
+          "symbol": "C",
+          "amount": 4
+        },
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 48
+        },
+        {
+          "kind": "element",
+          "symbol": "Sn",
+          "amount": 16
+        }
+      ],
+      "note": "The Railcraft gear, the composition of its craft (the ingots and the bushing gear of its recipe)."
+    },
+    {
+      "name": "gearTin",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Sn",
+          "amount": 80
+        },
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 48
+        }
+      ],
+      "note": "The Railcraft gear, the composition of its craft (the ingots and the bushing gear of its recipe)."
+    },
+    {
+      "name": "gearZinc",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Zn",
+          "amount": 64
+        },
+        {
+          "kind": "element",
+          "symbol": "Cu",
+          "amount": 48
+        },
+        {
+          "kind": "element",
+          "symbol": "Sn",
+          "amount": 16
+        }
+      ],
+      "note": "The Railcraft gear, the composition of its craft (the ingots and the bushing gear of its recipe)."
+    },
+    {
+      "name": "toolPickaxesSteel",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 45
+        },
+        {
+          "kind": "element",
+          "symbol": "C",
+          "amount": 3
+        }
+      ],
+      "note": "The Railcraft steel tool, the composition of its craft (steel ingots; the wooden rods have no decomposition)."
+    },
+    {
+      "name": "toolSwordsSteel",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 30
+        },
+        {
+          "kind": "element",
+          "symbol": "C",
+          "amount": 2
+        }
+      ],
+      "note": "The Railcraft steel tool, the composition of its craft (steel ingots; the wooden rods have no decomposition)."
+    },
+    {
+      "name": "toolAxesSteel",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 45
+        },
+        {
+          "kind": "element",
+          "symbol": "C",
+          "amount": 3
+        }
+      ],
+      "note": "The Railcraft steel tool, the composition of its craft (steel ingots; the wooden rods have no decomposition)."
+    },
+    {
+      "name": "toolHoesSteel",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 30
+        },
+        {
+          "kind": "element",
+          "symbol": "C",
+          "amount": 2
+        }
+      ],
+      "note": "The Railcraft steel tool, the composition of its craft (steel ingots; the wooden rods have no decomposition)."
+    },
+    {
+      "name": "toolShovelsSteel",
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 15
+        },
+        {
+          "kind": "element",
+          "symbol": "C",
+          "amount": 1
+        }
+      ],
+      "note": "The Railcraft steel tool, the composition of its craft (steel ingots; the wooden rods have no decomposition)."
+    },
+    {
+      "name": "blockEndSteel",
+      "tags": [
+        "c:storage_blocks/end_steel"
+      ],
+      "outputs": [
+        {
+          "kind": "element",
+          "symbol": "Fe",
+          "amount": 72
+        },
+        {
+          "kind": "element",
+          "symbol": "C",
+          "amount": 36
+        },
+        {
+          "kind": "element",
+          "symbol": "W",
+          "amount": 18
+        }
+      ],
+      "note": "A block is nine ingots of End Steel (the ingot is in decomposerRecipes.json). No nugget: one ninth of its 14 units is empty."
+    }
+  ]
+}

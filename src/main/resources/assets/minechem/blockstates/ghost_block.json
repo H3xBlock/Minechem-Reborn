@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "wall=1": { "model": "minechem:block/ghost_block_1" },
+    "wall=2": { "model": "minechem:block/ghost_block_2" }
+  }
+}

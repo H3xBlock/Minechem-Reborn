@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "minechem:block/fission_reactor" }
+  }
+}

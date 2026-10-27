@@ -1,0 +1,38 @@
+# Minechem Rebord for NeoForge. Original mod by jakimfett (DBaJ non-commercial license).
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="h3xblock"
+credits="Minechem by jakimfett (DBaJ non-commercial license), ported to NeoForge 26.1.2."
+description='''
+Minechem is a mod about chemistry. Items can be broken down into compounds and base elements using the decomposer,
+and then re-assembled into different things with the chemical synthesis machine.
+This is an in-progress NeoForge port; see the project status for what is ported.
+'''
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="[${neo_version},)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="computercraft"
+    type="optional"
+    versionRange="[1.120.0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[mixins]]
+config="minechem.mixins.json"

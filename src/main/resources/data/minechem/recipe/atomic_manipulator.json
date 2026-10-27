@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PPP",
+    "PIP",
+    "PPP"
+  ],
+  "key": {
+    "P": "minecraft:piston",
+    "I": "minecraft:iron_block"
+  },
+  "result": {
+    "id": "minechem:atomic_manipulator",
+    "count": 1
+  }
+}

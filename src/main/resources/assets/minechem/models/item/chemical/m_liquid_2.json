@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minechem:item/chemical_tube",
+    "layer1": "minechem:item/chemical_liquid_2",
+    "layer2": "minechem:item/chemical_molecule"
+  }
+}

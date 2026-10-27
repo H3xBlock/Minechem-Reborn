@@ -1,0 +1,96 @@
+# GitHub release: builds the jar of a version tag (v<version>, made by bump-version.yml) and publishes it as a GitHub release.
+# A beta or alpha version becomes a pre-release. The notes are the version's section of CHANGELOG.md.
+# This does not touch CurseForge or Modrinth: that is publish.yml, which stays disabled.
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Existing tag to release, for example v26.1.2.1-beta.1"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    name: Build and create the GitHub release
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      GH_TOKEN: ${{ github.token }}
+      TAG: ${{ inputs.tag || github.ref_name }}
+    steps:
+      - name: Check out the tag
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ env.TAG }}
+
+      - name: Set up Java 25
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 25
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Fetch CC:Tweaked (compile-only)
+        env:
+          CC_JAR_URL: ${{ vars.CC_TWEAKED_JAR_URL }}
+          CC_JAR_SHA256: ${{ vars.CC_TWEAKED_JAR_SHA256 }}
+        run: |
+          # Repository variables are often pasted with a stray space or newline: strip all whitespace.
+          CC_JAR_URL=$(printf '%s' "$CC_JAR_URL" | tr -d '[:space:]')
+          CC_JAR_SHA256=$(printf '%s' "$CC_JAR_SHA256" | tr -d '[:space:]')
+          if [ -z "$CC_JAR_URL" ] || [ -z "$CC_JAR_SHA256" ]; then
+            echo "::error::Set the repository variables CC_TWEAKED_JAR_URL and CC_TWEAKED_JAR_SHA256 (see README)."
+            exit 1
+          fi
+          mkdir -p libs
+          curl -fsSL "$CC_JAR_URL" -o libs/cc-tweaked-26.1.2-neoforge-1.120.0.jar
+          echo "$CC_JAR_SHA256  libs/cc-tweaked-26.1.2-neoforge-1.120.0.jar" | sha256sum -c -
+
+      - name: Build and unit tests
+        run: ./gradlew build --no-daemon
+
+      - name: GameTests (dedicated server)
+        run: ./gradlew runGameTestServer --no-daemon
+
+      - name: Check the GameTest result
+        run: |
+          log=$(find run-gametest -name 'latest.log' | head -1)
+          test -n "$log"
+          grep -q "required tests passed" "$log"
+          ! grep -q "required tests failed" "$log"
+
+      - name: Create the GitHub release
+        run: |
+          set -euo pipefail
+          version=$(grep '^mod_version=' gradle.properties | cut -d= -f2)
+          if [ "$TAG" != "v$version" ]; then
+            echo "::error::The tag $TAG does not match mod_version $version in gradle.properties"
+            exit 1
+          fi
+          # The notes: the lines of the version's section in CHANGELOG.md, without its heading.
+          notes=$(mktemp)
+          awk -v head="## [$version]" 'index($0, head) == 1 {on = 1; next} /^## \[/ {on = 0} on' CHANGELOG.md > "$notes"
+          if [ ! -s "$notes" ]; then
+            echo "::error::CHANGELOG.md has no section [$version]"
+            exit 1
+          fi
+          prerelease=""
+          case "$version" in
+            *-alpha*|*-beta*) prerelease="--prerelease" ;;
+          esac
+          jar=$(find build/libs -name '*.jar' ! -name '*-sources.jar' ! -name '*-dev.jar')
+          test -n "$jar"
+          gh release create "$TAG" $jar \
+            --title "Minechem Rebord $version" \
+            --notes-file "$notes" \
+            --verify-tag \
+            $prerelease

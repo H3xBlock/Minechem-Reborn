@@ -1,0 +1,5 @@
+{
+  "_comment": "Ghost block with its wall texture (ghost_wall_1.png), drawn translucent (GhostBlock icon1 or icon2, alpha pass).",
+  "parent": "minecraft:block/cube_all",
+  "textures": { "all": { "sprite": "minechem:block/ghost_wall_1", "force_translucent": true } }
+}

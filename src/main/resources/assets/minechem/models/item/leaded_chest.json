@@ -1,0 +1,7 @@
+{
+  "_comment": "The leaded chest item's base: the vanilla chest item's display transforms (gui, ground, hand), as the chest item has, so the item frames like a chest in the hotbar and the inventory.",
+  "parent": "minecraft:item/template_chest",
+  "textures": {
+    "particle": "minecraft:block/oak_planks"
+  }
+}

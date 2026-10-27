@@ -1,0 +1,7 @@
+{
+  "_comment": "Empty model. The machine is drawn only by its block entity renderer (renderAsNormalBlock false, RENDER_ID), so the block model draws nothing.",
+  "textures": {
+    "particle": "minecraft:block/iron_block"
+  },
+  "elements": []
+}

@@ -1,0 +1,20 @@
+{
+  "sources": [
+    {
+      "type": "single",
+      "resource": "minechem:models/decomposer"
+    },
+    {
+      "type": "single",
+      "resource": "minechem:models/synthesis"
+    },
+    {
+      "type": "single",
+      "resource": "minechem:models/microscope"
+    },
+    {
+      "type": "single",
+      "resource": "minechem:models/leaded_chest"
+    }
+  ]
+}

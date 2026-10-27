@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minechem:blueprint_fusion",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minechem:blueprint_fission",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 146
+        }
+      ]
+    }
+  ]
+}

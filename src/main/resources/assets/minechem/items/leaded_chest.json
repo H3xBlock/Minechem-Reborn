@@ -1,0 +1,7 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "minechem:item/leaded_chest",
+    "model": { "type": "minechem:leaded_chest" }
+  }
+}

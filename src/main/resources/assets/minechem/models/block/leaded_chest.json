@@ -1,0 +1,7 @@
+{
+  "_comment": "Empty model. The leaded chest is drawn only by its block entity renderer (LeadedChestRenderer, renderAsNormalBlock false).",
+  "textures": {
+    "particle": "minecraft:block/oak_planks"
+  },
+  "elements": []
+}

@@ -1,0 +1,13 @@
+{
+  "_comment": "facing: the lens faces the FACING direction at y 0 for south (the model's lens is on its +z side). blueprint: the lit texture while a blueprint is in. Orientation UNVERIFIED in a real client.",
+  "variants": {
+    "blueprint=false,facing=south": { "model": "minechem:block/blueprint_projector" },
+    "blueprint=false,facing=west": { "model": "minechem:block/blueprint_projector", "y": 90 },
+    "blueprint=false,facing=north": { "model": "minechem:block/blueprint_projector", "y": 180 },
+    "blueprint=false,facing=east": { "model": "minechem:block/blueprint_projector", "y": 270 },
+    "blueprint=true,facing=south": { "model": "minechem:block/blueprint_projector_on" },
+    "blueprint=true,facing=west": { "model": "minechem:block/blueprint_projector_on", "y": 90 },
+    "blueprint=true,facing=north": { "model": "minechem:block/blueprint_projector_on", "y": 180 },
+    "blueprint=true,facing=east": { "model": "minechem:block/blueprint_projector_on", "y": 270 }
+  }
+}

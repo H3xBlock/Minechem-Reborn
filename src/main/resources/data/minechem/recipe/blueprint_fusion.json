@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:paper",
+    "minecraft:diamond_block"
+  ],
+  "result": {
+    "id": "minechem:blueprint_fusion",
+    "count": 1
+  }
+}

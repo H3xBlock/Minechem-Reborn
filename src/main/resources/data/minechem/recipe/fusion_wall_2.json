@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "IWI",
+    "IBI",
+    "IWI"
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "W": {
+      "neoforge:ingredient_type": "minechem:element",
+      "atomic_number": 74
+    },
+    "B": {
+      "neoforge:ingredient_type": "minechem:element",
+      "atomic_number": 4
+    }
+  },
+  "result": {
+    "id": "minechem:fusion_wall_2",
+    "count": 16
+  }
+}

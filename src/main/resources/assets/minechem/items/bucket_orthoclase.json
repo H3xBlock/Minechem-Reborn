@@ -1,0 +1,16 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "minechem:item/bucket_fluid",
+    "tints": [
+      {
+        "type": "minecraft:constant",
+        "value": -1584284
+      },
+      {
+        "type": "minecraft:constant",
+        "value": -1
+      }
+    ]
+  }
+}

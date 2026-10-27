@@ -1,0 +1,4 @@
+{
+  "type": "minechem:uranium_ore",
+  "biomes": "#minecraft:is_overworld"
+}

@@ -1,0 +1,76 @@
+# Publishing to CurseForge and Modrinth. DISABLED: the job has `if: false` and the workflow only runs by hand.
+# To enable it later: remove `if: false` below, set the repository variables MODRINTH_PROJECT_ID and CURSEFORGE_PROJECT_ID,
+# and the secrets MODRINTH_TOKEN and CURSEFORGE_TOKEN. Check the action version (@v3) and its inputs before the first release.
+name: Publish
+
+on:
+  workflow_dispatch:
+    inputs:
+      version_type:
+        description: "Release type"
+        type: choice
+        options: [beta, release, alpha]
+        default: beta
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    name: Publish to CurseForge and Modrinth
+    runs-on: ubuntu-latest
+    if: false # DISABLED for now; see the comment at the top of this file.
+    timeout-minutes: 45
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Set up Java 25
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 25
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Fetch CC:Tweaked (compile-only)
+        env:
+          CC_JAR_URL: ${{ vars.CC_TWEAKED_JAR_URL }}
+          CC_JAR_SHA256: ${{ vars.CC_TWEAKED_JAR_SHA256 }}
+        run: |
+          mkdir -p libs
+          curl -fsSL "$CC_JAR_URL" -o libs/cc-tweaked-26.1.2-neoforge-1.120.0.jar
+          echo "$CC_JAR_SHA256  libs/cc-tweaked-26.1.2-neoforge-1.120.0.jar" | sha256sum -c -
+
+      - name: Build
+        run: ./gradlew build --no-daemon
+
+      # The version comes from gradle.properties, the one place it is written (see bump-version.yml). The release
+      # is refused when CHANGELOG.md has no section for it.
+      - name: Read the version and check the changelog
+        id: version
+        run: |
+          version=$(grep '^mod_version=' gradle.properties | cut -d= -f2)
+          test -n "$version"
+          if ! grep -q "^## \[$version\]" CHANGELOG.md; then
+            echo "::error::CHANGELOG.md has no section [$version]"
+            exit 1
+          fi
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+
+      - name: Publish
+        uses: Kir-Antipov/mc-publish@v3
+        with:
+          modrinth-id: ${{ vars.MODRINTH_PROJECT_ID }}
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          curseforge-id: ${{ vars.CURSEFORGE_PROJECT_ID }}
+          curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
+          name: Minechem Rebord ${{ steps.version.outputs.version }}
+          version: ${{ steps.version.outputs.version }}
+          version-type: ${{ inputs.version_type }}
+          changelog-file: CHANGELOG.md
+          loaders: neoforge
+          game-versions: 26.1.2
+          java: 25
+          files: build/libs/!(*-sources|*-dev).jar

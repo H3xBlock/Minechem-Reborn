@@ -1,0 +1,2185 @@
+{
+    "model":  {
+                  "type":  "minecraft:composite",
+                  "models":  [
+                                 {
+                                     "type":  "minecraft:select",
+                                     "property":  "minechem:chemical_form",
+                                     "cases":  [
+                                                   {
+                                                       "when":  "e_solid",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/chemical/e_solid",
+                                                                     "tints":  [ {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical"
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "e_liquid_1",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/chemical/e_liquid_1",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical"
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "e_liquid_2",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/chemical/e_liquid_2",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical"
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "e_liquid_3",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/chemical/e_liquid_3",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical"
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "e_liquid_4",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/chemical/e_liquid_4",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical"
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "e_liquid_5",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/chemical/e_liquid_5",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical"
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "e_liquid_6",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/chemical/e_liquid_6",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical"
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "e_liquid_7",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/chemical/e_liquid_7",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical"
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "e_gas_1",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/chemical/e_gas_1",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical"
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "e_gas_2",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/chemical/e_gas_2",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical"
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "e_gas_3",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/chemical/e_gas_3",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical"
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "e_gas_4",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/chemical/e_gas_4",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical"
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "e_gas_5",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/chemical/e_gas_5",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical"
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "e_gas_6",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/chemical/e_gas_6",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical"
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "e_gas_7",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/chemical/e_gas_7",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical"
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "e_plasma_1",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/chemical/e_plasma_1",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical"
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "m_solid",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/chemical/m_solid",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical"
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical_secondary"
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "m_liquid_1",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/chemical/m_liquid_1",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical"
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical_secondary"
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "m_liquid_2",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/chemical/m_liquid_2",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical"
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical_secondary"
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "m_liquid_3",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/chemical/m_liquid_3",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical"
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical_secondary"
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "m_liquid_4",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/chemical/m_liquid_4",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical"
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical_secondary"
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "m_liquid_5",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/chemical/m_liquid_5",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical"
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical_secondary"
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "m_liquid_6",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/chemical/m_liquid_6",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical"
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical_secondary"
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "m_liquid_7",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/chemical/m_liquid_7",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical"
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical_secondary"
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "m_gas_1",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/chemical/m_gas_1",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical"
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical_secondary"
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "m_gas_2",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/chemical/m_gas_2",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical"
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical_secondary"
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "m_gas_3",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/chemical/m_gas_3",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical"
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical_secondary"
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "m_gas_4",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/chemical/m_gas_4",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical"
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical_secondary"
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "m_gas_5",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/chemical/m_gas_5",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical"
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical_secondary"
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "m_gas_6",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/chemical/m_gas_6",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical"
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical_secondary"
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "m_gas_7",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/chemical/m_gas_7",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical"
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical_secondary"
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "m_plasma_1",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/chemical/m_plasma_1",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical"
+                                                                                   },
+                                                                                   {
+                                                                                       "type":  "minechem:chemical_secondary"
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   }
+                                               ],
+                                     "fallback":  {
+                                                      "type":  "minecraft:model",
+                                                      "model":  "minechem:item/chemical_tube",
+                                                      "tints":  [
+                                                                    {
+                                                                        "type":  "minecraft:constant",
+                                                                        "value":  -1
+                                                                    }
+                                                                ]
+                                                  }
+                                 },
+                                 {
+                                     "type":  "minecraft:select",
+                                     "property":  "minechem:chemical_symbol",
+                                     "cases":  [
+                                                   {
+                                                       "when":  "H",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/h",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "He",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/he",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Li",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/li",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Be",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/be",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "B",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/b",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "C",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/c",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "N",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/n",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "O",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/o",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "F",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/f",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Ne",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/ne",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Na",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/na",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Mg",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/mg",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Al",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/al",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Si",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/si",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "P",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/p",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "S",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/s",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Cl",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/cl",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Ar",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/ar",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "K",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/k",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Ca",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/ca",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Sc",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/sc",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Ti",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/ti",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "V",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/v",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Cr",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/cr",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Mn",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/mn",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Fe",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/fe",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Co",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/co",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Ni",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/ni",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Cu",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/cu",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Zn",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/zn",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Ga",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/ga",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Ge",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/ge",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "As",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/as",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Se",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/se",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Br",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/br",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Kr",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/kr",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Rb",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/rb",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Sr",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/sr",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Y",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/y",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Zr",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/zr",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Nb",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/nb",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Mo",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/mo",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Tc",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/tc",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Ru",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/ru",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Rh",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/rh",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Pd",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/pd",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Ag",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/ag",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Cd",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/cd",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "In",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/in",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Sn",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/sn",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Sb",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/sb",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Te",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/te",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "I",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/i",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Xe",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/xe",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Cs",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/cs",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Ba",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/ba",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "La",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/la",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Ce",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/ce",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Pr",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/pr",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Nd",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/nd",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Pm",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/pm",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Sm",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/sm",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Eu",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/eu",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Gd",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/gd",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Tb",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/tb",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Dy",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/dy",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Ho",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/ho",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Er",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/er",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Tm",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/tm",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Yb",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/yb",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Lu",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/lu",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Hf",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/hf",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Ta",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/ta",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "W",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/w",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Re",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/re",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Os",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/os",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Ir",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/ir",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Pt",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/pt",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Au",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/au",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Hg",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/hg",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Tl",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/tl",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Pb",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/pb",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Bi",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/bi",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Po",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/po",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "At",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/at",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Rn",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/rn",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Fr",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/fr",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Ra",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/ra",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Ac",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/ac",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Th",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/th",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Pa",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/pa",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "U",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/u",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Np",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/np",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Pu",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/pu",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Am",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/am",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Cm",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/cm",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Bk",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/bk",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Cf",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/cf",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Es",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/es",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Fm",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/fm",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Md",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/md",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "No",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/no",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Lr",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/lr",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Rf",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/rf",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Db",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/db",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Sg",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/sg",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Bh",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/bh",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Hs",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/hs",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Mt",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/mt",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Ds",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/ds",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Rg",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/rg",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Cn",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/cn",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Uut",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/nh",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Fl",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/fl",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Uup",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/mc",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Lv",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/lv",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Uus",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/ts",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   },
+                                                   {
+                                                       "when":  "Uuo",
+                                                       "model":  {
+                                                                     "type":  "minecraft:model",
+                                                                     "model":  "minechem:item/symbol/og",
+                                                                     "tints":  [
+                                                                                   {
+                                                                                       "type":  "minecraft:constant",
+                                                                                       "value":  -1
+                                                                                   }
+                                                                               ]
+                                                                 }
+                                                   }
+                                               ],
+                                     "fallback":  {
+                                                      "type":  "minecraft:model", "model": "minechem:item/symbol/molecule"
+                                                  }
+                                 }
+                             ]
+              }
+}
